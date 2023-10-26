@@ -1,14 +1,31 @@
 ---
+import Layout from "../layouts/MainLayout.astro";
+
 import { getCollection } from "astro:content";
+import {
+  sectionComponents,
+  sectionTemplates,
+} from "../utils/sectionComponents";
 
 export async function getStaticPaths() {
   const pages = await getCollection("pages");
   return pages.map((page) => ({ params: { page: page.slug }, props: page }));
 }
 
-const { page } = Astro.params;
-const { data } = Astro.props;
+const {
+  data: { title, pageContent },
+} = Astro.props;
 ---
 
-<h1>{page}</h1>
-<p>{JSON.stringify(data)}</p>
+<Layout>
+  <title slot='head'>{title}</title>
+  <main>
+    {
+      pageContent.map((sectionProps: any) => {
+        const Component =
+          sectionComponents[sectionProps._template as sectionTemplates];
+        return <Component {...sectionProps} />;
+      })
+    }
+  </main>
+</Layout>
