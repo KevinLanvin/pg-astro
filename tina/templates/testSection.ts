@@ -8,6 +8,7 @@ const testSection: Template = {
       type: "string",
       name: "title",
       required: true,
+      label: "titre",
     },
     {
       type: "rich-text",

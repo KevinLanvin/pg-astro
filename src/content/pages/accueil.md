@@ -4,5 +4,7 @@ pageContent:
     body: |
       Bonjour tout le monde
     _template: section
+title: Homepage
 ---
+
 

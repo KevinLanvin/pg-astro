@@ -1,0 +1,14 @@
+---
+import TestSection from "./testSection.astro";
+
+interface Props {
+  type: string;
+}
+
+const { type } = Astro.props;
+let Tag;
+switch (type) {
+  case "testSection":
+    Tag = TestSection;
+}
+---

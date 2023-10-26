@@ -1,6 +1,6 @@
 import * as sectionTypes from "./_sectionTypes";
 
-import { defineCollection, z } from "astro:content";
+import { defineCollection, reference, z } from "astro:content";
 
 const pageCollection = defineCollection({
   type: "content",
@@ -9,6 +9,27 @@ const pageCollection = defineCollection({
   }),
 });
 
+const socialMediaCollection = defineCollection({
+  type: "content",
+  schema: z.object({
+    facebook: z.string(),
+    instagram: z.string(),
+    linkedIn: z.string(),
+  }),
+});
+
+const headerCollection = defineCollection({
+  type: "content",
+  schema: z.object({
+    tel: z.string(),
+    email: z.string(),
+    socialMedias: reference("socialMedia"),
+    pages: z.array(reference("pages")),
+  }),
+});
+
 export const collections = {
   pages: pageCollection,
+  header: headerCollection,
+  socialMedia: socialMediaCollection,
 };
