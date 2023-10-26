@@ -1,4 +1,5 @@
 ---
+import Header from "../components/Header.astro";
 import "../styles/main.scss";
 const { title } = Astro.props.frontmatter || Astro.props;
 ---
@@ -6,9 +7,11 @@ const { title } = Astro.props.frontmatter || Astro.props;
 <html>
   <head>
     <meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width,initial-scale=1' />
     <slot name='head' />
   </head>
   <body>
+    <Header currentPageTitle={title} />
     <slot />
   </body>
 </html>

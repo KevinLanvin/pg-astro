@@ -1,0 +1,88 @@
+---
+const { tel, email, socialMedias } = Astro.props;
+const social = await import(`/${socialMedias}`);
+---
+
+<div class='header__topbar'>
+  <ul class='header__contact'>
+    <li><img src='/icons/phone.svg' alt='phone' />{tel}</li>
+    <li>
+      <a href={`mailto:${email}`}
+        ><img src='/icons/mailto.svg' alt='mail' />{email}</a
+      >
+    </li>
+  </ul>
+  <ul class='header__social'>
+    <li>
+      <a
+        href={social.frontmatter.instagram}
+        target='_blank'
+        rel='noopener noreferrer'
+        ><img src='/icons/instagram.svg' alt='Instagram' /></a
+      >
+    </li>
+    <li>
+      <a
+        href={social.frontmatter.linkedin}
+        target='_blank'
+        rel='noopener noreferrer'
+        ><img src='/icons/linkedin.svg' alt='LinkedIn' /></a
+      >
+    </li>
+    <li>
+      <a
+        href={social.frontmatter.facebook}
+        target='_blank'
+        rel='noopener noreferrer'
+        ><img src='/icons/facebook.svg' alt='Facebook' /></a
+      >
+    </li>
+  </ul>
+</div>
+
+<style lang='scss'>
+  @import "../styles/_vars";
+
+  .header__topbar {
+    background-color: $color-main;
+    padding: 0.2rem $margin;
+    display: flex;
+    height: 1.6rem;
+  }
+
+  .header__contact {
+    flex: 1;
+    display: flex;
+    a,
+    li {
+      margin-right: 2rem;
+      color: $color-white;
+      font-size: 0.8rem;
+    }
+    img {
+      width: 16px;
+      margin-right: 0.5rem;
+      vertical-align: bottom;
+    }
+  }
+
+  .header__social {
+    display: flex;
+    align-items: center;
+    a {
+      height: 100%;
+      display: block;
+      margin-left: 1em;
+    }
+    img {
+      width: 16px;
+      vertical-align: middle;
+    }
+  }
+
+  @media (max-width: $breakpoint) {
+    .header__topbar {
+      display: none;
+    }
+  }
+</style>

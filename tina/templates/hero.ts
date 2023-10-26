@@ -6,6 +6,12 @@ const hero: Template = {
   fields: [
     {
       type: "string",
+      name: "suptitle",
+      label: "Surtitre",
+      required: true,
+    },
+    {
+      type: "string",
       name: "title",
       label: "Titre",
       required: true,

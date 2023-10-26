@@ -32,11 +32,6 @@
   }
 }
 
-body {
-  overflow-x: hidden;
-  height: 100vh;
-}
-
 ul {
   list-style-type: none;
   padding: 0;
@@ -89,6 +84,11 @@ button {
   font-weight: normal;
 }
 
+button {
+  padding: 1.5rem 3rem;
+  border-radius: 5rem;
+}
+
 p {
   line-height: 2.3em;
   text-align: justify;
@@ -108,6 +108,10 @@ section {
   button {
     font-size: 1.05em;
     line-height: 1.5em;
+  }
+
+  button {
+    padding: 0.5rem 2rem;
   }
 
   h1 {

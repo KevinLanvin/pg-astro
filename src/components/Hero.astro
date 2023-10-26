@@ -1,10 +1,11 @@
 ---
-const { title, background, buttonText } = Astro.props;
+const { title, background, buttonLabel, suptitle } = Astro.props;
 ---
 
 <div class='hero'>
+  <h2>{suptitle}</h2>
   <h1>{title}</h1>
-  <button>En savoir plus</button>
+  <button>{buttonLabel}</button>
 </div>
 
 <style lang='scss' define:vars={{ background: `url(${background})` }}>
@@ -12,11 +13,21 @@ const { title, background, buttonText } = Astro.props;
   .hero {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 5rem;
     align-items: center;
-    height: 100vh;
+    height: calc(100vh - 6rem);
     background-image: var(--background);
     background-size: cover;
+    h2 {
+      font-family: "Raleway";
+      color: $color-white;
+      font-weight: 400;
+      font-size: 3rem;
+      text-align: center;
+      letter-spacing: 0.5rem;
+      text-shadow: 2px 2px 12px #000;
+    }
     h1 {
       text-shadow: 2px 2px 12px #000;
       color: $color-white;
@@ -24,10 +35,9 @@ const { title, background, buttonText } = Astro.props;
       font-weight: 400;
       font-size: 10rem;
       text-align: center;
+      max-width: 50%;
     }
     button {
-      padding: 0.5rem 3rem;
-      border-radius: 5rem;
       background-color: $color-button;
       color: $color-white;
       border: 2px solid $color-button;
@@ -37,6 +47,18 @@ const { title, background, buttonText } = Astro.props;
       &:hover {
         border: 2px solid $color-white;
         background-color: initial;
+      }
+    }
+  }
+  @media (max-width: $breakpoint) {
+    .hero {
+      gap: 3rem;
+      h1 {
+        font-size: 5rem;
+        max-width: 80%;
+      }
+      h2 {
+        font-size: 1rem;
       }
     }
   }

@@ -62,6 +62,11 @@ export default defineConfig({
         },
         fields: [
           {
+            name: "logo",
+            type: "image",
+            label: "Logo",
+          },
+          {
             name: "tel",
             type: "string",
             label: "Numéro de téléphone",

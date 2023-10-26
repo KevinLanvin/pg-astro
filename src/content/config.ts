@@ -26,6 +26,7 @@ const headerCollection = defineCollection({
     email: z.string(),
     socialMedias: reference("socialMedia"),
     pages: z.array(reference("pages")),
+    logo: z.string(),
   }),
 });
 

@@ -1,0 +1,25 @@
+---
+import * as header from "@content/header/Header.md";
+import Topbar from "@components/Topbar.astro";
+import Navbar from "@components/Navbar.astro";
+const { currentPageTitle } = Astro.props;
+---
+
+<header>
+  <Topbar
+    tel={header.frontmatter.tel}
+    email={header.frontmatter.email}
+    socialMedias={header.frontmatter.socialMedias}
+  />
+  <Navbar
+    pages={header.frontmatter.pages}
+    logo={header.frontmatter.logo}
+    currentPageTitle={currentPageTitle}
+  />
+</header>
+
+<style lang='scss'>
+  header {
+    display: unset;
+  }
+</style>
