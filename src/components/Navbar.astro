@@ -1,7 +1,6 @@
 ---
 import { getCollection } from "astro:content";
 const { pages, logo, currentPageTitle } = Astro.props;
-console.log(currentPageTitle);
 const allPages = await getCollection("pages");
 const menuPages = pages.map((p) => p.page.split("/").pop());
 ---
