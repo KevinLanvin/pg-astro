@@ -1,6 +1,6 @@
 ---
 const { tel, email, socialMedias } = Astro.props;
-const social = await import(`/${socialMedias}`);
+const social = await import(/* @vite-ignore */ `/${socialMedias}`);
 ---
 
 <div class='header__topbar'>

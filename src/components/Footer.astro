@@ -1,7 +1,7 @@
 ---
 import * as header from "@content/header/Header.md";
 const socialMedias = header.frontmatter.socialMedias;
-const social = await import(`/${socialMedias}`);
+const social = await import(/* @vite-ignore */ `/${socialMedias}`);
 ---
 
 <footer class='footer'>

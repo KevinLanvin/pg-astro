@@ -2,7 +2,7 @@
 title: Coucou
 pageContent:
   - suptitle: Pauline Gorlier
-    title: Praticienne en Soins Naturels et Energétiques
+    title: Praticienne Bien-être
     buttonLabel: En savoir plus
     background: /images/banner.jpg
     _template: hero
@@ -19,10 +19,10 @@ pageContent:
     quotation: >
       Prends soin de ton corps, c’est le seul endroit permanent dans lequel tu
       es amené à vivre. Jim Rohn
-    linkLabel: Coucou
-    linkTo: /coucou
+    linkLabel: ''
+    linkTo: ''
     isTextOnRight: true
-    isButtonAlt: false
+    isButtonAlt: true
     hasFlower: false
     altColor: false
     roundedImage: true

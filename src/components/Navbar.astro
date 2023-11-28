@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content";
 const { pages, logo, currentPageTitle } = Astro.props;
 const allPages = await getCollection("pages");
-const menuPages = pages.map((p) => p.page.split("/").pop());
+const menuPages = pages?.map((p) => p.page.split("/").pop()) || [];
 ---
 
 <nav class='header__navbar'>
