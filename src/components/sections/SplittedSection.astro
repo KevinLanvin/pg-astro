@@ -1,0 +1,153 @@
+---
+import BlockQuote from "../BlockQuote.astro";
+import Button from "../Button.astro";
+import Icon from "../Icon.astro";
+const {
+  title,
+  paragraph,
+  linkLabel,
+  linkTo,
+  imageSource,
+  imageAlt,
+  quotation,
+  hasFlower = false,
+  isTextOnRight = false,
+  isButtonAlt = false,
+  altColor = false,
+  roundedImage = false,
+} = Astro.props;
+const sectionClass = `splitted-section ${
+  altColor ? "splitted-section--alt-color" : ""
+}`;
+const gridClass = `splitted-section__grid ${
+  isTextOnRight ? "splitted-section__grid--reverse" : ""
+}`;
+const imageClass = `splitted-section__image ${
+  roundedImage ? "splitted-section__image--rounded" : ""
+}`;
+---
+
+<section class={sectionClass}>
+  <div class={gridClass}>
+    <div class='splitted-section__text'>
+      <h2>{title}</h2>
+      <p>{paragraph}</p>
+      {
+        linkLabel && isButtonAlt && (
+          <Button alt name={linkLabel} link={linkTo} />
+        )
+      }
+      {linkLabel && !isButtonAlt && <Button name={linkLabel} link={linkTo} />}
+      {quotation && <BlockQuote text={quotation} />}
+    </div>
+    <div class={imageClass}>
+      {imageClass}
+      <img src={imageSource} alt={"Temporary null"} />
+    </div>
+  </div>
+  {hasFlower && <Icon name='flower' class='splitted-section__flower' />}
+</section>
+
+<style lang='scss'>
+  @import "../../styles/_vars.scss";
+
+  @function max($numbers...) {
+    @return m#{a}x(#{$numbers});
+  }
+
+  .splitted-section {
+    background-color: $color-white;
+    width: 100%;
+    position: relative;
+    &--alt-color {
+      background-color: $color-main;
+      padding: $gutter-large 0;
+      margin-bottom: 0;
+      .splitted-section__grid {
+        box-shadow: $shadow-dark;
+      }
+      .splitted-section__text {
+        padding: $gutter-large !important;
+      }
+    }
+    &__grid {
+      width: 80%;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      &--reverse {
+        .splitted-section__text {
+          order: 2;
+          padding-right: 0;
+          padding-left: $gutter-large;
+        }
+        .splitted-section__image {
+          order: 1;
+        }
+      }
+    }
+    &__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: $gutter-large;
+      padding: $gutter-large;
+      padding-left: 0;
+      background-color: $color-white;
+    }
+    &__image {
+      position: relative;
+      padding-top: 100%;
+      img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+      }
+      &--rounded {
+        border-radius: 50%;
+        overflow: hidden;
+        max-height: 0;
+        align-self: center;
+      }
+    }
+    &__flower {
+      position: absolute;
+      bottom: 0;
+      right: 10%;
+      transform: translateX(25%);
+      width: 12%;
+      height: auto;
+      z-index: 1;
+    }
+  }
+
+  @media (max-width: $breakpoint) {
+    .splitted-section {
+      &__grid {
+        grid-template-columns: 1fr;
+        &--reverse .splitted-section__text {
+          padding: 0;
+          padding-top: $gutter;
+        }
+      }
+      &--alt-color {
+        .splitted-section__text {
+          padding: $gutter;
+        }
+      }
+      &__flower {
+        width: 24%;
+      }
+      &__text {
+        padding: $gutter 0;
+      }
+    }
+  }
+</style>

@@ -1,0 +1,83 @@
+---
+import Icon from "./Icon.astro";
+const { text, bordered } = Astro.props;
+---
+
+<div class='blockQuote'>
+  {text.split(".").map((e: string) => <p>{e}</p>)}
+  <Icon name='quote' class='blockQuote__icon blockQuote__icon--right' />
+  <Icon name='quote' class='blockQuote__icon blockQuote__icon--left' />
+  {
+    bordered && (
+      <>
+        <div class='blockQuote__border blockQuote__border--top' />
+        <div class='blockQuote__border blockQuote__border--bottom' />
+      </>
+    )
+  }
+</div>
+
+<style lang='scss'>
+  @import "../styles/_vars.scss";
+
+  .blockQuote {
+    position: relative;
+    width: 80%;
+    min-width: 40vw;
+    padding: $gutter-small 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+      color: $color-button;
+      line-height: 1.5em;
+      font-weight: bold;
+      padding: 0 $gutter-large;
+      text-align: center;
+    }
+    :global(.blockQuote__icon) {
+      position: absolute;
+      width: 40px;
+      height: auto;
+    }
+    :global(.blockQuote__icon--left) {
+      top: 0;
+      left: 0;
+    }
+    :global(.blockQuote__icon--right) {
+      bottom: 0;
+      right: 0;
+      transform: rotate(180deg);
+    }
+    :global(.guillemets) {
+      fill: $color-button;
+    }
+    &__border {
+      position: absolute;
+      height: 1px;
+      width: 25%;
+      background-color: $color-button;
+      &--top {
+        top: 0;
+      }
+      &--bottom {
+        bottom: 0;
+      }
+    }
+  }
+
+  @media (max-width: $breakpoint) {
+    .blockQuote {
+      width: 100%;
+      p {
+        padding: 0 $gutter;
+      }
+      :global(.blockQuote__icon--left) {
+        left: -$gutter-small;
+      }
+      :global(.blockQuote__icon--right) {
+        right: -$gutter-small;
+      }
+    }
+  }
+</style>

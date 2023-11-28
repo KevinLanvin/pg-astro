@@ -6,7 +6,13 @@ const pageCollection = defineCollection({
   type: "content",
   schema: z.object({
     title: z.string(),
-    pageContent: z.array(z.union<any>(Object.values(sectionTypes))),
+    pageContent: z.array(
+      z.discriminatedUnion(
+        "_template",
+        // @ts-ignore
+        Object.values(sectionTypes)
+      )
+    ),
   }),
 });
 

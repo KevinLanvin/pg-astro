@@ -1,5 +1,5 @@
 import heroSection from "./heroSection";
-import testSection from "./testSection";
+import splittedSection from "./splittedSection";
 
-export const testSectionType = testSection;
 export const heroSectionType = heroSection;
+export const splittedSectionType = splittedSection;
