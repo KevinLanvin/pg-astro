@@ -1,0 +1,14 @@
+---
+import { client } from "../../../tina/__generated__/client";
+const { title } = Astro.props;
+const servicesResponse = await client.queries.servicesConnection();
+const services = servicesResponse.data.servicesConnection.edges?.map(
+  (x) => x?.node
+);
+// Uncomment to filter out the current service
+// .filter(
+//   (service) => `/${service?.link?._sys.filename}` !== Astro.url.pathname
+// );
+---
+
+<div></div>

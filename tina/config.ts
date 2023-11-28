@@ -123,24 +123,19 @@ export default defineConfig({
             type: "object",
             label: "Pages du menu",
             list: true,
-            templates: [
+            fields: [
               {
                 name: "page",
-                fields: [
-                  {
-                    name: "page",
-                    type: "reference",
-                    label: "Page",
-                    collections: ["page"],
-                  },
-                ],
-                ui: {
-                  itemProps: (page) => {
-                    return { label: page.page };
-                  },
-                },
+                type: "reference",
+                label: "Page",
+                collections: ["page"],
               },
             ],
+            ui: {
+              itemProps: (page) => {
+                return { label: page.page };
+              },
+            },
           },
         ],
       },

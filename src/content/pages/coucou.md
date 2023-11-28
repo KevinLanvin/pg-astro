@@ -27,5 +27,7 @@ pageContent:
     altColor: false
     roundedImage: true
     _template: splittedSection
+  - title: Mes services
+    _template: services
 ---
 

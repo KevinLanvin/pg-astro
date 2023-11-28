@@ -36,8 +36,19 @@ const headerCollection = defineCollection({
   }),
 });
 
+const servicesCollection = defineCollection({
+  type: "content",
+  schema: z.object({
+    image: z.string(),
+    imageAlt: z.string(),
+    title: z.string(),
+    link: reference("pages"),
+  }),
+});
+
 export const collections = {
-  pages: pageCollection,
   header: headerCollection,
+  pages: pageCollection,
+  services: servicesCollection,
   socialMedia: socialMediaCollection,
 };
