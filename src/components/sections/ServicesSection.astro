@@ -6,7 +6,11 @@ type Service = {
   title: string;
   image: string;
   imageAlt: string;
-  link: string;
+  link: {
+    _sys: {
+      filename: string;
+    };
+  };
 };
 const services: Service[] = servicesResponse.data.servicesConnection.edges?.map(
   (x) => x?.node
@@ -18,22 +22,50 @@ const services: Service[] = servicesResponse.data.servicesConnection.edges?.map(
 ---
 
 <section class='services'>
-  {
-    services.map((service) => (
-      <div class='service' style={`background-image: url(${service.image});`}>
-        <a href={service.link}>{service.title}</a>
-      </div>
-    ))
-  }
+  <h2>{title}</h2>
+  <div class='servicesGrid'>
+    {
+      services.map((service) => (
+        <a class='service' href={service.link._sys.filename}>
+          <img src={service.image} />
+          <h3>{service.title}</h3>
+        </a>
+      ))
+    }
+  </div>
 </section>
 
 <style lang='scss'>
+  @import "../../styles/_vars.scss";
   .services {
+    h2 {
+      text-align: center;
+      margin-bottom: $gutter;
+    }
+  }
+
+  .servicesGrid {
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: $gutter;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 
   .service {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $gutter-small;
+    img {
+      height: 25rem;
+      width: 100%;
+      object-fit: cover;
+    }
+    h3 {
+      color: $color-grey;
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
   }
 </style>
