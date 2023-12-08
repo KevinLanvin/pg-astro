@@ -27,7 +27,7 @@ const services: Service[] = servicesResponse.data.servicesConnection.edges?.map(
     {
       services.map((service) => (
         <a class='service' href={service.link._sys.filename}>
-          <img src={service.image} />
+          <img src={service.image} alt={service.imageAlt} />
           <h3>{service.title}</h3>
         </a>
       ))
