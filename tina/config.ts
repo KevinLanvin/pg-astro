@@ -1,4 +1,10 @@
-import * as templates from "./templates";
+import {
+  headerCollection,
+  opinionsCollection,
+  pagesCollection,
+  servicesCollection,
+  socialMediasCollection,
+} from "./collections";
 
 import { defineConfig } from "tinacms";
 
@@ -22,180 +28,11 @@ export default defineConfig({
   },
   schema: {
     collections: [
-      {
-        name: "opinions",
-        label: "Témoignages",
-        path: "src/content/opinions",
-        ui: {
-          filename: {
-            readonly: true,
-            slugify: (values) => {
-              return `${values.authorName?.toLowerCase().replace(/ /g, "-")}-${
-                values.authorAge
-              }`;
-            },
-          },
-        },
-        fields: [
-          {
-            name: "opinion",
-            type: "string",
-            label: "Témoignage",
-          },
-          {
-            name: "authorName",
-            type: "string",
-            label: "Nom de l'auteur",
-          },
-          {
-            name: "authorAge",
-            type: "number",
-            label: "Age de l'auteur",
-            ui: {
-              validate: (value) => {
-                if (value < 0 || value > 100)
-                  return "L'âge doit être compris entre 0 et 100 ans";
-              },
-            },
-          },
-        ],
-      },
-      {
-        name: "services",
-        label: "Services",
-        path: "src/content/services",
-        ui: {
-          filename: {
-            readonly: true,
-            slugify: (values) => {
-              return `${values.title?.toLowerCase().replace(/ /g, "-")}`;
-            },
-          },
-        },
-        fields: [
-          {
-            name: "image",
-            type: "image",
-            label: "Image",
-          },
-          {
-            name: "imageAlt",
-            type: "string",
-            label: "Image texte alternatif",
-          },
-          {
-            name: "title",
-            type: "string",
-            label: "Titre",
-          },
-          {
-            name: "link",
-            type: "reference",
-            label: "Page correspondante",
-            collections: ["page"],
-          },
-        ],
-      },
-      {
-        name: "socialMedias",
-        label: "Réseaux sociaux",
-        path: "src/content/socialMedia",
-        ui: {
-          allowedActions: {
-            create: false,
-            delete: false,
-          },
-        },
-        fields: [
-          {
-            name: "facebook",
-            type: "string",
-            label: "Facebook",
-          },
-          {
-            name: "instagram",
-            type: "string",
-            label: "Instagram",
-          },
-          {
-            name: "linkedin",
-            type: "string",
-            label: "LinkedIn",
-          },
-        ],
-      },
-      {
-        name: "header",
-        label: "Header",
-        path: "src/content/header",
-        ui: {
-          allowedActions: {
-            create: false,
-            delete: false,
-          },
-        },
-        fields: [
-          {
-            name: "logo",
-            type: "image",
-            label: "Logo",
-          },
-          {
-            name: "tel",
-            type: "string",
-            label: "Numéro de téléphone",
-          },
-          {
-            name: "email",
-            type: "string",
-            label: "Email",
-          },
-          {
-            name: "socialMedias",
-            type: "reference",
-            label: "Réseaux sociaux",
-            collections: ["socialMedias"],
-          },
-          {
-            name: "pages",
-            type: "object",
-            label: "Pages du menu",
-            list: true,
-            fields: [
-              {
-                name: "page",
-                type: "reference",
-                label: "Page",
-                collections: ["page"],
-              },
-            ],
-            ui: {
-              itemProps: (page) => {
-                return { label: page.page };
-              },
-            },
-          },
-        ],
-      },
-      {
-        name: "page",
-        label: "Pages",
-        path: "src/content/pages",
-        fields: [
-          {
-            name: "title",
-            label: "Titre",
-            type: "string",
-          },
-          {
-            name: "pageContent",
-            type: "object",
-            list: true,
-            label: "Page content",
-            templates: [...Object.values(templates)],
-          },
-        ],
-      },
+      opinionsCollection,
+      servicesCollection,
+      socialMediasCollection,
+      headerCollection,
+      pagesCollection,
     ],
   },
 });
