@@ -29,5 +29,8 @@ pageContent:
     _template: splittedSection
   - title: Mes services
     _template: services
+  - title: Témoignages
+    background: /images/temoignages.jpg
+    _template: opinions
 ---
 

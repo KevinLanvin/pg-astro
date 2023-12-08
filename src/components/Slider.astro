@@ -1,0 +1,20 @@
+---
+const { settings, id } = Astro.props;
+---
+
+<script>
+class Slider extends HTMLElement {
+  constructor() {
+    super();
+    const settings = this.dataset.settings;
+    const sliderElement = document.getElementById(this.dataset.id)
+    sliderElement.slick(settings)
+  }
+}
+
+customElements.define("slick-slider", Slider);
+</script>
+
+<slick-slider id={id} data-id={id} data-settings={settings}>
+  <slot />
+</slick-slider>
