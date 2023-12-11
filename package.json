@@ -15,6 +15,7 @@
     "astro-default-layout": "^2.0.2",
     "sass": "^1.69.5",
     "slick-carousel": "^1.8.1",
+    "swiper": "^11.0.5",
     "tinacms": "^1.5.19"
   }
 }

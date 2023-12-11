@@ -1,6 +1,6 @@
 ---
 import { client } from "../../../tina/__generated__/client";
-import Slider from "../Slider.astro";
+import Icon from "../Icon.astro";
 
 const { title, background } = Astro.props;
 const opinionsResponse = await client.queries.opinionsConnection();
@@ -12,135 +12,134 @@ type Opinion = {
 const opinions: Opinion[] = opinionsResponse.data.opinionsConnection.edges?.map(
   (x) => x?.node as Opinion
 ) as Opinion[];
-
-const settings = {
-  dots: true,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  infinite: true,
-  autoplay: true,
-  autoplaySpeed: 5000,
-  pausoOnHover: false,
-  customPaging: (i) => `
-    <div
-      style={{
-        width: "15px",
-        height: "15px",
-        borderRadius: "15px",
-        margin: "5px",
-        border: "1px solid #fff",
-        cursor: "pointer",
-        transition: "background-color .3s",
-      }}
-    ></div>
-  `
-};
 ---
+
+<script
+  src='https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js'
+></script>
+
 <section class='opinions'>
   <div class='opinions__text'>
-    <h2>{title}</h2>
-    <Slider settings={settings} id='slider' class='opinions__carousel'>
+    <h2>
+      {title}
+    </h2>
+    <swiper-container id='opinions-swiper' class='opinions__carousel'>
       {
         opinions.map((opinion: Opinion) => (
-          <div key={`${opinion.authorName}-${opinion.authorAge}`}>
+          <swiper-slide>
             <p class='opinions__paragraph'>
               {opinion.opinion}
               <br />
               {opinion.authorName} - {opinion.authorAge}
             </p>
-          </div>
+          </swiper-slide>
         ))
       }
-    </Slider>
-    <!-- <Quote class='opinions__quote' /> -->
+    </swiper-container>
+    <div class='swiper-pagination'></div>
+    <Icon name='quote' class='opinions__quote' />
   </div>
 </section>
 
-<style lang="scss" define:vars={{ background: `url(${background})`}}>
-  @import '../../styles/_vars';
+<script>
+  // swiper element
+  const swiperEl = document.getElementById("opinions-swiper");
 
-.opinions {
-  width: 100%;
-  position: relative;
-  background-image: var(--background);
-  background-size: cover;
-  &__text {
-    padding: $gutter-large;
-    width: 80%;
-    margin: $gutter-large auto;
+  // swiper parameters
+  const swiperParams = {
+    speed: 500,
+    autoplay: {
+      pauseOnMouseEnter: true,
+    },
+    navigation: false,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      renderBullet: function (index, className) {
+        return `
+        <div class=${className}></div>`;
+      },
+    },
+  };
+  Object.assign(swiperEl, swiperParams);
+  swiperEl.initialize();
+</script>
+
+<style lang='scss' define:vars={{ background: `url(${background})` }}>
+  @import "../../styles/_vars";
+
+  .opinions {
+    width: 100%;
     position: relative;
-    background-color: $color-overlay;
-    h2 {
-      margin-bottom: $gutter;
-      color: $color-white;
-      text-align: center;
-    }
-  }
-  &__quote {
-    position: absolute;
-    top: $gutter;
-    left: $gutter;
-    width: 6rem;
-    height: auto;
-  }
-  &__paragraph {
-    color: $color-white;
-    font-weight: bold;
-    min-width: 600px;
-  }
-  &__carousel {
-    min-width: 600px;
-  }
-  .slick-dots {
-    display: flex !important;
-    margin-top: $gutter;
-    justify-content: flex-end;
-    .slick-active {
-      div {
-        background-color: $color-white;
-      }
-    }
-  }
-  .slick-list {
-    margin-left: -$gutter-large;
-    margin-right: -$gutter-large;
-  }
-  .slick-slide>div {padding: 0 $gutter-large;}
-}
-
-@media(max-width: $breakpoint) {
-  .temoignages {
-    padding: $gutter;
+    background-image: var(--background);
+    background-size: cover;
     &__text {
-      padding: $gutter;
-      width: 100%;
+      padding: $gutter-large;
+      width: 80%;
+      margin: $gutter-large auto;
+      position: relative;
+      background-color: $color-overlay;
+      h2 {
+        margin-bottom: $gutter;
+        color: $color-white;
+        text-align: center;
+      }
     }
     &__quote {
-      top: $gutter-extra-small;
-      left: $gutter-extra-small;
-      width: 3rem;
+      position: absolute;
+      top: $gutter;
+      left: $gutter;
+      width: 6rem;
+      height: auto;
     }
     &__paragraph {
-      width: 100%;
-      min-width: unset;
+      color: $color-white;
+      font-weight: bold;
+      min-width: 600px;
     }
     &__carousel {
-      min-width: unset;
+      min-width: 600px;
     }
-    &__background {
-      display: flex;
-      justify-content: stretch;
-      align-items: stretch;
-      &--image {
-        position: relative;
-        width: 100%;
-      }
-    }
-    .slick-dots {
-      justify-content: space-evenly;
+    swiper-slide {
+      padding: 0 $gutter-large;
+      cursor: grab;
     }
   }
-}
+
+  @media (max-width: $breakpoint) {
+    .opinions {
+      padding: $gutter;
+      &__text {
+        padding: $gutter;
+        width: 100%;
+      }
+      &__quote {
+        top: $gutter-extra-small;
+        left: $gutter-extra-small;
+        width: 3rem;
+      }
+      &__paragraph {
+        width: 100%;
+        min-width: unset;
+        padding: 0;
+      }
+      &__carousel {
+        min-width: unset;
+      }
+      &__background {
+        display: flex;
+        justify-content: stretch;
+        align-items: stretch;
+        &--image {
+          position: relative;
+          width: 100%;
+        }
+      }
+      swiper-slide {
+        padding: 0;
+        cursor: grab;
+      }
+    }
+  }
 </style>
