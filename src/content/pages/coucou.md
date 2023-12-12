@@ -35,5 +35,7 @@ pageContent:
   - title: Prendre RDV
     image: /images/cabinet.jpg
     _template: contact
+  - title: Pitet
+    _template: disclaimer
 ---
 

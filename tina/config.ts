@@ -1,5 +1,6 @@
 import {
   contactCollection,
+  disclaimerCollection,
   headerCollection,
   opinionsCollection,
   pagesCollection,
@@ -30,6 +31,7 @@ export default defineConfig({
   schema: {
     collections: [
       contactCollection,
+      disclaimerCollection,
       headerCollection,
       socialMediaCollection,
       pagesCollection,

@@ -53,10 +53,18 @@ const contactCollection = defineCollection({
   }),
 });
 
+const disclaimerCollection = defineCollection({
+  type: "content",
+  schema: z.object({
+    text: z.string(),
+  }),
+});
+
 export const collections = {
   header: headerCollection,
   pages: pageCollection,
   services: servicesCollection,
   socialMedia: socialMediaCollection,
   contact: contactCollection,
+  disclaimer: disclaimerCollection,
 };

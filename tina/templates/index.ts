@@ -1,4 +1,5 @@
 import contact from "./contact";
+import disclaimer from "./disclaimer";
 import hero from "./hero";
 import opinions from "./opinions";
 import services from "./services";
@@ -9,3 +10,4 @@ export const heroSection = hero;
 export const splittedSection = splitted;
 export const servicesSection = services;
 export const opinionsSection = opinions;
+export const diclaimerSection = disclaimer;
