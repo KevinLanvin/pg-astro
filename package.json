@@ -17,5 +17,8 @@
     "slick-carousel": "^1.8.1",
     "swiper": "^11.0.5",
     "tinacms": "^1.5.19"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4"
   }
 }

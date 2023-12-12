@@ -16,23 +16,20 @@ const pageCollection = defineCollection({
   }),
 });
 
+const headerCollection = defineCollection({
+  type: "content",
+  schema: z.object({
+    pages: z.array(z.object({ page: z.string() })),
+    logo: z.string(),
+  }),
+});
+
 const socialMediaCollection = defineCollection({
   type: "content",
   schema: z.object({
     facebook: z.string(),
     instagram: z.string(),
-    linkedIn: z.string(),
-  }),
-});
-
-const headerCollection = defineCollection({
-  type: "content",
-  schema: z.object({
-    tel: z.string(),
-    email: z.string(),
-    socialMedias: reference("socialMedia"),
-    pages: z.array(reference("pages")),
-    logo: z.string(),
+    linkedin: z.string(),
   }),
 });
 
@@ -46,9 +43,20 @@ const servicesCollection = defineCollection({
   }),
 });
 
+const contactCollection = defineCollection({
+  type: "content",
+  schema: z.object({
+    tel: z.string(),
+    email: z.string(),
+    address1: z.string(),
+    address2: z.string(),
+  }),
+});
+
 export const collections = {
   header: headerCollection,
   pages: pageCollection,
   services: servicesCollection,
   socialMedia: socialMediaCollection,
+  contact: contactCollection,
 };

@@ -1,19 +1,17 @@
 ---
-import * as header from "@content/header/Header.md";
+import { getEntry } from "astro:content";
+const { data: header } = await getEntry("header", "header");
+const { data: contact } = await getEntry("contact", "contact");
 import Topbar from "@components/Topbar.astro";
 import Navbar from "@components/Navbar.astro";
 const { currentPageTitle } = Astro.props;
 ---
 
 <header>
-  <Topbar
-    tel={header.frontmatter.tel}
-    email={header.frontmatter.email}
-    socialMedias={header.frontmatter.socialMedias}
-  />
+  <Topbar tel={contact.tel} email={contact.email} />
   <Navbar
-    pages={header.frontmatter.pages}
-    logo={header.frontmatter.logo}
+    pages={header.pages}
+    logo={header.logo}
     currentPageTitle={currentPageTitle}
   />
 </header>

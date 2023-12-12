@@ -32,5 +32,8 @@ pageContent:
   - title: Témoignages
     background: /images/temoignages.jpg
     _template: opinions
+  - title: Prendre RDV
+    image: /images/cabinet.jpg
+    _template: contact
 ---
 

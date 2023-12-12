@@ -1,6 +1,7 @@
 ---
-const { tel, email, socialMedias } = Astro.props;
-const social = await import(/* @vite-ignore */ `/${socialMedias}`);
+import { getEntry } from "astro:content";
+const { data: social } = await getEntry("socialMedia", "socialmedia");
+const { tel, email } = Astro.props;
 ---
 
 <div class='header__topbar'>
@@ -14,26 +15,17 @@ const social = await import(/* @vite-ignore */ `/${socialMedias}`);
   </ul>
   <ul class='header__social'>
     <li>
-      <a
-        href={social.frontmatter.instagram}
-        target='_blank'
-        rel='noopener noreferrer'
+      <a href={social.instagram} target='_blank' rel='noopener noreferrer'
         ><img src='/icons/instagram.svg' alt='Instagram' /></a
       >
     </li>
     <li>
-      <a
-        href={social.frontmatter.linkedin}
-        target='_blank'
-        rel='noopener noreferrer'
+      <a href={social.linkedin} target='_blank' rel='noopener noreferrer'
         ><img src='/icons/linkedin.svg' alt='LinkedIn' /></a
       >
     </li>
     <li>
-      <a
-        href={social.frontmatter.facebook}
-        target='_blank'
-        rel='noopener noreferrer'
+      <a href={social.facebook} target='_blank' rel='noopener noreferrer'
         ><img src='/icons/facebook.svg' alt='Facebook' /></a
       >
     </li>

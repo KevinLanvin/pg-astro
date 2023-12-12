@@ -1,8 +1,11 @@
 ---
-import { getCollection } from "astro:content";
+import { getEntries } from "astro:content";
 const { pages, logo, currentPageTitle } = Astro.props;
-const allPages = await getCollection("pages");
-const menuPages = pages?.map((p) => p.page.split("/").pop()) || [];
+const entriesRequest = pages.map((p: { page: string }) => ({
+  collection: "pages",
+  slug: p.page.split("/").pop()?.split(".").shift(),
+}));
+const menuPages = await getEntries(entriesRequest);
 ---
 
 <nav class='header__navbar'>
@@ -12,13 +15,12 @@ const menuPages = pages?.map((p) => p.page.split("/").pop()) || [];
   <div class='header__desktop'>
     {
       menuPages.map((menuPage) => {
-        const menuLink = allPages.find((p) => p.id === menuPage);
         return (
           <a
-            href={`/${menuLink?.slug}`}
-            class={currentPageTitle === menuLink?.data.title ? "active" : ""}
+            href={`/${menuPage?.slug}`}
+            class={currentPageTitle === menuPage?.data.title ? "active" : ""}
           >
-            {menuLink?.data.title}
+            {menuPage?.data.title}
           </a>
         );
       })
@@ -35,13 +37,12 @@ const menuPages = pages?.map((p) => p.page.split("/").pop()) || [];
     <div id='menuMobile' class='header__mobile-menu hidden'>
       {
         menuPages.map((menuPage) => {
-          const menuLink = allPages.find((p) => p.id === menuPage);
           return (
             <a
-              href={`/${menuLink?.slug}`}
-              class={currentPageTitle === menuLink?.data.title ? "active" : ""}
+              href={`/${menuPage?.slug}`}
+              class={currentPageTitle === menuPage?.data.title ? "active" : ""}
             >
-              {menuLink?.data.title}
+              {menuPage?.data.title}
             </a>
           );
         })

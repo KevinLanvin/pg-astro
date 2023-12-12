@@ -56,7 +56,7 @@ const opinions: Opinion[] = opinionsResponse.data.opinionsConnection.edges?.map(
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
-      renderBullet: function (index, className) {
+      renderBullet: function (index: number, className: string) {
         return `
         <div class=${className}></div>`;
       },

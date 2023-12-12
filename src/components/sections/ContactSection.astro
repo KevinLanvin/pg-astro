@@ -1,0 +1,133 @@
+---
+import { getEntry } from "astro:content";
+const { data: contact } = await getEntry("contact", "contact");
+const { data: social } = await getEntry("socialMedia", "socialmedia");
+import Icon from "../Icon.astro";
+const { title, image } = Astro.props;
+---
+
+<section class='contact-section'>
+  <div class='contact-section__card-wrapper'>
+    <div class='contact-section__card'>
+      <h2>{title}</h2>
+      <p>{contact.tel}</p>
+      <p>
+        <a href={`mailto:${contact.email}`}>{contact.email}</a>
+      </p>
+      <p>
+        {contact.address1}
+        <br />
+        {contact.address2}
+      </p>
+      <div class='socialLinks'>
+        <a
+          href={social.instagram}
+          target='_blank'
+          rel='noopener noreferrer'
+          class='socialLink'
+        >
+          <Icon name='instagram-violet' class='socialIcon' />
+        </a>
+        <a
+          href={social.linkedin}
+          target='_blank'
+          rel='noopener noreferrer'
+          class='socialLink'
+        >
+          <Icon name='linkedin-violet' class='socialIcon' />
+        </a>
+        <a
+          href={social.facebook}
+          target='_blank'
+          rel='noopener noreferrer'
+          class='socialLink'
+        >
+          <Icon name='facebook-violet' class='socialIcon' />
+        </a>
+      </div>
+    </div>
+  </div>
+  <img src={image} alt='Cabinet' class='contact-section__image' />
+</section>
+
+<style lang='scss'>
+  @import "../../styles/_vars";
+
+  .contact-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    &__image {
+      width: 80%;
+      margin: auto;
+      border-radius: 10px;
+    }
+    &__card-wrapper {
+      background: url("/images/flower-card.svg");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      padding: 2 * $gutter-large;
+    }
+    &__card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: $color-white;
+      box-shadow: $shadow-dark;
+      padding: $gutter $gutter-large;
+      border-radius: $radius;
+      width: max-content;
+      margin: 0 auto;
+      h2 {
+        text-align: center;
+      }
+      a {
+        height: 30px;
+        margin: $gutter-small;
+        margin-bottom: 0;
+        color: $color-main;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+      :global(.socialIcon) {
+        height: 30px;
+        width: 30px;
+      }
+      p {
+        text-align: center;
+        font-weight: bold;
+        color: $color-main;
+        line-height: 1em;
+        margin: $gutter-small 0;
+        .socialLink {
+          display: block;
+        }
+      }
+      .socialLinks {
+        display: flex;
+        justify-content: center;
+        gap: $gutter-small;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  @media (max-width: $breakpoint) {
+    .contact-section {
+      grid-template-columns: 1fr;
+      width: 100%;
+      &__card-wrapper {
+        width: 100%;
+        padding: $margin;
+        background-size: cover;
+      }
+      &__card {
+        padding: $gutter $gutter-small;
+        width: 100%;
+      }
+    }
+  }
+</style>

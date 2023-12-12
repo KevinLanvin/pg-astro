@@ -1,7 +1,7 @@
 import type { Collection } from "tinacms";
 
 export default {
-  name: "socialMedias",
+  name: "socialMedia",
   label: "Réseaux sociaux",
   path: "src/content/socialMedia",
   ui: {

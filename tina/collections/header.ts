@@ -17,22 +17,6 @@ export default {
       label: "Logo",
     },
     {
-      name: "tel",
-      type: "string",
-      label: "Numéro de téléphone",
-    },
-    {
-      name: "email",
-      type: "string",
-      label: "Email",
-    },
-    {
-      name: "socialMedias",
-      type: "reference",
-      label: "Réseaux sociaux",
-      collections: ["socialMedias"],
-    },
-    {
       name: "pages",
       type: "object",
       label: "Pages du menu",
@@ -47,7 +31,8 @@ export default {
       ],
       ui: {
         itemProps: (page) => {
-          return { label: page.page };
+          const pageName = page.page?.split("/").pop().split(".").shift();
+          return { label: pageName };
         },
       },
     },

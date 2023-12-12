@@ -1,9 +1,10 @@
 import {
+  contactCollection,
   headerCollection,
   opinionsCollection,
   pagesCollection,
   servicesCollection,
-  socialMediasCollection,
+  socialMediaCollection,
 } from "./collections";
 
 import { defineConfig } from "tinacms";
@@ -28,11 +29,12 @@ export default defineConfig({
   },
   schema: {
     collections: [
-      opinionsCollection,
-      servicesCollection,
-      socialMediasCollection,
+      contactCollection,
       headerCollection,
+      socialMediaCollection,
       pagesCollection,
+      servicesCollection,
+      opinionsCollection,
     ],
   },
 });
