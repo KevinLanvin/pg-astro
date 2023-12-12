@@ -1,9 +1,10 @@
 ---
 import { getEntries } from "astro:content";
+import { getFileSlug } from "../utils/fileSlug.ts"
 const { pages, logo, currentPageTitle } = Astro.props;
 const entriesRequest = pages.map((p: { page: string }) => ({
   collection: "pages",
-  slug: p.page.split("/").pop()?.split(".").shift(),
+  slug: getFileSlug(p.page)
 }));
 const menuPages = await getEntries(entriesRequest);
 ---

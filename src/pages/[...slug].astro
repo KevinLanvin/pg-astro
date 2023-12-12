@@ -9,9 +9,14 @@ import {
 
 export async function getStaticPaths() {
   const pages = await getCollection("pages");
-  return pages.map((page) => ({ params: { page: page.slug }, props: page }));
+  const pagePaths = pages.map((page) => ({
+    params: { slug: page.slug === "index" ? undefined : page.slug },
+    props: page,
+  }));
+  return pagePaths;
 }
 
+const { slug } = Astro.params;
 const {
   data: { title, pageContent },
 } = Astro.props;

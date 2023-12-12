@@ -1,32 +1,25 @@
 ---
-import { client } from "../../../tina/__generated__/client";
+import { getCollection, getEntries } from "astro:content";
+import { getFileSlug } from "../../utils/fileSlug";
+
 const { title } = Astro.props;
-const servicesResponse = await client.queries.servicesConnection();
-type Service = {
-  title: string;
-  image: string;
-  imageAlt: string;
-  link: {
-    _sys: {
-      filename: string;
-    };
-  };
-};
-const services: Service[] = servicesResponse.data.servicesConnection.edges?.map(
-  (x) => x?.node
-) as unknown as Service[];
-// Uncomment to filter out the current service
-// .filter(
-//   (service) => `/${service?.link?._sys.filename}` !== Astro.url.pathname
-// );
+const services = (await getCollection("services")).map(
+  (service) => service.data
+);
+const links = await getEntries(
+  services.map((service) => ({
+    collection: "pages",
+    slug: getFileSlug(service.link),
+  }))
+);
 ---
 
 <section class='services'>
   <h2>{title}</h2>
   <div class='servicesGrid'>
     {
-      services.map((service) => (
-        <a class='service' href={service.link._sys.filename}>
+      services.map((service, index) => (
+        <a class='service' href={links[index].slug}>
           <img src={service.image} alt={service.imageAlt} />
           <h3>{service.title}</h3>
         </a>

@@ -39,7 +39,7 @@ const servicesCollection = defineCollection({
     image: z.string(),
     imageAlt: z.string(),
     title: z.string(),
-    link: reference("pages"),
+    link: z.string(),
   }),
 });
 
@@ -60,6 +60,15 @@ const disclaimerCollection = defineCollection({
   }),
 });
 
+const opinionsCollection = defineCollection({
+  type: "content",
+  schema: z.object({
+    opinion: z.string(),
+    authorName: z.string(),
+    authorAge: z.number(),
+  }),
+});
+
 export const collections = {
   header: headerCollection,
   pages: pageCollection,
@@ -67,4 +76,5 @@ export const collections = {
   socialMedia: socialMediaCollection,
   contact: contactCollection,
   disclaimer: disclaimerCollection,
+  opinions: opinionsCollection,
 };

@@ -1,17 +1,12 @@
 ---
-import { client } from "../../../tina/__generated__/client";
+import { getCollection } from "astro:content";
 import Icon from "../Icon.astro";
 
 const { title, background } = Astro.props;
-const opinionsResponse = await client.queries.opinionsConnection();
-type Opinion = {
-  opinion: string;
-  authorName: string;
-  authorAge: number;
-};
-const opinions: Opinion[] = opinionsResponse.data.opinionsConnection.edges?.map(
-  (x) => x?.node as Opinion
-) as Opinion[];
+
+const opinions = (await getCollection("opinions")).map(
+  (opinion) => opinion.data
+);
 ---
 
 <script
@@ -25,7 +20,7 @@ const opinions: Opinion[] = opinionsResponse.data.opinionsConnection.edges?.map(
     </h2>
     <swiper-container id='opinions-swiper' class='opinions__carousel'>
       {
-        opinions.map((opinion: Opinion) => (
+        opinions.map((opinion) => (
           <swiper-slide>
             <p class='opinions__paragraph'>
               {opinion.opinion}
@@ -86,13 +81,6 @@ const opinions: Opinion[] = opinionsResponse.data.opinionsConnection.edges?.map(
         text-align: center;
       }
     }
-    &__quote {
-      position: absolute;
-      top: $gutter;
-      left: $gutter;
-      width: 6rem;
-      height: auto;
-    }
     &__paragraph {
       color: $color-white;
       font-weight: bold;
@@ -105,6 +93,13 @@ const opinions: Opinion[] = opinionsResponse.data.opinionsConnection.edges?.map(
       padding: 0 $gutter-large;
       cursor: grab;
     }
+    :global(.opinions__quote) {
+      position: absolute;
+      top: $gutter;
+      left: $gutter;
+      width: 6rem;
+      height: auto;
+    }
   }
 
   @media (max-width: $breakpoint) {
@@ -113,11 +108,6 @@ const opinions: Opinion[] = opinionsResponse.data.opinionsConnection.edges?.map(
       &__text {
         padding: $gutter;
         width: 100%;
-      }
-      &__quote {
-        top: $gutter-extra-small;
-        left: $gutter-extra-small;
-        width: 3rem;
       }
       &__paragraph {
         width: 100%;
@@ -139,6 +129,11 @@ const opinions: Opinion[] = opinionsResponse.data.opinionsConnection.edges?.map(
       swiper-slide {
         padding: 0;
         cursor: grab;
+      }
+      :global(.opinions__quote) {
+        top: $gutter-extra-small;
+        left: $gutter-extra-small;
+        width: 3rem;
       }
     }
   }
