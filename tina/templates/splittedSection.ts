@@ -22,13 +22,11 @@ const splitted: Template = {
       label: "Titre",
     },
     {
-      type: "string",
+      type: "rich-text",
       name: "paragraph",
       required: true,
       label: "Paragraphe",
-      ui: {
-        component: "textarea",
-      },
+      isBody: true,
     },
     {
       type: "string",

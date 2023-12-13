@@ -11,7 +11,7 @@ const introduction: Template = {
       label: "Titre",
     },
     {
-      type: "string",
+      type: "rich-text",
       name: "description",
       label: "Paragraphe d'introduction",
     },

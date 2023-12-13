@@ -13,6 +13,7 @@
     "@tinacms/cli": "^1.5.28",
     "astro": "^4.0.4",
     "astro-default-layout": "^2.0.2",
+    "remarkable": "^2.0.1",
     "sass": "^1.69.5",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.0.5",

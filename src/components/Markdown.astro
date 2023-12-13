@@ -1,0 +1,8 @@
+---
+import { Remarkable } from "remarkable";
+var md = new Remarkable();
+
+const { content } = Astro.props;
+---
+
+<Fragment set:html={md.render(content)} />

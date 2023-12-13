@@ -1,36 +1,41 @@
 ---
 import BlockQuote from "../BlockQuote.astro";
+import Markdown from "../Markdown.astro";
 const { title, description, banner, bannerAlt, quotation } = Astro.props;
 ---
 
-<section class='introduction'>
+<section class="introduction">
   <h1>{title}</h1>
-  {!!description && <p>{description}</p>}
+  {!!description && <Markdown content={description} />}
   {!!quotation && <BlockQuote text={quotation} bordered />}
-  {!!banner && !!bannerAlt && <img src={banner} alt={bannerAlt} class="banner" />}
+  {
+    !!banner && !!bannerAlt && (
+      <img src={banner} alt={bannerAlt} class="banner" />
+    )
+  }
 </section>
 
 <style lang="scss">
-@import '../../styles/_vars';
+  @import "../../styles/_vars";
 
-.introduction {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: $gutter;
-  .banner {
-    width: 100%;
-    height: 33vh;
-    object-fit: cover;
-  }
-}
-
-@media(max-width: $breakpoint) {
   .introduction {
-    margin: $gutter $margin;
-    h1 {
-      margin-bottom: $gutter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $gutter;
+    .banner {
+      width: 100%;
+      height: 33vh;
+      object-fit: cover;
     }
   }
-}
+
+  @media (max-width: $breakpoint) {
+    .introduction {
+      margin: $gutter $margin;
+      h1 {
+        margin-bottom: $gutter;
+      }
+    }
+  }
 </style>

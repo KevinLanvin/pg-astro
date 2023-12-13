@@ -2,6 +2,8 @@
 import BlockQuote from "../BlockQuote.astro";
 import Button from "../Button.astro";
 import Icon from "../Icon.astro";
+import Markdown from "../Markdown.astro";
+
 const {
   title,
   paragraph,
@@ -29,9 +31,12 @@ const imageClass = `splitted-section__image ${
 
 <section class={sectionClass}>
   <div class={gridClass}>
-    <div class='splitted-section__text'>
+    <div class="splitted-section__text">
       <h2>{title}</h2>
-      <p>{paragraph}</p>
+      <!-- <p>{paragraph}</p> -->
+      <div>
+        <Markdown content={paragraph} />
+      </div>
       {
         linkLabel && isButtonAlt && (
           <Button alt name={linkLabel} link={linkTo} />
@@ -42,13 +47,13 @@ const imageClass = `splitted-section__image ${
     </div>
     <div class={imageClass}>
       {imageClass}
-      <img src={imageSource} alt={"Temporary null"} />
+      <img src={imageSource} alt={imageAlt} />
     </div>
   </div>
-  {hasFlower && <Icon name='flower' class='splitted-section__flower' />}
+  {hasFlower && <Icon name="flower" class="splitted-section__flower" />}
 </section>
 
-<style lang='scss'>
+<style lang="scss">
   @import "../../styles/_vars.scss";
 
   @function max($numbers...) {
