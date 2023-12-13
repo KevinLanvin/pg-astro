@@ -126,6 +126,18 @@ const imageClass = `splitted-section__image ${
       height: auto;
       z-index: 1;
     }
+    h2 {
+      position: relative;
+    }
+    h2::after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 10rem;
+      height: 1px;
+      background-color: $color-main;
+      right: -5rem;
+    }
   }
 
   @media (max-width: $breakpoint) {

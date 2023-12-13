@@ -1,7 +1,7 @@
 ---
 logo: /images/LOGO.svg
 pages:
-  - page: src/content/pages/coucou.md
-  - page: src/content/pages/quisuisje.md
+  - page: src/content/pages/index.md
+  - page: src/content/pages/qui-suis-je.md
 ---
 

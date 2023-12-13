@@ -3,6 +3,11 @@ import type { Template } from "tinacms";
 const splitted: Template = {
   name: "splittedSection",
   label: "Image + Texte (+ Bouton + Citation)",
+  ui: {
+    itemProps: ({ title }) => {
+      return { label: title };
+    },
+  },
   fields: [
     {
       type: "image",
@@ -17,16 +22,20 @@ const splitted: Template = {
       label: "Titre",
     },
     {
-      type: "rich-text",
+      type: "string",
       name: "paragraph",
       required: true,
       label: "Paragraphe",
+      ui: {
+        component: "textarea",
+      },
     },
     {
-      type: "rich-text",
+      type: "string",
       name: "quotation",
       label: "Citation",
       ui: {
+        component: "textarea",
         description:
           "Séparer la citation de l'auteur avec un point pour générer un retour à la ligne",
       },

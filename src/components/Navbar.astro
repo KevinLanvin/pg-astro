@@ -1,10 +1,10 @@
 ---
 import { getEntries } from "astro:content";
-import { getFileSlug } from "../utils/fileSlug.ts"
+import { getFileSlug } from "../utils/fileSlug";
 const { pages, logo, currentPageTitle } = Astro.props;
 const entriesRequest = pages.map((p: { page: string }) => ({
   collection: "pages",
-  slug: getFileSlug(p.page)
+  slug: getFileSlug(p.page),
 }));
 const menuPages = await getEntries(entriesRequest);
 ---
@@ -18,7 +18,7 @@ const menuPages = await getEntries(entriesRequest);
       menuPages.map((menuPage) => {
         return (
           <a
-            href={`/${menuPage?.slug}`}
+            href={menuPage?.slug === "index" ? "/" : menuPage.slug}
             class={currentPageTitle === menuPage?.data.title ? "active" : ""}
           >
             {menuPage?.data.title}

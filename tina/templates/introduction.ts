@@ -29,12 +29,13 @@ const introduction: Template = {
       },
     },
     {
-      type: "rich-text",
+      type: "string",
       name: "quotation",
       label: "Citation",
       ui: {
         description:
           "Séparer la citation de l'auteur avec un point pour générer un retour à la ligne",
+        component: "text-area",
       },
     },
   ],

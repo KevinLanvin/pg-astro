@@ -16,7 +16,7 @@ pageContent:
       but est d’adopter une approche holistique. C’est à dire d’apporter un
       mieux être au niveau émotionnel, physique et énergétique tout en faisant
       le lien « corps-esprit ».
-    quotation: >
+    quotation: >-
       Prends soin de ton corps, c’est le seul endroit permanent dans lequel tu
       es amené à vivre. Jim Rohn
     linkLabel: ''
