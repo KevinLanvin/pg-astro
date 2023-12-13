@@ -4,6 +4,7 @@ import Disclaimer from "./disclaimer";
 import Header from "./header";
 import Opinions from "./opinions";
 import Pages from "./pages";
+import Prices from "./prices";
 import Services from "./services";
 import SocialMedia from "./socialMedia";
 
@@ -14,3 +15,4 @@ export const servicesCollection: Collection = Services;
 export const socialMediaCollection: Collection = SocialMedia;
 export const headerCollection: Collection = Header;
 export const disclaimerCollection: Collection = Disclaimer;
+export const pricesCollection: Collection = Prices;

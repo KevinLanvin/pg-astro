@@ -1,0 +1,68 @@
+---
+import { getCollection } from "astro:content";
+import Card from "../Card.astro";
+import { getFileSlug } from "@src/utils/fileSlug";
+import Button from "../Button.astro";
+
+const { title } = Astro.props;
+const prices = await getCollection("prices");
+---
+
+<section class="prices">
+  <h2>{title}</h2>
+  <div class="prices__cards">
+    {
+      prices.map((price) => (
+        <Card image={price.data.image}>
+          <div class="prices__text">
+            <h3>{price.data.title}</h3>
+            <p class="prices__main-text">
+              <span class="prices__price">{price.data.price}</span>
+              {price.data.duration && <span>({price.data.duration})</span>}
+            </p>
+            <Button
+              link={getFileSlug(price.data.link)}
+              name={price.data.linkLabel}
+              alt
+            />
+          </div>
+        </Card>
+      ))
+    }
+  </div>
+</section>
+
+<style lang="scss">
+  @import "../../styles/_vars.scss";
+
+  .prices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $gutter-large;
+    &__cards {
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: $gutter;
+    }
+    &__text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: $gutter-small;
+      h3 {
+        height: 3rem;
+        text-align: center;
+      }
+    }
+    &__main-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__price {
+      font-size: 2rem;
+    }
+  }
+</style>

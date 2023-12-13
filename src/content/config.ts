@@ -1,6 +1,6 @@
 import * as sectionTypes from "./_sectionTypes";
 
-import { defineCollection, reference, z } from "astro:content";
+import { defineCollection, z } from "astro:content";
 
 const pageCollection = defineCollection({
   type: "content",
@@ -10,8 +10,8 @@ const pageCollection = defineCollection({
       z.discriminatedUnion(
         "_template",
         // @ts-ignore
-        Object.values(sectionTypes)
-      )
+        Object.values(sectionTypes),
+      ),
     ),
   }),
 });
@@ -69,6 +69,18 @@ const opinionsCollection = defineCollection({
   }),
 });
 
+const pricesCollection = defineCollection({
+  type: "content",
+  schema: z.object({
+    title: z.string(),
+    price: z.string(),
+    duration: z.string().optional(),
+    linkLabel: z.string(),
+    link: z.string(),
+    image: z.string(),
+  }),
+});
+
 export const collections = {
   header: headerCollection,
   pages: pageCollection,
@@ -77,4 +89,5 @@ export const collections = {
   contact: contactCollection,
   disclaimer: disclaimerCollection,
   opinions: opinionsCollection,
+  prices: pricesCollection,
 };

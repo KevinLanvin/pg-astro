@@ -11,5 +11,7 @@ pageContent:
     quotation: |
       Un voyage de mille lieues commence toujours par un premier pas. Lao Tseu
     _template: introduction
+  - title: Tarifs
+    _template: prices
 ---
 

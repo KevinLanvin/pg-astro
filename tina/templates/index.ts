@@ -3,6 +3,7 @@ import disclaimer from "./disclaimer";
 import hero from "./hero";
 import introduction from "./introduction";
 import opinions from "./opinions";
+import prices from "./prices";
 import services from "./services";
 import splitted from "./splittedSection";
 
@@ -13,3 +14,4 @@ export const servicesSection = services;
 export const opinionsSection = opinions;
 export const diclaimerSection = disclaimer;
 export const introductionSection = introduction;
+export const pricesSection = prices;

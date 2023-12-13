@@ -3,6 +3,7 @@ import DisclaimerSection from "@src/components/sections/DisclaimerSection.astro"
 import Hero from "@src/components/sections/Hero.astro";
 import IntroductionSection from "@src/components/sections/IntroductionSection.astro";
 import OpinionsSection from "@src/components/sections/OpinionsSection.astro";
+import PricesSection from "@src/components/sections/PricesSection.astro";
 import ServicesSection from "@src/components/sections/ServicesSection.astro";
 import SplittedSection from "@src/components/sections/SplittedSection.astro";
 
@@ -12,6 +13,7 @@ export enum sectionTemplates {
   HERO = "hero",
   INTRODUCTION = "introduction",
   OPINIONS = "opinions",
+  PRICES = "prices",
   SERVICES = "services",
   SPLITTED = "splittedSection",
 }
@@ -21,7 +23,8 @@ export const sectionComponents = {
   [sectionTemplates.DISCLAIMER]: DisclaimerSection,
   [sectionTemplates.HERO]: Hero,
   [sectionTemplates.INTRODUCTION]: IntroductionSection,
+  [sectionTemplates.OPINIONS]: OpinionsSection,
+  [sectionTemplates.PRICES]: PricesSection,
   [sectionTemplates.SERVICES]: ServicesSection,
   [sectionTemplates.SPLITTED]: SplittedSection,
-  [sectionTemplates.OPINIONS]: OpinionsSection,
 };

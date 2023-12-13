@@ -4,6 +4,7 @@ import {
   headerCollection,
   opinionsCollection,
   pagesCollection,
+  pricesCollection,
   servicesCollection,
   socialMediaCollection,
 } from "./collections";
@@ -37,6 +38,7 @@ export default defineConfig({
       pagesCollection,
       servicesCollection,
       opinionsCollection,
+      pricesCollection,
     ],
   },
 });
