@@ -1,3 +1,4 @@
+import ColumnSection from "@src/components/sections/ColumnSection.astro";
 import ContactSection from "@src/components/sections/ContactSection.astro";
 import DisclaimerSection from "@src/components/sections/DisclaimerSection.astro";
 import Hero from "@src/components/sections/Hero.astro";
@@ -8,6 +9,7 @@ import ServicesSection from "@src/components/sections/ServicesSection.astro";
 import SplittedSection from "@src/components/sections/SplittedSection.astro";
 
 export enum sectionTemplates {
+  COLUMN = "columnSection",
   CONTACT = "contact",
   DISCLAIMER = "disclaimer",
   HERO = "hero",
@@ -19,6 +21,7 @@ export enum sectionTemplates {
 }
 
 export const sectionComponents = {
+  [sectionTemplates.COLUMN]: ColumnSection,
   [sectionTemplates.CONTACT]: ContactSection,
   [sectionTemplates.DISCLAIMER]: DisclaimerSection,
   [sectionTemplates.HERO]: Hero,

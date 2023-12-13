@@ -26,7 +26,6 @@ const splitted: Template = {
       name: "paragraph",
       required: true,
       label: "Paragraphe",
-      isBody: true,
     },
     {
       type: "string",

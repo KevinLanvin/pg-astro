@@ -5,46 +5,47 @@ import Icon from "./Icon.astro";
 const { data: social } = await getEntry("socialMedia", "socialmedia");
 ---
 
-<footer class='footer'>
-  <div class='footer__top-bar'>
-    <a href='/mentions-legales' class='footer__link'>Mentions Légales</a>
+<footer class="footer">
+  <div class="footer__top-bar">
+    <a href="/mentions-legales" class="footer__link">Mentions Légales</a>
   </div>
-  <div class='footer__bottom-bar'>
-    <a href='/contact' class='footer__link'>Contact</a>
-    <div class='footer__social'>
-      <a href={social.instagram} target='_blank' rel='noopener noreferrer'>
-        <Icon name='instagram' class='footer__icon' />
+  <div class="footer__bottom-bar">
+    <a href="/contact" class="footer__link">Contact</a>
+    <div class="footer__social">
+      <a href={social.instagram} target="_blank" rel="noopener noreferrer">
+        <Icon name="instagram" class="footer__icon" />
       </a>
-      <a href={social.linkedin} target='_blank' rel='noopener noreferrer'>
-        <Icon name='linkedin' class='footer__icon' />
+      <a href={social.linkedin} target="_blank" rel="noopener noreferrer">
+        <Icon name="linkedin" class="footer__icon" />
       </a>
-      <a href={social.facebook} target='_blank' rel='noopener noreferrer'>
-        <Icon name='facebook' class='footer__icon' />
+      <a href={social.facebook} target="_blank" rel="noopener noreferrer">
+        <Icon name="facebook" class="footer__icon" />
       </a>
     </div>
-    <a href='/mentions-legales' class='footer__link'>Mentions Légales</a>
+    <a href="/mentions-legales" class="footer__link">Mentions Légales</a>
   </div>
-  <div class='footer__credits'>
+  <div class="footer__credits">
     Site réalisé par{" "}
-    <a href='https://mgdg.fr' target='_blank' rel='noopener noreferrer'>
+    <a href="https://mgdg.fr" target="_blank" rel="noopener noreferrer">
       MGDG
     </a>
-    et
+     et
     <a
-      href='https://www.linkedin.com/in/kevin-lanvin-0208281b5/'
-      target='_blank'
-      rel='noopener noreferrer'
+      href="https://www.linkedin.com/in/kevin-lanvin-0208281b5/"
+      target="_blank"
+      rel="noopener noreferrer"
     >
       Kévin Lanvin
     </a>
   </div>
 </footer>
 
-<style lang='scss'>
+<style lang="scss">
   @import "../styles/_vars.scss";
 
   .footer {
     width: 100%;
+    margin-top: $gutter;
     &__top-bar {
       background-color: $color-white;
       width: 100%;
