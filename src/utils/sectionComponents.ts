@@ -7,6 +7,7 @@ import OpinionsSection from "@src/components/sections/OpinionsSection.astro";
 import PricesSection from "@src/components/sections/PricesSection.astro";
 import ServicesSection from "@src/components/sections/ServicesSection.astro";
 import SplittedSection from "@src/components/sections/SplittedSection.astro";
+import TextSection from "@src/components/sections/TextSection.astro";
 
 export enum sectionTemplates {
   COLUMN = "columnSection",
@@ -18,6 +19,7 @@ export enum sectionTemplates {
   PRICES = "prices",
   SERVICES = "services",
   SPLITTED = "splittedSection",
+  TEXT = "text",
 }
 
 export const sectionComponents = {
@@ -30,4 +32,5 @@ export const sectionComponents = {
   [sectionTemplates.PRICES]: PricesSection,
   [sectionTemplates.SERVICES]: ServicesSection,
   [sectionTemplates.SPLITTED]: SplittedSection,
+  [sectionTemplates.TEXT]: TextSection,
 };

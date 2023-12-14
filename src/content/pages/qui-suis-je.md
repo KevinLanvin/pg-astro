@@ -35,5 +35,18 @@ pageContent:
     linkLabel: Prendre RDV
     link: src/content/pages/index.md
     _template: columnSection
+  - title: Titre et Paragraphe
+    paragraph: >
+      Je procède dans un premier temps à l’élimination des mauvaises énergies et
+      énergies stagnantes de votre corps. Le Guasha (pierre taillée à bord
+      lisse) est l’un des outils permettant de faire sortir le « mal » par les
+      pores de la peau, à l’aide de frottements énergiques contre la peau. Le
+      massage Guasha consiste donc à purifier le corps pour prévenir les
+      déséquilibres énergétiques.
+
+
+      Très efficace pour apaiser les douleurs, le guasha permet une meilleure
+      circulation des énergies et vous donne une peau plus lisse et lumineuse.
+    _template: text
 ---
 

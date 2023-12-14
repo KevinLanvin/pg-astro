@@ -7,6 +7,7 @@ import opinions from "./opinions";
 import prices from "./prices";
 import services from "./services";
 import splitted from "./splittedSection";
+import text from "./text";
 
 export const columnSection = column;
 export const contactSection = contact;
@@ -17,3 +18,4 @@ export const opinionsSection = opinions;
 export const pricesSection = prices;
 export const servicesSection = services;
 export const splittedSection = splitted;
+export const textSection = text;

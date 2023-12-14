@@ -7,6 +7,7 @@ import opinionsSection from "./opinionsSection";
 import pricesSection from "./pricesSection";
 import servicesSection from "./servicesSection";
 import splittedSection from "./splittedSection";
+import textSection from "./textSection";
 
 export const columnSectionType = columnSection;
 export const contactSectionType = contactSection;
@@ -17,3 +18,4 @@ export const opinionsSectionType = opinionsSection;
 export const pricesSectionType = pricesSection;
 export const servicesSectionType = servicesSection;
 export const splittedSectionType = splittedSection;
+export const textSectionType = textSection;
