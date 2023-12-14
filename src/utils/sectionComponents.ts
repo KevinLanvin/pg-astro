@@ -1,3 +1,4 @@
+import CardsSection from "@src/components/sections/CardsSection.astro";
 import ColumnSection from "@src/components/sections/ColumnSection.astro";
 import ContactSection from "@src/components/sections/ContactSection.astro";
 import CoursesSection from "@src/components/sections/CoursesSection.astro";
@@ -12,6 +13,7 @@ import SplittedSection from "@src/components/sections/SplittedSection.astro";
 import TextSection from "@src/components/sections/TextSection.astro";
 
 export enum sectionTemplates {
+  CARDS = "cards",
   COLUMN = "columnSection",
   COURSES = "courses",
   CONTACT = "contact",
@@ -27,6 +29,7 @@ export enum sectionTemplates {
 }
 
 export const sectionComponents = {
+  [sectionTemplates.CARDS]: CardsSection,
   [sectionTemplates.COLUMN]: ColumnSection,
   [sectionTemplates.CONTACT]: ContactSection,
   [sectionTemplates.COURSES]: CoursesSection,

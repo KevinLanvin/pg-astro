@@ -1,0 +1,64 @@
+---
+import Button from "../Button.astro";
+import Card from "../Card.astro";
+import Markdown from "../Markdown.astro";
+const { cards } = Astro.props;
+---
+
+<section class="cards">
+  {
+    cards.map((card) => (
+      <Card image={card.image}>
+        <div class="cards__content">
+          <h3>{card.title}</h3>
+          {card.subtitle && (
+            <div class="cards__subtitle">
+              <Markdown content={card.subtitle} />
+            </div>
+          )}
+          <div class="cards__text">
+            <Markdown content={card.content} />
+          </div>
+          {card.link && card.linkLabel && (
+            <Button link={card.link} name={card.linkLabel} alt />
+          )}
+        </div>
+      </Card>
+    ))
+  }
+</section>
+
+<style lang="scss">
+  @import "../../styles/_vars.scss";
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    gap: $gutter;
+    &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: $gutter;
+      height: 100%;
+      :global(p) {
+        text-align: center;
+      }
+    }
+    &__text {
+      flex-grow: 1;
+    }
+    &__subtitle {
+      :global(p) {
+        font-weight: bold;
+      }
+    }
+  }
+
+  @media (max-width: $breakpoint) {
+    .cards {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+  }
+</style>

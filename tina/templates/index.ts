@@ -1,3 +1,4 @@
+import cards from "./cards";
 import column from "./columnSection";
 import contact from "./contact";
 import courses from "./courses";
@@ -11,6 +12,7 @@ import services from "./services";
 import splitted from "./splittedSection";
 import text from "./text";
 
+export const cardsSection = cards;
 export const columnSection = column;
 export const contactSection = contact;
 export const coursesSection = courses;

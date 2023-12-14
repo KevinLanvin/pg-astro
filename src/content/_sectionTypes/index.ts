@@ -1,3 +1,4 @@
+import cardsSection from "./cardsSection";
 import columnSection from "./columnSection";
 import contactSection from "./contactSection";
 import coursesSection from "./coursesSection";
@@ -11,6 +12,7 @@ import servicesSection from "./servicesSection";
 import splittedSection from "./splittedSection";
 import textSection from "./textSection";
 
+export const cardsSectionType = cardsSection;
 export const columnSectionType = columnSection;
 export const contactSectionType = contactSection;
 export const coursesSectionType = coursesSection;
