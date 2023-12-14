@@ -1,0 +1,49 @@
+---
+import Icon from "../Icon.astro";
+import Markdown from "../Markdown.astro";
+const { title, paragraph } = Astro.props;
+---
+
+<section class="flowerSection">
+  <Icon class="flowerSection__flower" name="flower-violet" />
+  <div class="flowerSection__text">
+    <h2>{title}</h2>
+    <Markdown content={paragraph} />
+  </div>
+</section>
+
+<style lang="scss">
+  @import "../../styles/_vars.scss";
+
+  .flowerSection {
+    display: flex;
+    gap: $gutter;
+    :global(.flowerSection__flower) {
+      width: 25%;
+    }
+    &__text {
+      display: flex;
+      flex-direction: column;
+      gap: $gutter;
+      h2 {
+        position: relative;
+        align-self: flex-start;
+      }
+      h2::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 10rem;
+        height: 1px;
+        background-color: $color-main;
+        right: -5rem;
+      }
+    }
+  }
+
+  @media (max-width: $breakpoint) {
+    :global(.flowerSection__flower) {
+      display: none;
+    }
+  }
+</style>

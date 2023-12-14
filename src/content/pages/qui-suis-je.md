@@ -42,11 +42,41 @@ pageContent:
       lisse) est l’un des outils permettant de faire sortir le « mal » par les
       pores de la peau, à l’aide de frottements énergiques contre la peau. Le
       massage Guasha consiste donc à purifier le corps pour prévenir les
-      déséquilibres énergétiques.
+      déséquilibres énergétiques.\
 
+      \
 
       Très efficace pour apaiser les douleurs, le guasha permet une meilleure
       circulation des énergies et vous donne une peau plus lisse et lumineuse.
     _template: text
+  - title: Les différents niveaux du Holi-scan
+    paragraph: >
+      * **Incarnationnel** : c’est-à-dire comment votre âme se sent dans votre
+      corps (problème d’incarnation, jumeau perdu, flamme jumelle, …)
+
+      * **Karmique** : c’est-à-dire toutes vos expériences d’âme (ce qui
+      concerne vos vies antérieures, vœux karmiques, liens karmiques, blessures
+      karmiques…)
+
+      * **Transgénérationnel** : c’est-à-dire tout ce qui concerne vos ancêtres
+      et votre lignée (les expériences passées dans l’arbre généalogique qui
+      vous impactent encore aujourd’hui, secrets de famille, croyances
+      familiales…)
+
+      * **Psycho-émotionnel** : c’est-à-dire tout ce qui concerne vos
+      expériences de vie depuis votre naissance y compris la vie intra-utérine
+      (émotions non digérées, croyances limitantes, liens toxiques, blessures
+      émotionnelles…)
+
+      * **Esotérique** : c’est-à-dire les perturbations subtils (pollutions
+      énergétiques, âme et entité, problème de chakra, magie noire…)
+
+      * **Tout cela mélangé** : parfois les niveaux se mélangent (ex : émotions
+      karmiques, informations transkarmiques…)
+
+      * **Géobiologique** : c’est-à-dire tout ce qui concerne votre
+      environnement et corps physique (lieu de vie, alimentation, cheminées
+      cosmo-telluriques, failles souterraines…)
+    _template: flowerSection
 ---
 

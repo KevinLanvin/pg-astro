@@ -40,8 +40,12 @@
 }
 
 ul {
-  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: $gutter-small;
   padding: 0;
+  flex-grow: 1;
 }
 
 a {

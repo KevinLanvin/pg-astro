@@ -1,6 +1,7 @@
 import columnSection from "./columnSection";
 import contactSection from "./contactSection";
 import disclaimerSection from "./disclaimerSection";
+import flowerSection from "./flowerSection";
 import heroSection from "./heroSection";
 import introductionSection from "./introductionSection";
 import opinionsSection from "./opinionsSection";
@@ -12,6 +13,7 @@ import textSection from "./textSection";
 export const columnSectionType = columnSection;
 export const contactSectionType = contactSection;
 export const disclaimerSectionType = disclaimerSection;
+export const flowerSectionType = flowerSection;
 export const heroSectionType = heroSection;
 export const introductionSectionType = introductionSection;
 export const opinionsSectionType = opinionsSection;

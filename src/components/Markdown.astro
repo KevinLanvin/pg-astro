@@ -1,6 +1,8 @@
 ---
 import { Remarkable } from "remarkable";
-var md = new Remarkable();
+var md = new Remarkable({
+  breaks: true,
+});
 
 const { content } = Astro.props;
 ---
