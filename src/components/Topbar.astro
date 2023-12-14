@@ -4,35 +4,35 @@ const { data: social } = await getEntry("socialMedia", "socialmedia");
 const { tel, email } = Astro.props;
 ---
 
-<div class='header__topbar'>
-  <ul class='header__contact'>
-    <li><img src='/icons/phone.svg' alt='phone' />{tel}</li>
-    <li>
+<div class="header__topbar">
+  <div class="header__contact">
+    <span><img src="/icons/phone.svg" alt="phone" />{tel}</span>
+    <span>
       <a href={`mailto:${email}`}
-        ><img src='/icons/mailto.svg' alt='mail' />{email}</a
+        ><img src="/icons/mailto.svg" alt="mail" />{email}</a
       >
-    </li>
-  </ul>
-  <ul class='header__social'>
-    <li>
-      <a href={social.instagram} target='_blank' rel='noopener noreferrer'
-        ><img src='/icons/instagram.svg' alt='Instagram' /></a
+    </span>
+  </div>
+  <div class="header__social">
+    <span>
+      <a href={social.instagram} target="_blank" rel="noopener noreferrer"
+        ><img src="/icons/instagram.svg" alt="Instagram" /></a
       >
-    </li>
-    <li>
-      <a href={social.linkedin} target='_blank' rel='noopener noreferrer'
-        ><img src='/icons/linkedin.svg' alt='LinkedIn' /></a
+    </span>
+    <span>
+      <a href={social.linkedin} target="_blank" rel="noopener noreferrer"
+        ><img src="/icons/linkedin.svg" alt="LinkedIn" /></a
       >
-    </li>
-    <li>
-      <a href={social.facebook} target='_blank' rel='noopener noreferrer'
-        ><img src='/icons/facebook.svg' alt='Facebook' /></a
+    </span>
+    <span>
+      <a href={social.facebook} target="_blank" rel="noopener noreferrer"
+        ><img src="/icons/facebook.svg" alt="Facebook" /></a
       >
-    </li>
-  </ul>
+    </span>
+  </div>
 </div>
 
-<style lang='scss'>
+<style lang="scss">
   @import "../styles/_vars";
 
   .header__topbar {
@@ -46,7 +46,7 @@ const { tel, email } = Astro.props;
     flex: 1;
     display: flex;
     a,
-    li {
+    span {
       margin-right: 2rem;
       color: $color-white;
       font-size: 0.8rem;

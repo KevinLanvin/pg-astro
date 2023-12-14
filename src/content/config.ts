@@ -81,6 +81,17 @@ const pricesCollection = defineCollection({
   }),
 });
 
+const coursesCollection = defineCollection({
+  type: "content",
+  schema: z.object({
+    title: z.string(),
+    price: z.string(),
+    linkLabel: z.string(),
+    link: z.string(),
+    image: z.string(),
+  }),
+});
+
 export const collections = {
   header: headerCollection,
   pages: pageCollection,
@@ -90,4 +101,5 @@ export const collections = {
   disclaimer: disclaimerCollection,
   opinions: opinionsCollection,
   prices: pricesCollection,
+  courses: coursesCollection,
 };

@@ -23,7 +23,7 @@ const {
 ---
 
 <Layout title={title}>
-  <title slot='head'>{title}</title>
+  <title slot="head">{title}</title>
   <main>
     {
       pageContent.map((sectionProps: any) => {
@@ -35,11 +35,12 @@ const {
   </main>
 </Layout>
 
-<style lang='scss'>
+<style lang="scss">
   @import "../styles/_vars.scss";
   main {
     display: flex;
     flex-direction: column;
     gap: $gutter-large;
+    margin-top: $gutter-large;
   }
 </style>

@@ -1,5 +1,6 @@
 import type { Collection } from "tinacms";
 import Contact from "./contact";
+import Courses from "./courses";
 import Disclaimer from "./disclaimer";
 import Header from "./header";
 import Opinions from "./opinions";
@@ -9,6 +10,7 @@ import Services from "./services";
 import SocialMedia from "./socialMedia";
 
 export const contactCollection: Collection = Contact;
+export const coursesCollection: Collection = Courses;
 export const pagesCollection: Collection = Pages;
 export const opinionsCollection: Collection = Opinions;
 export const servicesCollection: Collection = Services;

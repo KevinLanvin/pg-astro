@@ -2,13 +2,13 @@
 const { title, background, buttonLabel, suptitle } = Astro.props;
 ---
 
-<div class='hero'>
+<div class="hero">
   <h2>{suptitle}</h2>
   <h1>{title}</h1>
   <button>{buttonLabel}</button>
 </div>
 
-<style lang='scss' define:vars={{ background: `url(${background})` }}>
+<style lang="scss" define:vars={{ background: `url(${background})` }}>
   @import "../../styles/_vars";
   .hero {
     display: flex;
@@ -19,6 +19,7 @@ const { title, background, buttonLabel, suptitle } = Astro.props;
     height: calc(100vh - 6rem);
     background-image: var(--background);
     background-size: cover;
+    margin-top: -$gutter-large;
     h2 {
       font-family: "Raleway";
       color: $color-white;
