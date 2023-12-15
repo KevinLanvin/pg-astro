@@ -2,6 +2,7 @@ import {
   contactCollection,
   coursesCollection,
   disclaimerCollection,
+  formationsCollection,
   headerCollection,
   opinionsCollection,
   pagesCollection,
@@ -41,6 +42,7 @@ export default defineConfig({
       opinionsCollection,
       pricesCollection,
       coursesCollection,
+      formationsCollection,
     ],
   },
 });

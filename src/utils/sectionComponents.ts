@@ -4,6 +4,7 @@ import ContactSection from "@src/components/sections/ContactSection.astro";
 import CoursesSection from "@src/components/sections/CoursesSection.astro";
 import DisclaimerSection from "@src/components/sections/DisclaimerSection.astro";
 import FlowerSection from "@src/components/sections/FlowerSection.astro";
+import FormationsSection from "@src/components/sections/FormationsSection.astro";
 import Hero from "@src/components/sections/Hero.astro";
 import IntroductionSection from "@src/components/sections/IntroductionSection.astro";
 import OpinionsSection from "@src/components/sections/OpinionsSection.astro";
@@ -19,6 +20,7 @@ export enum sectionTemplates {
   CONTACT = "contact",
   DISCLAIMER = "disclaimer",
   FLOWER = "flowerSection",
+  FORMATIONS = "formations",
   HERO = "hero",
   INTRODUCTION = "introduction",
   OPINIONS = "opinions",
@@ -35,6 +37,7 @@ export const sectionComponents = {
   [sectionTemplates.COURSES]: CoursesSection,
   [sectionTemplates.DISCLAIMER]: DisclaimerSection,
   [sectionTemplates.FLOWER]: FlowerSection,
+  [sectionTemplates.FORMATIONS]: FormationsSection,
   [sectionTemplates.HERO]: Hero,
   [sectionTemplates.INTRODUCTION]: IntroductionSection,
   [sectionTemplates.OPINIONS]: OpinionsSection,

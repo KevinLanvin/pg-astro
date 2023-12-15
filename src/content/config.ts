@@ -92,6 +92,16 @@ const coursesCollection = defineCollection({
   }),
 });
 
+const formationsCollection = defineCollection({
+  type: "content",
+  schema: z.object({
+    title: z.string(),
+    date: z.string(),
+    image: z.string(),
+    order: z.number(),
+  }),
+});
+
 export const collections = {
   header: headerCollection,
   pages: pageCollection,
@@ -102,4 +112,5 @@ export const collections = {
   opinions: opinionsCollection,
   prices: pricesCollection,
   courses: coursesCollection,
+  formations: formationsCollection,
 };

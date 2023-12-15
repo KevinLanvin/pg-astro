@@ -61,5 +61,7 @@ pageContent:
         link: src/content/pages/index.md
         image: /images/description.jpg
     _template: cards
+  - title: Mes formations
+    _template: formations
 ---
 

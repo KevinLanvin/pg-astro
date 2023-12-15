@@ -1,0 +1,149 @@
+---
+import { getCollection } from "astro:content";
+import Icon from "../Icon.astro";
+const { title } = Astro.props;
+
+const formations = (await getCollection("formations"))
+  .map((formation) => formation.data)
+  .sort((f1, f2) => f1.order - f2.order);
+---
+
+<script
+  src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"
+></script>
+
+<section class="formations">
+  <h2>{title}</h2>
+  <div class="formations__swiper-wrapper">
+    <swiper-container id="formations-swiper">
+      {
+        formations.map((formation) => (
+          <swiper-slide>
+            <div class="formations__formation">
+              <img
+                src={formation.image}
+                alt={`Icone de la formation ${formation.title}`}
+                class="formations__image"
+              />
+              <p class="formations__text">
+                {formation.title}
+                <br />
+                {formation.date}
+              </p>
+              <div class="formations__horizontal-line" />
+              <div class="formations__dot" />
+            </div>
+          </swiper-slide>
+        ))
+      }
+    </swiper-container>
+    <div class="swiper-button-prev">
+      <Icon name="arrow" class="arrow" />
+    </div>
+    <div class="swiper-button-next">
+      <Icon name="arrow" class="arrow" />
+    </div>
+  </div>
+</section>
+
+<script>
+  const swiperEl = document.getElementById("formations-swiper");
+  const swiperParams = {
+    slidesPerView: 1,
+    navigation: {
+      enabled: true,
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      1150: {
+        slidesPerView: 4,
+      },
+    },
+  };
+  Object.assign(swiperEl, swiperParams);
+  swiperEl.initialize();
+</script>
+
+<style lang="scss">
+  @import "../../styles/_vars.scss";
+  #formations-swiper {
+    width: calc(100% - 4rem);
+    margin: auto;
+  }
+
+  .formations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $gutter-large;
+    &__formation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: $gutter-large;
+      position: relative;
+      padding: 0 $gutter;
+    }
+    &__image {
+      width: 5rem;
+      height: 5rem;
+      object-fit: contain;
+    }
+    &__text {
+      text-align: center;
+      line-height: 1.2em;
+    }
+    &__horizontal-line {
+      position: absolute;
+      top: 6.5rem;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: $color-main;
+      z-index: -1;
+    }
+    &__dot {
+      position: absolute;
+      top: 6.5rem;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 0.8em;
+      height: 0.8em;
+      border-radius: 0.5em;
+      background-color: $color-button;
+    }
+    &__swiper-wrapper {
+      position: relative;
+      width: 100%;
+    }
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    position: absolute;
+    top: 5.5rem;
+    cursor: pointer;
+    :global(.arrow) {
+      width: 2rem;
+      height: 2rem;
+    }
+    :global(svg) {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  :global(.swiper-button-disabled) {
+    opacity: 0.2;
+    cursor: not-allowed !important;
+  }
+
+  .swiper-button-next {
+    right: 0;
+  }
+  .swiper-button-prev {
+    left: 0;
+    transform: rotate(180deg);
+  }
+</style>
