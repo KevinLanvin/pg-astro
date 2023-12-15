@@ -4,26 +4,26 @@ import { getFileSlug } from "../../utils/fileSlug";
 
 const { title } = Astro.props;
 const services = (await getCollection("services")).map(
-  (service) => service.data
+  (service) => service.data,
 );
 const links = await getEntries(
   services.map((service) => ({
     collection: "pages",
     slug: getFileSlug(service.link),
-  }))
+  })),
 );
 ---
 
-<section class='services'>
+<section class="services">
   <h2>{title}</h2>
-  <div class='servicesGrid'>
+  <div class="servicesGrid">
     {
       services.map((service, index) => (
         <a
-          class='service'
+          class="service"
           href={links[index]?.slug === "index" ? "/" : links[index]?.slug}
         >
-          <div class='service__image'>
+          <div class="service__image">
             <img src={service.image} alt={service.imageAlt} />
           </div>
           <h3>{service.title}</h3>
@@ -33,7 +33,7 @@ const links = await getEntries(
   </div>
 </section>
 
-<style lang='scss'>
+<style lang="scss">
   @import "../../styles/_vars.scss";
   .services {
     h2 {
@@ -46,7 +46,7 @@ const links = await getEntries(
     width: 100%;
     display: grid;
     gap: $gutter;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 
   .service {

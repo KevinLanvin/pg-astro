@@ -43,7 +43,7 @@ const courses = await getCollection("courses");
     &__cards {
       display: grid;
       width: 100%;
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: $gutter;
     }
     &__text {
@@ -65,12 +65,6 @@ const courses = await getCollection("courses");
     }
     &__price {
       font-size: 2rem;
-    }
-  }
-
-  @media (max-width: $breakpoint) {
-    .courses__cards {
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
   }
 </style>
