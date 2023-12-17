@@ -1,10 +1,10 @@
-import { sectionTemplates } from "~/utils/sectionComponents";
+import { sectionTemplates } from "../../utils/sectionComponents";
 import { z } from "astro:content";
 
 const contactSectionType = z.object({
+  _template: z.literal(sectionTemplates.CONTACT),
   title: z.string(),
   image: z.string(),
-  _template: z.literal(sectionTemplates.CONTACT),
 });
 
 export default contactSectionType;

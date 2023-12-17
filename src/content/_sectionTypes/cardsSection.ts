@@ -1,7 +1,8 @@
-import { sectionTemplates } from "~/utils/sectionComponents";
+import { sectionTemplates } from "../../utils/sectionComponents";
 import { z } from "astro:content";
 
 const cardsSectionType = z.object({
+  _template: z.literal(sectionTemplates.CARDS),
   cards: z.array(
     z.object({
       title: z.string(),
@@ -12,7 +13,6 @@ const cardsSectionType = z.object({
       image: z.string(),
     }),
   ),
-  _template: z.literal(sectionTemplates.CARDS),
 });
 
 export default cardsSectionType;

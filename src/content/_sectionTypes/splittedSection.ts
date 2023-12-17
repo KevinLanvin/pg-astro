@@ -1,7 +1,8 @@
-import { sectionTemplates } from "~/utils/sectionComponents";
+import { sectionTemplates } from "../../utils/sectionComponents";
 import { z } from "astro:content";
 
 const splittedSectionType = z.object({
+  _template: z.literal(sectionTemplates.SPLITTED),
   imageSource: z.string(),
   title: z.string(),
   paragraph: z.string(),
@@ -13,7 +14,6 @@ const splittedSectionType = z.object({
   hasFlower: z.boolean().optional(),
   altColor: z.boolean().optional(),
   roundedImage: z.boolean().optional(),
-  _template: z.literal(sectionTemplates.SPLITTED),
 });
 
 export default splittedSectionType;
