@@ -1,8 +1,8 @@
 ---
 import { getEntry } from "astro:content";
-import InstagramVioletIcon from "src/icons/InstagramVioletIcon.astro";
-import LinkedinVioletIcon from "src/icons/LinkedinVioletIcon.astro";
-import FacebookVioletIcon from "src/icons/FacebookVioletIcon.astro";
+import InstagramVioletIcon from "../../icons/InstagramVioletIcon.astro";
+import LinkedinVioletIcon from "../../icons/LinkedinVioletIcon.astro";
+import FacebookVioletIcon from "../../icons/FacebookVioletIcon.astro";
 const { data: contact } = await getEntry("contact", "contact");
 const { data: social } = await getEntry("socialMedia", "socialmedia");
 const { title, image } = Astro.props;
