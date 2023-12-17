@@ -1,11 +1,7 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "baseUrl": "/home/kevin/projects/pauline-gorlier",
-    "paths": {
-      "~/*": ["src/*"],
-      "@layouts/*": ["src/layouts/*"]
-    }
+    "baseUrl": "/home/kevin/projects/pauline-gorlier"
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.astro"]
 }
