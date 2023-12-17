@@ -1,4 +1,4 @@
-import { sectionTemplates } from "@src/utils/sectionComponents";
+import { sectionTemplates } from "~/utils/sectionComponents";
 import { z } from "astro:content";
 
 const heroSectionType = z.object({

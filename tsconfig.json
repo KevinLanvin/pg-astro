@@ -3,11 +3,7 @@
   "compilerOptions": {
     "baseUrl": "/home/kevin/projects/pauline-gorlier",
     "paths": {
-      "@src/*": ["src/*"],
-      "@content/*": ["src/content/*"],
-      "@components/*": ["src/components/*"],
-      "@pages/*": ["src/pages/*"],
-      "@utils/*": ["src/utils/*"],
+      "~/*": ["src/*"],
       "@layouts/*": ["src/layouts/*"]
     }
   },

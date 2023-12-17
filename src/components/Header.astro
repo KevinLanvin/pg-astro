@@ -2,8 +2,8 @@
 import { getEntry } from "astro:content";
 const { data: header } = await getEntry("header", "header");
 const { data: contact } = await getEntry("contact", "contact");
-import Topbar from "@components/Topbar.astro";
-import Navbar from "@components/Navbar.astro";
+import Topbar from "~/components/Topbar.astro";
+import Navbar from "~/components/Navbar.astro";
 const { currentPageTitle } = Astro.props;
 ---
 

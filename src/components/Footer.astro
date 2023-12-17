@@ -1,9 +1,9 @@
 ---
 import { getEntry } from "astro:content";
 import Icon from "./Icon.astro";
-import InstagramIcon from "@src/icons/InstagramIcon.astro";
-import LinkedinIcon from "@src/icons/LinkedinIcon.astro";
-import FacebookIcon from "@src/icons/FacebookIcon.astro";
+import InstagramIcon from "~/icons/InstagramIcon.astro";
+import LinkedinIcon from "~/icons/LinkedinIcon.astro";
+import FacebookIcon from "~/icons/FacebookIcon.astro";
 
 const { data: social } = await getEntry("socialMedia", "socialmedia");
 ---
