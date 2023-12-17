@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import Icon from "../Icon.astro";
+import ArrowIcon from "@src/icons/ArrowIcon.astro";
 const { title } = Astro.props;
 
 const formations = (await getCollection("formations"))
@@ -38,10 +38,10 @@ const formations = (await getCollection("formations"))
       }
     </swiper-container>
     <div class="swiper-button-prev">
-      <Icon name="arrow" class="arrow" />
+      <ArrowIcon class="arrow" />
     </div>
     <div class="swiper-button-next">
-      <Icon name="arrow" class="arrow" />
+      <ArrowIcon class="arrow" />
     </div>
   </div>
 </section>

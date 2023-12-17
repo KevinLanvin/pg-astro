@@ -1,28 +1,28 @@
 ---
+import QuoteIcon from "@src/icons/QuoteIcon.astro";
 import { getCollection } from "astro:content";
-import Icon from "../Icon.astro";
 
 const { title, background } = Astro.props;
 
 const opinions = (await getCollection("opinions")).map(
-  (opinion) => opinion.data
+  (opinion) => opinion.data,
 );
 ---
 
 <script
-  src='https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js'
+  src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"
 ></script>
 
-<section class='opinions'>
-  <div class='opinions__text'>
+<section class="opinions">
+  <div class="opinions__text">
     <h2>
       {title}
     </h2>
-    <swiper-container id='opinions-swiper' class='opinions__carousel'>
+    <swiper-container id="opinions-swiper" class="opinions__carousel">
       {
         opinions.map((opinion) => (
           <swiper-slide>
-            <p class='opinions__paragraph'>
+            <p class="opinions__paragraph">
               {opinion.opinion}
               <br />
               {opinion.authorName} - {opinion.authorAge}
@@ -31,8 +31,8 @@ const opinions = (await getCollection("opinions")).map(
         ))
       }
     </swiper-container>
-    <div class='swiper-pagination'></div>
-    <Icon name='quote' class='opinions__quote' />
+    <div class="swiper-pagination"></div>
+    <QuoteIcon class="opinions__quote" />
   </div>
 </section>
 
@@ -61,7 +61,7 @@ const opinions = (await getCollection("opinions")).map(
   swiperEl.initialize();
 </script>
 
-<style lang='scss' define:vars={{ background: `url(${background})` }}>
+<style lang="scss" define:vars={{ background: `url(${background})` }}>
   @import "../../styles/_vars";
 
   .opinions {

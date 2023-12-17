@@ -41,6 +41,11 @@ const {
     display: flex;
     flex-direction: column;
     gap: $gutter-large;
-    margin-top: $gutter-large;
+    overflow-x: hidden;
+  }
+  @media (max-width: $breakpoint) {
+    main {
+      margin-top: 0;
+    }
   }
 </style>

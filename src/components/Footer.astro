@@ -1,6 +1,9 @@
 ---
 import { getEntry } from "astro:content";
 import Icon from "./Icon.astro";
+import InstagramIcon from "@src/icons/InstagramIcon.astro";
+import LinkedinIcon from "@src/icons/LinkedinIcon.astro";
+import FacebookIcon from "@src/icons/FacebookIcon.astro";
 
 const { data: social } = await getEntry("socialMedia", "socialmedia");
 ---
@@ -13,13 +16,13 @@ const { data: social } = await getEntry("socialMedia", "socialmedia");
     <a href="/contact" class="footer__link">Contact</a>
     <div class="footer__social">
       <a href={social.instagram} target="_blank" rel="noopener noreferrer">
-        <Icon name="instagram" class="footer__icon" />
+        <InstagramIcon class="footer__icon" />
       </a>
       <a href={social.linkedin} target="_blank" rel="noopener noreferrer">
-        <Icon name="linkedin" class="footer__icon" />
+        <LinkedinIcon class="footer__icon" />
       </a>
       <a href={social.facebook} target="_blank" rel="noopener noreferrer">
-        <Icon name="facebook" class="footer__icon" />
+        <FacebookIcon class="footer__icon" />
       </a>
     </div>
     <a href="/mentions-legales" class="footer__link">Mentions Légales</a>

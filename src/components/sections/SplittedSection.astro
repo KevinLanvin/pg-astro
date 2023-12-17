@@ -1,7 +1,7 @@
 ---
+import FlowerIcon from "@src/icons/FlowerIcon.astro";
 import BlockQuote from "../BlockQuote.astro";
 import Button from "../Button.astro";
-import Icon from "../Icon.astro";
 import Markdown from "../Markdown.astro";
 
 const {
@@ -50,7 +50,7 @@ const imageClass = `splitted-section__image ${
       <img src={imageSource} alt={imageAlt} />
     </div>
   </div>
-  {hasFlower && <Icon name="flower" class="splitted-section__flower" />}
+  {hasFlower && <FlowerIcon class="splitted-section__flower" />}
 </section>
 
 <style lang="scss">

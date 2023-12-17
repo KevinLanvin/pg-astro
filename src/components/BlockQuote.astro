@@ -1,23 +1,24 @@
 ---
+import QuoteIcon from "@src/icons/QuoteIcon.astro";
 import Icon from "./Icon.astro";
 const { text, bordered } = Astro.props;
 ---
 
-<div class='blockQuote'>
+<div class="blockQuote">
   {text.split(".").map((e: string) => <p>{e}</p>)}
-  <Icon name='quote' class='blockQuote__icon blockQuote__icon--right' />
-  <Icon name='quote' class='blockQuote__icon blockQuote__icon--left' />
+  <QuoteIcon class="blockQuote__icon blockQuote__icon--right" />
+  <QuoteIcon class="blockQuote__icon blockQuote__icon--left" />
   {
     bordered && (
       <>
-        <div class='blockQuote__border blockQuote__border--top' />
-        <div class='blockQuote__border blockQuote__border--bottom' />
+        <div class="blockQuote__border blockQuote__border--top" />
+        <div class="blockQuote__border blockQuote__border--bottom" />
       </>
     )
   }
 </div>
 
-<style lang='scss'>
+<style lang="scss">
   @import "../styles/_vars.scss";
 
   .blockQuote {

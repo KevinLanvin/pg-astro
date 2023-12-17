@@ -1,14 +1,16 @@
 ---
 import { getEntry } from "astro:content";
+import InstagramVioletIcon from "@src/icons/InstagramVioletIcon.astro";
+import LinkedinVioletIcon from "@src/icons/LinkedinVioletIcon.astro";
+import FacebookVioletIcon from "@src/icons/FacebookVioletIcon.astro";
 const { data: contact } = await getEntry("contact", "contact");
 const { data: social } = await getEntry("socialMedia", "socialmedia");
-import Icon from "../Icon.astro";
 const { title, image } = Astro.props;
 ---
 
-<section class='contact-section'>
-  <div class='contact-section__card-wrapper'>
-    <div class='contact-section__card'>
+<section class="contact-section">
+  <div class="contact-section__card-wrapper">
+    <div class="contact-section__card">
       <h2>{title}</h2>
       <p>{contact.tel}</p>
       <p>
@@ -19,38 +21,38 @@ const { title, image } = Astro.props;
         <br />
         {contact.address2}
       </p>
-      <div class='socialLinks'>
+      <div class="socialLinks">
         <a
           href={social.instagram}
-          target='_blank'
-          rel='noopener noreferrer'
-          class='socialLink'
+          target="_blank"
+          rel="noopener noreferrer"
+          class="socialLink"
         >
-          <Icon name='instagram-violet' class='socialIcon' />
+          <InstagramVioletIcon class="socialIcon" />
         </a>
         <a
           href={social.linkedin}
-          target='_blank'
-          rel='noopener noreferrer'
-          class='socialLink'
+          target="_blank"
+          rel="noopener noreferrer"
+          class="socialLink"
         >
-          <Icon name='linkedin-violet' class='socialIcon' />
+          <LinkedinVioletIcon class="socialIcon" />
         </a>
         <a
           href={social.facebook}
-          target='_blank'
-          rel='noopener noreferrer'
-          class='socialLink'
+          target="_blank"
+          rel="noopener noreferrer"
+          class="socialLink"
         >
-          <Icon name='facebook-violet' class='socialIcon' />
+          <FacebookVioletIcon class="socialIcon" />
         </a>
       </div>
     </div>
   </div>
-  <img src={image} alt='Cabinet' class='contact-section__image' />
+  <img src={image} alt="Cabinet" class="contact-section__image" />
 </section>
 
-<style lang='scss'>
+<style lang="scss">
   @import "../../styles/_vars";
 
   .contact-section {

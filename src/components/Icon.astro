@@ -1,8 +1,10 @@
 ---
 const { name, class: iconClass } = Astro.props;
 const { default: innerHTML } = await import(
-  /* @vite-ignore */ `/src/icons/${name}.svg?raw`
+  /* @vite-ignore */ `../icons/${name}.svg?raw`
 );
+const icons = import.meta.glob("../icons/*");
+const icon = icons[`../icons/${name}.svg`];
 ---
 
 <div class={iconClass}>
