@@ -1,6 +1,12 @@
 ---
 title: Consultations
 pageContent:
+  - title: Consultations
+    description: |
+      praticienne en bien etre sur lille
+    _template: introduction
+  - title: Tarifs
+    _template: prices
   - title: déroulement d'une consult
     leftColumn: |
       blablabla
@@ -8,11 +14,7 @@ pageContent:
       blablablablou
     linkLabel: prendre rdv
     _template: columnSection
-  - title: Consultations
-    description: |
-      praticienne en bien etre sur lille
-    _template: introduction
-  - title: Tarifs
-    _template: prices
+  - title: Mes services
+    _template: services
 ---
 
