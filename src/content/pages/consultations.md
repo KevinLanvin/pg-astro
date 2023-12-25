@@ -5,6 +5,7 @@ pageContent:
     description: |
       praticienne en bien etre sur lille
     _template: introduction
-  - _template: prices
+  - title: Tarifs
+    _template: prices
 ---
 
