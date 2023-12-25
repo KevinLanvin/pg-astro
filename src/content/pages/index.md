@@ -2,7 +2,7 @@
 title: Accueil
 pageContent:
   - suptitle: Pauline Gorlier
-    title: Praticienne Bien-être
+    title: 'Kinésiologie, Soins énergétiques, Hypnose'
     buttonLabel: En savoir plus
     background: /images/banner.jpg
     _template: hero
