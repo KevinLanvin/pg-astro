@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  branch: main
+publish_mode: editorial_workflow
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+collections:
+  - label: "Réseaux sociaux"
+    name: "socialMedia"
+    files:
+      - label: "Réseaux sociaux"
+        name: "socialMedia"
+        file: "src/content/socialMediaBis"
+        fields:
+          - {label: "Facebook", name: "facebook", widget: "string"}
+          - {label: "Instagram", name: "instagram", widget: "string"}
+          - {label: "Linkedin", name: "linkedin", widget: "string"}

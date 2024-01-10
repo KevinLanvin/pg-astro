@@ -3,21 +3,19 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "tinacms dev -c 'astro dev'",
+    "dev": "astro dev",
     "start": "astro dev",
-    "build": "tinacms build && astro build",
+    "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "@tinacms/cli": "^1.5.28",
     "astro": "^4.0.4",
     "astro-default-layout": "^2.0.2",
     "remarkable": "^2.0.1",
     "sass": "^1.69.5",
     "slick-carousel": "^1.8.1",
-    "swiper": "^11.0.5",
-    "tinacms": "^1.5.19"
+    "swiper": "^11.0.5"
   },
   "devDependencies": {
     "@types/node": "^20.10.4",
