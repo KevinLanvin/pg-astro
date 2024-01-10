@@ -1,5 +1,5 @@
 ---
-logo: /images/uploads/_mg_9244.jpg
+logo: /images/uploads/LOGO.svg
 pages:
   - page: src/content/pages/consultations.md
   - page: src/content/pages/index.md
