@@ -6,11 +6,11 @@ media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
 collections:
   - label: "Réseaux sociaux"
-    name: "socialMedia"
+    name: "socialMediaBis"
     files:
       - label: "Réseaux sociaux"
         name: "socialMedia"
-        file: "src/content/socialMediaBis"
+        file: "src/content/socialMediaBis/socialMediaBis.md"
         fields:
           - {label: "Facebook", name: "facebook", widget: "string"}
           - {label: "Instagram", name: "instagram", widget: "string"}

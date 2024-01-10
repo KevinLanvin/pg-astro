@@ -8,6 +8,7 @@ import {
   pagesCollection,
   pricesCollection,
   servicesCollection,
+  socialMediaBisCollection,
   socialMediaCollection,
 } from "./collections";
 
@@ -15,15 +16,6 @@ import { defineConfig } from "tinacms";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
-
-const ScreenPlugin = {
-  name: "Example Screen",
-  Component() {
-    return "coucou";
-  },
-  Icon: () => "coucou",
-  layout: "popup",
-};
 
 export default defineConfig({
   token: process.env.TINA_TOKEN, // This should match the value in your .env file
@@ -45,6 +37,7 @@ export default defineConfig({
       disclaimerCollection,
       headerCollection,
       socialMediaCollection,
+      socialMediaBisCollection,
       pagesCollection,
       servicesCollection,
       opinionsCollection,
@@ -52,9 +45,5 @@ export default defineConfig({
       coursesCollection,
       formationsCollection,
     ],
-  },
-  cmsCallback(cms) {
-    cms.plugins.add(ScreenPlugin);
-    return cms;
   },
 });

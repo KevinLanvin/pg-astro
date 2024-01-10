@@ -9,6 +9,7 @@ import Pages from "./pages";
 import Prices from "./prices";
 import Services from "./services";
 import SocialMedia from "./socialMedia";
+import SocialMediaBis from "./socialMediaBis";
 
 export const contactCollection: Collection = Contact;
 export const coursesCollection: Collection = Courses;
@@ -16,6 +17,7 @@ export const pagesCollection: Collection = Pages;
 export const opinionsCollection: Collection = Opinions;
 export const servicesCollection: Collection = Services;
 export const socialMediaCollection: Collection = SocialMedia;
+export const socialMediaBisCollection: Collection = SocialMediaBis;
 export const headerCollection: Collection = Header;
 export const disclaimerCollection: Collection = Disclaimer;
 export const pricesCollection: Collection = Prices;
