@@ -17,6 +17,8 @@ collections:
           - {label: "Linkedin", name: "linkedin", widget: "string"}
   - label: "Menu"
     name: "header"
+    create: false
+    delete: false
     files:
       - label: "Menu"
         name: "header"
@@ -27,3 +29,17 @@ collections:
             widget: "image"
             allow_multiple: false
             choose_url: false
+          - label: "Pages"
+            name: "pages"
+            widget: "relation"
+            collection: "pages"
+            value_field: "{{slug}}"
+            display_fields: ["title"]
+            search_fields: ["title"]
+            multiple: true
+  - label: "Pages"
+    name: "pages"
+    folder: "src/content/pages"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
