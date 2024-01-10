@@ -19,7 +19,7 @@ const pageCollection = defineCollection({
 const headerCollection = defineCollection({
   type: "content",
   schema: z.object({
-    pages: z.array(z.object({ page: z.string() })),
+    pages: z.array(z.string()),
     logo: z.string(),
   }),
 });

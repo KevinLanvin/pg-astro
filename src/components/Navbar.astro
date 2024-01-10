@@ -1,19 +1,18 @@
 ---
 import { getEntries } from "astro:content";
-import { getFileSlug } from "../utils/fileSlug";
 const { pages, logo, currentPageTitle } = Astro.props;
-const entriesRequest = pages.map((p: { page: string }) => ({
+const entriesRequest = pages.map((slug: string) => ({
   collection: "pages",
-  slug: getFileSlug(p.page),
+  slug,
 }));
 const menuPages = await getEntries(entriesRequest);
 ---
 
-<nav class='header__navbar'>
-  <a href='/' id='logo'>
-    <img src={logo} alt='Logo' id='logo' />
+<nav class="header__navbar">
+  <a href="/" id="logo">
+    <img src={logo} alt="Logo" id="logo" />
   </a>
-  <div class='header__desktop'>
+  <div class="header__desktop">
     {
       menuPages.map((menuPage) => {
         return (
@@ -27,15 +26,15 @@ const menuPages = await getEntries(entriesRequest);
       })
     }
   </div>
-  <div class='header__mobile'>
-    <input type='checkbox' id='hamburger-toggle' />
-    <label class='header__hamburger' for='hamburger-toggle'>
+  <div class="header__mobile">
+    <input type="checkbox" id="hamburger-toggle" />
+    <label class="header__hamburger" for="hamburger-toggle">
       <span></span>
       <span></span>
       <span></span>
       <span></span>
     </label>
-    <div id='menuMobile' class='header__mobile-menu hidden'>
+    <div id="menuMobile" class="header__mobile-menu hidden">
       {
         menuPages.map((menuPage) => {
           return (
@@ -59,7 +58,7 @@ const menuPages = await getEntries(entriesRequest);
     ?.addEventListener("change", () => menuMobile?.classList.toggle("hidden"));
 </script>
 
-<style lang='scss'>
+<style lang="scss">
   @import "../styles/_vars.scss";
 
   .header__navbar {
@@ -130,7 +129,9 @@ const menuPages = await getEntries(entriesRequest);
       height: 0.25rem;
       background-color: $color-button;
       border-radius: 0.2rem;
-      transition: transform 0.2s ease, background-color 0.2s ease;
+      transition:
+        transform 0.2s ease,
+        background-color 0.2s ease;
       &:nth-child(1) {
         top: 1;
       }
