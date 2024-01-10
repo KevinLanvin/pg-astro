@@ -1,5 +1,5 @@
 ---
-logo: /images/LOGO.svg
+logo: /images/uploads/_mg_9244.jpg
 pages:
   - page: src/content/pages/consultations.md
   - page: src/content/pages/index.md
@@ -7,4 +7,3 @@ pages:
   - page: src/content/pages/soins-naturels.md
   - page: src/content/pages/services.md
 ---
-
