@@ -10,8 +10,20 @@ collections:
     files:
       - label: "Réseaux sociaux"
         name: "socialMedia"
-        file: "src/content/socialMediaBis/socialMediaBis.md"
+        file: "src/content/socialMedia/socialMedia.md"
         fields:
           - {label: "Facebook", name: "facebook", widget: "string"}
           - {label: "Instagram", name: "instagram", widget: "string"}
           - {label: "Linkedin", name: "linkedin", widget: "string"}
+  - label: "Menu"
+    name: "header"
+    files:
+      - label: "Menu"
+        name: "header"
+        file: "src/content/header/header.md"
+        fields:
+          - label: "Logo"
+            name: "logo"
+            widget: "image"
+            allow_multiple: false
+            choose_url: false
