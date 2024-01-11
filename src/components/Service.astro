@@ -1,0 +1,57 @@
+---
+const { link, image, imageAlt, title } = Astro.props;
+---
+
+<a class="service" href={link}>
+  <div class="service__image">
+    <img src={image} alt={imageAlt} />
+  </div>
+  <h3>{title}</h3>
+</a>
+
+<style lang="scss">
+  @import "../styles/_vars.scss";
+
+  .service {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $gutter-small;
+    &__image {
+      height: 25rem;
+      width: 100%;
+      position: relative;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    h3 {
+      color: $color-grey;
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+    &__image::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: $color-dark;
+      opacity: 0.3;
+      display: none;
+    }
+    &:hover {
+      .service__image::after {
+        display: block;
+      }
+      h3 {
+        color: $color-accent;
+      }
+    }
+  }
+</style>

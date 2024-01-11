@@ -4,11 +4,67 @@ backend:
 publish_mode: editorial_workflow
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
+editor:
+  preview: false
 collections:
+  - label: "Bandeau avertissement"
+    name: "disclaimer"
+    create: false
+    delete: false
+    preview_path: "/"
+    files:
+      - label: "Bandeau avertissement"
+        name: "disclaimer"
+        file: "src/content/disclaimer/disclaimer.md"
+        fields:
+          - {label: "Texte", name: "text", widget: "text"}
+  - label: "Contact"
+    name: "contact"
+    create: false
+    delete: false
+    preview_path: "/"
+    files:
+      - label: "Contact"
+        name: "contact"
+        file: "src/content/contact/contact.md"
+        fields:
+          - {label: "Numéro de téléphone", name: "tel", widget: "string"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Numéro de voie et nom de rue", name: "address1", widget: "string"}
+          - {label: "Code postal et ville", name: "address2", widget: "string"}
+  - label: "Diplomes"
+    name: "formations"
+    create: true
+    preview_path: "/"
+    folder: "src/content/formations"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Date d'obtention", name: "date", widget: "string"}
+      - {label: "Image", name: "image", widget: "image", allow_multiple: false, choose_url: false}
+      - {label: "Ordre d'apparition dans le carousel", name: "order", widget: "number"}
+  - label: "Formations"
+    name: "courses"
+    create: true
+    preview_path: "/"
+    folder: "src/content/courses"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Prix de la formation", name: "price", widget: "string"}
+      - {label: "Texte du bouton", name: "linkLabel", widget: "string", default: "En savoir plus"}
+      - label: "Page correspondante"
+        name: "link"
+        widget: "relation"
+        collection: "pages"
+        value_field: "{{slug}}"
+        display_fields: ["title"]
+        search_fields: ["title"]
+        multiple: false
+      - {label: "Image", name: "image", widget: "image", allow_multiple: false, choose_url: false}
   - label: "Menu"
     name: "header"
     create: false
     delete: false
+    preview_path: "/"
     files:
       - label: "Menu"
         name: "header"
@@ -32,9 +88,12 @@ collections:
     folder: "src/content/pages"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Titre", name: "title", widget: "string"}
   - label: "Réseaux sociaux"
     name: "socialMediaBis"
+    create: false
+    delete: false
+    preview_path: "/"
     files:
       - label: "Réseaux sociaux"
         name: "socialMedia"
@@ -43,3 +102,46 @@ collections:
           - {label: "Facebook", name: "facebook", widget: "string"}
           - {label: "Instagram", name: "instagram", widget: "string"}
           - {label: "Linkedin", name: "linkedin", widget: "string"}
+  - label: "Services"
+    name: "services"
+    folder: "src/content/services"
+    create: true
+    preview_path: "/"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image", allow_multiple: false, choose_url: false}
+      - {label: "Texte alternatif de l'image", name: "imageAlt", widget: "string"}
+      - label: "Page correspondante"
+        name: "link"
+        widget: "relation"
+        collection: "pages"
+        value_field: "{{slug}}"
+        display_fields: ["title"]
+        search_fields: ["title"]
+        multiple: false
+  - label: "Tarifs"
+    name: "prices"
+    folder: "src/content/prices"
+    create: true
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Prix de la consultation", name: "price", widget: "string"}
+      - {label: "Durée de la consultation", name: "duration", widget: "string", required: false}
+      - {label: "Texte du bouton", name: "linkLabel", widget: "string", default: "Prendre RDV"}
+      - label: "Page correspondante"
+        name: "link"
+        widget: "relation"
+        collection: "pages"
+        value_field: "{{slug}}"
+        display_fields: ["title"]
+        search_fields: ["title"]
+        multiple: false
+      - {label: "Image", name: "image", widget: "image", allow_multiple: false, choose_url: false}
+  - label: "Témoignages"
+    name: "opinions"
+    folder: "src/content/opinions"
+    create: true
+    fields:
+      - {label: "Témoignage", name: "opinion", widget: "text"}
+      - {label: "Nom de l'auteur", name: "authorName", widget: "string"}
+      - {label: "Age de l'auteur", name: "authorAge", widget: "number"}

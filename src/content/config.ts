@@ -33,15 +33,6 @@ const socialMediaCollection = defineCollection({
   }),
 });
 
-const socialMediaBisCollection = defineCollection({
-  type: "content",
-  schema: z.object({
-    facebook: z.string(),
-    instagram: z.string(),
-    linkedin: z.string(),
-  }),
-});
-
 const servicesCollection = defineCollection({
   type: "content",
   schema: z.object({
@@ -116,7 +107,6 @@ export const collections = {
   pages: pageCollection,
   services: servicesCollection,
   socialMedia: socialMediaCollection,
-  socialMediaBis: socialMediaBisCollection,
   contact: contactCollection,
   disclaimer: disclaimerCollection,
   opinions: opinionsCollection,

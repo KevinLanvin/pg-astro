@@ -1,16 +1,11 @@
 ---
 import { getCollection, getEntries } from "astro:content";
 import { getFileSlug } from "../../utils/fileSlug";
+import Service from "../Service.astro";
 
 const { title } = Astro.props;
 const services = (await getCollection("services")).map(
   (service) => service.data,
-);
-const links = await getEntries(
-  services.map((service) => ({
-    collection: "pages",
-    slug: getFileSlug(service.link),
-  })),
 );
 ---
 
@@ -19,15 +14,12 @@ const links = await getEntries(
   <div class="servicesGrid">
     {
       services.map((service, index) => (
-        <a
-          class="service"
-          href={links[index]?.slug === "index" ? "/" : links[index]?.slug}
-        >
-          <div class="service__image">
-            <img src={service.image} alt={service.imageAlt} />
-          </div>
-          <h3>{service.title}</h3>
-        </a>
+        <Service
+          link={service.link === "index" ? "/" : service.link}
+          image={service.image}
+          imageAlt={service.imageAlt}
+          title={service.title}
+        />
       ))
     }
   </div>
@@ -47,48 +39,5 @@ const links = await getEntries(
     display: grid;
     gap: $gutter;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
-
-  .service {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: $gutter-small;
-    &__image {
-      height: 25rem;
-      width: 100%;
-      position: relative;
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-    }
-
-    h3 {
-      color: $color-grey;
-      font-size: 1.25rem;
-      font-weight: bold;
-    }
-    &__image::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: $color-dark;
-      opacity: 0.3;
-      display: none;
-    }
-    &:hover {
-      .service__image::after {
-        display: block;
-      }
-      h3 {
-        color: $color-accent;
-      }
-    }
   }
 </style>
