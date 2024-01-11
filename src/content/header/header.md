@@ -4,4 +4,5 @@ pages:
   - index
   - services
   - qui-suis-je
+  - consultations
 ---
