@@ -1,6 +1,6 @@
 ---
 title: Hypnose
-image: /images/tarifs.jpg
+image: /images/uploads/tarifs.jpg
 imageAlt: Champs coucher de soleil
 link: consultations
 ---
