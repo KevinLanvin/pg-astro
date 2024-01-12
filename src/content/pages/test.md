@@ -27,4 +27,9 @@ content:
     title: Toto
     leftColumn: totototototototo
     rightColumn: titititititi
+pageContent:
+  - _template: columnSection
+    title: Coucou
+    leftColumn: coucou
+    rightColumn: coucou
 ---
