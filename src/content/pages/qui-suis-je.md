@@ -1,5 +1,6 @@
 ---
 title: Qui suis-je ?
+url: qui-suis-je
 pageContent:
   - title: Qui suis-je ?
     description: >

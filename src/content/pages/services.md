@@ -1,5 +1,6 @@
 ---
 title: Services
+url: services
 pageContent:
   - title: Mes services
     description: |

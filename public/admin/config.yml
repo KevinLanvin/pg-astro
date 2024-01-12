@@ -87,7 +87,7 @@ collections:
     name: pages
     folder: src/content/pages
     create: true
-    slug: {{fields.url}}
+    slug: "{{fields.url}}"
     fields:
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Url (ex: qui-suis-je)", name: "url", widget: "string"}

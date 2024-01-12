@@ -1,5 +1,6 @@
 ---
 title: Consultations
+url: consultations
 pageContent:
   - title: Consultations
     description: |

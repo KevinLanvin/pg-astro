@@ -1,5 +1,6 @@
 ---
 title: Accueil
+url: "index"
 pageContent:
   - suptitle: Pauline Gorlier
     title: 'Kinésiologie, Soins énergétiques, Hypnose'
