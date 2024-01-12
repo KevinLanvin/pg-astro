@@ -23,4 +23,21 @@ content:
         linkLabel: Bouton
         link: index
         image: /images/uploads/tarifs.jpg
+  - type: columnSection
+    title: Super section
+    leftColumn: >-
+      blabla bla blablabla blabla blabla bla blablabla blabla blabla bla
+      blablabla blabla 
+
+      blabla bla blablabla blabla blabla bla blablabla blabla blabla bla blablabla blabla 
+
+      blabla bla blablabla blabla blabla bla blablabla blabla 
+    rightColumn: >-
+      blabla bla blablabla blabla blabla bla blablabla blabla 
+
+      blabla bla blablabla blabla blabla bla bl
+
+      blabla bla blablabla blabla blabla bla blablabla blabla blabla bla blablabla blabla blabla bla blablabla blabla ablabla blabla blabla bla blablabla blabla 
+    linkLabel: Bouton
+    link: index
 ---
