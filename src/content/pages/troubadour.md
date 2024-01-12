@@ -1,4 +1,4 @@
 ---
-title: Troubadours en vacances
-url: troubadour
+title: Test page
+url: testinou
 ---
