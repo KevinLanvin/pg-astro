@@ -17,7 +17,7 @@ collections:
         name: disclaimer
         file: src/content/disclaimer/disclaimer.md
         fields:
-          - {label: Texte, name: text, widget: text}
+          - {label: Texte, name: text, widget: markdown}
   - label: Contact
     name: contact
     create: false
@@ -92,21 +92,22 @@ collections:
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Url (ex: qui-suis-je)", name: "url", widget: "string"}
       - label: Contenu de la page
-        name: content
+        name: pageContent
         widget: list
+        typeKey: _template
         types:
-          - label: Grille de cartes
+          - label: Section grille de cartes
             name: cards
             widget: object
             fields:
-            - label: cartes
+            - label: Cartes
               name: cards
               widget: list
               summary: "{{fields.title}}"
               fields:
                 - {label: "Titre", name: "title", widget: "string"}
                 - {label: "Sous-titre", name: "subtitle", widget: "string", required: false}
-                - {label: "Contenu", name: "content", widget: "text"}
+                - {label: "Contenu", name: "content", widget: "markdown"}
                 - {label: "Texte du bouton", name: "linkLabel", widget: "string", required: false}
                 - label: Page vers laquelle le bouton redirige
                   name: link
@@ -128,8 +129,8 @@ collections:
             summary: "{{fields.title}}"
             fields:
               - {label: "Titre", name: "title", widget: "string"}
-              - {label: "Colonne de gauche", name: "leftColumn", widget: "text"}
-              - {label: "Colonne de droite", name: "rightColumn", widget: "text"}
+              - {label: "Colonne de gauche", name: "leftColumn", widget: "markdown"}
+              - {label: "Colonne de droite", name: "rightColumn", widget: "markdown"}
               - {label: "Texte du bouton", name: "linkLabel", widget: "string", required: false}
               - label: Page vers laquelle le bouton redirige
                 name: link
@@ -140,6 +141,126 @@ collections:
                 search_fields: ["title"]
                 multiple: false
                 required: false
+          - label: Section Contact
+            name: contact
+            widget: object
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+              - label: Image du cabinet
+                name: image
+                widget: image
+                allow_multiple: false
+                choose_url: false
+          - label: Section des cartes de formations
+            name: courses
+            widget: object
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+          - label: Section d'avertissement
+            name: disclaimer
+            widget: object
+            summary: "Disclaimer"
+          - label: Section avec la fleur
+            name: flowerSection
+            widget: object
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+              - {label: "Paragraphe", name: "title", widget: "markdown"}
+          - label: Section carousel des diplômes
+            name: formations
+            widget: object
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+          - label: Bannière d'accueil
+            name: hero
+            widget: object
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "Sur-titre", name: "suptitle", widget: "string"}
+              - {label: "Titre", name: "title", widget: "string"}
+              - {label: "Texte du bouton", name: "buttonLabel", widget: "string"}
+              - label: Image de fond
+                name: image
+                widget: image
+                allow_multiple: false
+                choose_url: false
+          - label: Section d'introduction (haut de page)
+            name: introduction
+            widget: object
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+              - {label: "Paragraphe", name: "description", widget: "markdown", required: false}
+              - label: Bannière
+                name: banner
+                widget: image
+                allow_multiple: false
+                choose_url: false
+                required: false
+              - {label: "Texte alternatif de la bannière (obligatoire si une bannière est ajoutée)", name: "bannerAlt", widget: "string", required: false}
+              - {label: "Citation", name: "quotation", widget: "markdown", required: false}
+          - label: Section témoignages
+            name: opinions
+            widget: object
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+              - label: Image de fond
+                name: background
+                widget: image
+                allow_multiple: false
+                choose_url: false
+          - label: Section cartes des tarifs
+            name: prices
+            widget: object
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+          - label: Section services
+            name: services
+            widget: object
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+          - label: Section texte et image
+            name: splittedSection
+            widget: object
+            summary: "{{fields.title}}"
+            fields:
+              - label: Image
+                name: imageSource
+                widget: image
+                allow_multiple: false
+                choose_url: false
+              - {label: "Titre", name: "title", widget: "string"}
+              - {label: "Paragraphe", name: "paragraph", widget: "markdown"}
+              - {label: "Citation", name: "quotation", widget: "markdown", required: false}
+              - {label: "Texte du bouton", name: "linkLabel", widget: "string", required: false}
+              - label: Page vers laquelle redirige le bouton
+                name: linkTo
+                widget: relation
+                collection: pages
+                value_field: "{{slug}}"
+                display_fields: ["title"]
+                search_fields: ["title"]
+                multiple: false
+                required: false
+              - {label: "Texte à droite", name: "isTextOnRight", widget: "boolean", required: false, default: false}
+              - {label: "Couleurs alternatives sur le bouton", name: "isButtonAlt", widget: "boolean", required: false, default: false}
+              - {label: "Ajouter une fleur", name: "hasFlower", widget: "boolean", required: false, default: false}
+              - {label: "Couleurs alternatives sur la section", name: "altColor", widget: "boolean", required: false, default: false}
+              - {label: "Arrondir l'image", name: "roundedImage", widget: "boolean", required: false, default: false}
+          - label: Section titre et texte
+            name: text
+            widget: object
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+              - {label: "Paragraphe", name: "paragraph", widget: "markdown"}
   - label: Réseaux sociaux
     name: socialMediaBis
     create: false
@@ -193,6 +314,6 @@ collections:
     folder: src/content/opinions
     create: true
     fields:
-      - {label: "Témoignage", name: "opinion", widget: "text"}
+      - {label: "Témoignage", name: "opinion", widget: "markdown"}
       - {label: "Nom de l'auteur", name: "authorName", widget: "string"}
       - {label: "Age de l'auteur", name: "authorAge", widget: "number"}
