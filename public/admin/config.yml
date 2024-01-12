@@ -7,139 +7,190 @@ public_folder: "/images/uploads"
 editor:
   preview: false
 collections:
-  - label: "Bandeau avertissement"
-    name: "disclaimer"
+  - label: Bandeau avertissement
+    name: disclaimer
     create: false
     delete: false
-    preview_path: "/"
+    preview_path: /
     files:
-      - label: "Bandeau avertissement"
-        name: "disclaimer"
-        file: "src/content/disclaimer/disclaimer.md"
+      - label: Bandeau avertissement
+        name: disclaimer
+        file: src/content/disclaimer/disclaimer.md
         fields:
-          - {label: "Texte", name: "text", widget: "text"}
-  - label: "Contact"
-    name: "contact"
+          - {label: Texte, name: text, widget: text}
+  - label: Contact
+    name: contact
     create: false
     delete: false
-    preview_path: "/"
+    preview_path: /
     files:
-      - label: "Contact"
-        name: "contact"
-        file: "src/content/contact/contact.md"
+      - label: Contact
+        name: contact
+        file: src/content/contact/contact.md
         fields:
           - {label: "Numéro de téléphone", name: "tel", widget: "string"}
           - {label: "Email", name: "email", widget: "string"}
           - {label: "Numéro de voie et nom de rue", name: "address1", widget: "string"}
           - {label: "Code postal et ville", name: "address2", widget: "string"}
-  - label: "Diplomes"
-    name: "formations"
+  - label: Diplomes
+    name: formations
     create: true
-    preview_path: "/"
-    folder: "src/content/formations"
+    preview_path: /
+    folder: src/content/formations
     fields:
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Date d'obtention", name: "date", widget: "string"}
       - {label: "Image", name: "image", widget: "image", allow_multiple: false, choose_url: false}
       - {label: "Ordre d'apparition dans le carousel", name: "order", widget: "number"}
-  - label: "Formations"
-    name: "courses"
+  - label: Formations
+    name: courses
     create: true
-    preview_path: "/"
-    folder: "src/content/courses"
+    preview_path: /
+    folder: src/content/courses
     fields:
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Prix de la formation", name: "price", widget: "string"}
       - {label: "Texte du bouton", name: "linkLabel", widget: "string", default: "En savoir plus"}
-      - label: "Page correspondante"
-        name: "link"
-        widget: "relation"
-        collection: "pages"
+      - label: Page correspondante
+        name: link
+        widget: relation
+        collection: pages
         value_field: "{{slug}}"
         display_fields: ["title"]
         search_fields: ["title"]
         multiple: false
       - {label: "Image", name: "image", widget: "image", allow_multiple: false, choose_url: false}
-  - label: "Menu"
-    name: "header"
+  - label: Menu
+    name: header
     create: false
     delete: false
-    preview_path: "/"
+    preview_path: /
     files:
-      - label: "Menu"
-        name: "header"
-        file: "src/content/header/header.md"
+      - label: Menu
+        name: header
+        file: src/content/header/header.md
         fields:
-          - label: "Logo"
-            name: "logo"
-            widget: "image"
+          - label: Logo
+            name: logo
+            widget: image
             allow_multiple: false
             choose_url: false
-          - label: "Pages"
-            name: "pages"
-            widget: "relation"
-            collection: "pages"
+          - label: Pages
+            name: pages
+            widget: relation
+            collection: pages
             value_field: "{{slug}}"
             display_fields: ["title"]
             search_fields: ["title"]
             multiple: true
-  - label: "Pages"
-    name: "pages"
-    folder: "src/content/pages"
+  - label: Pages
+    name: pages
+    folder: src/content/pages
     create: true
+    identifier_field: url
     fields:
       - {label: "Titre", name: "title", widget: "string"}
-  - label: "Réseaux sociaux"
-    name: "socialMediaBis"
+      - {label: "Url (ex: qui-suis-je)", name: "url", widget: "string"}
+      - label: Contenu de la page
+        name: content
+        widget: list
+        types:
+          - label: Grille de cartes
+            name: cards
+            widget: object
+            fields:
+            - label: cartes
+              name: cards
+              widget: list
+              summary: "{{fields.title}}"
+              fields:
+                - {label: "Titre", name: "title", widget: "string"}
+                - {label: "Sous-titre", name: "subtitle", widget: "string", required: false}
+                - {label: "Contenu", name: "content", widget: "text"}
+                - {label: "Texte du bouton", name: "linkLabel", widget: "string", required: false}
+                - label: Page vers laquelle le bouton redirige
+                  name: link
+                  widget: relation
+                  collection: pages
+                  value_field: "{{slug}}"
+                  display_fields: ["title"]
+                  search_fields: ["title"]
+                  multiple: false
+                  required: false
+                - label: Image de fond
+                  name: image
+                  widget: image
+                  allow_multiple: false
+                  choose_url: false
+          - label: Section à 2 colonnes
+            name: columnSection
+            widget: object
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+              - {label: "Colonne de gauche", name: "leftColumn", widget: "text"}
+              - {label: "Colonne de droite", name: "rightColumn", widget: "text"}
+              - {label: "Texte du bouton", name: "linkLabel", widget: "string", required: false}
+              - label: Page vers laquelle le bouton redirige
+                name: link
+                widget: relation
+                collection: pages
+                value_field: "{{slug}}"
+                display_fields: ["title"]
+                search_fields: ["title"]
+                multiple: false
+                required: false
+  - label: Réseaux sociaux
+    name: socialMediaBis
     create: false
     delete: false
-    preview_path: "/"
+    preview_path: /
     files:
-      - label: "Réseaux sociaux"
-        name: "socialMedia"
-        file: "src/content/socialMedia/socialMedia.md"
+      - label: Réseaux sociaux
+        name: socialMedia
+        file: src/content/socialMedia/socialMedia.md
         fields:
           - {label: "Facebook", name: "facebook", widget: "string"}
           - {label: "Instagram", name: "instagram", widget: "string"}
           - {label: "Linkedin", name: "linkedin", widget: "string"}
-  - label: "Services"
-    name: "services"
-    folder: "src/content/services"
+  - label: Services
+    name: services
+    folder: src/content/services
     create: true
-    preview_path: "/"
+    preview_path: /
     fields:
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image", allow_multiple: false, choose_url: false}
       - {label: "Texte alternatif de l'image", name: "imageAlt", widget: "string"}
-      - label: "Page correspondante"
-        name: "link"
-        widget: "relation"
-        collection: "pages"
+      - label: Page correspondante
+        name: link
+        widget: relation
+        collection: pages
         value_field: "{{slug}}"
         display_fields: ["title"]
         search_fields: ["title"]
         multiple: false
-  - label: "Tarifs"
-    name: "prices"
-    folder: "src/content/prices"
+  - label: Tarifs
+    name: prices
+    folder: src/content/prices
     create: true
     fields:
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Prix de la consultation", name: "price", widget: "string"}
       - {label: "Durée de la consultation", name: "duration", widget: "string", required: false}
       - {label: "Texte du bouton", name: "linkLabel", widget: "string", default: "Prendre RDV"}
-      - label: "Page correspondante"
-        name: "link"
-        widget: "relation"
-        collection: "pages"
+      - label: Page correspondante
+        name: link
+        widget: relation
+        collection: pages
         value_field: "{{slug}}"
         display_fields: ["title"]
         search_fields: ["title"]
         multiple: false
       - {label: "Image", name: "image", widget: "image", allow_multiple: false, choose_url: false}
-  - label: "Témoignages"
-    name: "opinions"
-    folder: "src/content/opinions"
+  - label: Témoignages
+    name: opinions
+    folder: src/content/opinions
     create: true
     fields:
       - {label: "Témoignage", name: "opinion", widget: "text"}
