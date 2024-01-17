@@ -162,13 +162,15 @@ collections:
             name: disclaimer
             widget: object
             summary: "Disclaimer"
+            fields:
+              - {label: "Titre", name: "title", widget: "hidden"}
           - label: Section avec la fleur
             name: flowerSection
             widget: object
             summary: "{{fields.title}}"
             fields:
               - {label: "Titre", name: "title", widget: "string"}
-              - {label: "Paragraphe", name: "title", widget: "markdown"}
+              - {label: "Paragraphe", name: "paragraph", widget: "markdown"}
           - label: Section carousel des diplômes
             name: formations
             widget: object
