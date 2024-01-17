@@ -6,7 +6,7 @@ pageContent:
     suptitle: Sur-titre
     title: Bannière d'accueil
     buttonLabel: Aller plus bas
-    image: /images/uploads/banner.jpg
+    background: /images/uploads/banner.jpg
   - _template: introduction
     title: Section d'introduction (haut de page)
     description: >-
