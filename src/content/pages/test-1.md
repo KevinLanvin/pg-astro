@@ -80,6 +80,7 @@ pageContent:
   - _template: contact
     title: Section Contact
     image: /images/uploads/cabinet.jpg
+  - _template: disclaimer
   - _template: courses
     title: Section des cartes de formations
   - _template: flowerSection
