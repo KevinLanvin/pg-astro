@@ -21,6 +21,7 @@ const menuPages = await getEntries(entriesRequest);
             class={currentPageTitle === menuPage?.data.title ? "active" : ""}
           >
             {menuPage?.data.title}
+            {menuPage.slug}
           </a>
         );
       })
