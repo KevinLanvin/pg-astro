@@ -39,7 +39,7 @@ const menuPages = await getEntries(entriesRequest);
         menuPages.map((menuPage) => {
           return (
             <a
-              href={`/${menuPage?.slug}`}
+              href={`/${menuPage?.slug === "index" ? "" : menuPage.slug}`}
               class={currentPageTitle === menuPage?.data.title ? "active" : ""}
             >
               {menuPage?.data.title}

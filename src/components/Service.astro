@@ -2,7 +2,7 @@
 const { link, image, imageAlt, title } = Astro.props;
 ---
 
-<a class="service" href={link}>
+<a class="service" href={`/${link === "index" ? "" : link}`}>
   <div class="service__image">
     <img src={image} alt={imageAlt} />
   </div>

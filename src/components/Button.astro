@@ -6,7 +6,7 @@ const classes = `button ${alt ? "button--alt" : ""}`;
 <>
   {
     !!link && (
-      <a href={link} class={classes}>
+      <a href={`/${link === "index" ? "" : link}`} class={classes}>
         {name}
       </a>
     )
@@ -31,7 +31,7 @@ const classes = `button ${alt ? "button--alt" : ""}`;
   customElements.define("clickable-div", ClickableDiv);
 </script>
 
-<style lang='scss'>
+<style lang="scss">
   @import "../styles/_vars.scss";
 
   .button {
