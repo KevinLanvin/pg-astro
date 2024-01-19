@@ -6,4 +6,6 @@ entries:
     pages:
       - soins-naturels
       - test
+  - type: page
+    page: index
 ---
