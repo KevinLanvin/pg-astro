@@ -37,10 +37,10 @@ const formations = (await getCollection("formations"))
         ))
       }
     </swiper-container>
-    <div class="swiper-button-prev">
+    <div class="swiper-prev">
       <ArrowIcon class="arrow" />
     </div>
-    <div class="swiper-button-next">
+    <div class="swiper-next">
       <ArrowIcon class="arrow" />
     </div>
   </div>
@@ -52,8 +52,8 @@ const formations = (await getCollection("formations"))
     slidesPerView: 1,
     navigation: {
       enabled: true,
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".swiper-next",
+      prevEl: ".swiper-prev",
     },
     breakpoints: {
       1150: {
@@ -119,15 +119,13 @@ const formations = (await getCollection("formations"))
     }
   }
 
-  .swiper-button-next,
-  .swiper-button-prev {
+  .swiper-next,
+  .swiper-prev {
     position: absolute;
     top: 5.5rem;
+    width: 2rem;
+    height: 2rem;
     cursor: pointer;
-    :global(.arrow) {
-      width: 2rem;
-      height: 2rem;
-    }
     :global(svg) {
       width: 100%;
       height: 100%;
@@ -139,10 +137,10 @@ const formations = (await getCollection("formations"))
     cursor: not-allowed !important;
   }
 
-  .swiper-button-next {
+  .swiper-next {
     right: 0;
   }
-  .swiper-button-prev {
+  .swiper-prev {
     left: 0;
     transform: rotate(180deg);
   }

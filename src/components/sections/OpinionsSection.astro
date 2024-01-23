@@ -56,6 +56,7 @@ const opinions = (await getCollection("opinions")).map(
         <div class=${className}></div>`;
       },
     },
+    uniqueNavElements: false,
   };
   Object.assign(swiperEl, swiperParams);
   swiperEl.initialize();
