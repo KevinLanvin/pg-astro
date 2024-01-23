@@ -18,7 +18,11 @@ const opinions = (await getCollection("opinions")).map(
     <h2>
       {title}
     </h2>
-    <swiper-container id="opinions-swiper" class="opinions__carousel">
+    <swiper-container
+      id="opinions-swiper"
+      class="opinions__carousel"
+      init="false"
+    >
       {
         opinions.map((opinion) => (
           <swiper-slide>
@@ -37,29 +41,31 @@ const opinions = (await getCollection("opinions")).map(
 </section>
 
 <script>
-  // swiper element
-  const swiperEl = document.getElementById("opinions-swiper");
+  window.addEventListener("load", function () {
+    // swiper element
+    const swiperEl = document.getElementById("opinions-swiper");
 
-  // swiper parameters
-  const swiperParams = {
-    speed: 500,
-    autoplay: {
-      pauseOnMouseEnter: true,
-    },
-    navigation: false,
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-      renderBullet: function (index: number, className: string) {
-        return `
-        <div class=${className}></div>`;
+    // swiper parameters
+    const swiperParams = {
+      speed: 500,
+      autoplay: {
+        pauseOnMouseEnter: true,
       },
-    },
-    uniqueNavElements: false,
-  };
-  Object.assign(swiperEl, swiperParams);
-  swiperEl.initialize();
+      navigation: false,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index: number, className: string) {
+          return `
+        <div class=${className}></div>`;
+        },
+      },
+      uniqueNavElements: false,
+    };
+    Object.assign(swiperEl, swiperParams);
+    swiperEl.initialize();
+  });
 </script>
 
 <style lang="scss" define:vars={{ background: `url(${background})` }}>

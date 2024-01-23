@@ -15,7 +15,7 @@ const formations = (await getCollection("formations"))
 <section class="formations">
   <h2>{title}</h2>
   <div class="formations__swiper-wrapper">
-    <swiper-container id="formations-swiper">
+    <swiper-container id="formations-swiper" init="false">
       {
         formations.map((formation) => (
           <swiper-slide>
@@ -46,23 +46,25 @@ const formations = (await getCollection("formations"))
   </div>
 </section>
 
-<script>
-  const swiperEl = document.getElementById("formations-swiper");
-  const swiperParams = {
-    slidesPerView: 1,
-    navigation: {
-      enabled: true,
-      nextEl: ".swiper-next",
-      prevEl: ".swiper-prev",
-    },
-    breakpoints: {
-      1150: {
-        slidesPerView: 4,
+<script defer>
+  window.addEventListener("load", function () {
+    const swiperEl = document.getElementById("formations-swiper");
+    const swiperParams = {
+      slidesPerView: 1,
+      navigation: {
+        enabled: true,
+        nextEl: ".swiper-next",
+        prevEl: ".swiper-prev",
       },
-    },
-  };
-  Object.assign(swiperEl, swiperParams);
-  swiperEl.initialize();
+      breakpoints: {
+        1150: {
+          slidesPerView: 4,
+        },
+      },
+    };
+    Object.assign(swiperEl, swiperParams);
+    swiperEl.initialize();
+  });
 </script>
 
 <style lang="scss">
