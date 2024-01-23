@@ -1,11 +1,20 @@
 ---
-import { getEntries } from "astro:content";
-const { pages, logo, currentPageTitle } = Astro.props;
-const entriesRequest = pages.map((slug: string) => ({
-  collection: "pages",
-  slug,
-}));
-const menuPages = await getEntries(entriesRequest);
+import { getEntry } from "astro:content";
+const { entries, logo, currentPageTitle } = Astro.props;
+const pages = await entries.reduce(async (pagesP, entry) => {
+  const pages = await pagesP;
+  const newPages = {};
+  if (entry.type === "page") {
+    const realPage = await getEntry("pages", entry.page);
+    newPages[entry.page] = realPage;
+  } else {
+    for (const page of entry.pages) {
+      const realPage = await getEntry("pages", page);
+      newPages[page] = realPage;
+    }
+  }
+  return { ...pages, ...newPages };
+}, {});
 ---
 
 <nav class="header__navbar">
@@ -14,15 +23,48 @@ const menuPages = await getEntries(entriesRequest);
   </a>
   <div class="header__desktop">
     {
-      menuPages.map((menuPage) => {
-        return (
-          <a
-            href={`/${menuPage?.slug === "index" ? "" : menuPage.slug}`}
-            class={currentPageTitle === menuPage?.data.title ? "active" : ""}
-          >
-            {menuPage?.data.title}
-          </a>
-        );
+      entries.map((entry) => {
+        if (entry.type === "page")
+          return (
+            <a
+              href={`/${
+                pages[entry.page].slug === "index" ? "" : pages[entry.page].slug
+              }`}
+              class={
+                currentPageTitle === pages[entry.page].data.title
+                  ? "active"
+                  : ""
+              }
+            >
+              {pages[entry.page].data.title}
+            </a>
+          );
+        else
+          return (
+            <div class="submenu">
+              <span>{entry.title}</span>
+              <div class="submenu-content">
+                {entry.pages.map((pageName) => {
+                  return (
+                    <a
+                      href={`/${
+                        pages[pageName].slug === "index"
+                          ? ""
+                          : pages[pageName].slug
+                      }`}
+                      class={
+                        currentPageTitle === pages[pageName].data.title
+                          ? "active"
+                          : ""
+                      }
+                    >
+                      {pages[pageName].data.title}
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+          );
       })
     }
   </div>
@@ -36,15 +78,50 @@ const menuPages = await getEntries(entriesRequest);
     </label>
     <div id="menuMobile" class="header__mobile-menu hidden">
       {
-        menuPages.map((menuPage) => {
-          return (
-            <a
-              href={`/${menuPage?.slug === "index" ? "" : menuPage.slug}`}
-              class={currentPageTitle === menuPage?.data.title ? "active" : ""}
-            >
-              {menuPage?.data.title}
-            </a>
-          );
+        entries.map((entry) => {
+          if (entry.type === "page")
+            return (
+              <a
+                href={`/${
+                  pages[entry.page].slug === "index"
+                    ? ""
+                    : pages[entry.page].slug
+                }`}
+                class={
+                  currentPageTitle === pages[entry.page].data.title
+                    ? "active"
+                    : ""
+                }
+              >
+                {pages[entry.page].data.title}
+              </a>
+            );
+          else
+            return (
+              <div class="submenu">
+                <span>{entry.title}</span>
+                <div class="submenu-content">
+                  {entry.pages.map((pageName) => {
+                    return (
+                      <a
+                        href={`/${
+                          pages[pageName].slug === "index"
+                            ? ""
+                            : pages[pageName].slug
+                        }`}
+                        class={
+                          currentPageTitle === pages[pageName].data.title
+                            ? "active"
+                            : ""
+                        }
+                      >
+                        {pages[pageName].data.title}
+                      </a>
+                    );
+                  })}
+                </div>
+              </div>
+            );
         })
       }
     </div>
@@ -79,7 +156,6 @@ const menuPages = await getEntries(entriesRequest);
       padding: 0.5rem 0;
     }
     span {
-      margin-left: 2em;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -106,10 +182,41 @@ const menuPages = await getEntries(entriesRequest);
   .header__desktop {
     display: flex;
     align-items: center;
-    gap: 2rem;
-    a {
+    gap: 3rem;
+    a,
+    .submenu {
       padding: 1rem 0;
       font-size: 1.2rem;
+      cursor: pointer;
+      position: relative;
+      &:hover .submenu-content {
+        display: flex;
+        align-items: stretch;
+      }
+    }
+    a:hover {
+      color: $color-accent;
+    }
+    .submenu-content {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: auto;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      padding: $gutter-small 0;
+      background-color: $color-white;
+      border-radius: $radius;
+      box-shadow: $shadow-dark-bottom;
+      a {
+        text-align: center;
+        text-wrap: nowrap;
+        padding-left: $gutter;
+        padding-right: $gutter;
+      }
     }
   }
 
@@ -209,8 +316,13 @@ const menuPages = await getEntries(entriesRequest);
           line-height: 1.5rem;
         }
       }
-      .header__sublink {
-        padding: $gutter-extra-small 0 $gutter-extra-small $gutter-small;
+      .submenu-content {
+        padding-left: $gutter-small;
+        padding-top: $gutter-small;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: $gutter-small;
       }
     }
     .header__mobile-menu.hidden {

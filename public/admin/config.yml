@@ -79,16 +79,22 @@ collections:
             name: entries
             widget: list
             types:
-              - label: Pages
-                name: pages
-                widget: relation
-                collection: pages
-                value_field: "{{slug}}"
-                display_fields: ["title"]
-                search_fields: ["title"]
+              - label: Page
+                name: page
+                widget: object
+                summary: "{{fields.page}}"
+                fields:
+                  - label: Page
+                    name: page
+                    widget: relation
+                    collection: pages
+                    value_field: "{{slug}}"
+                    display_fields: ["title"]
+                    search_fields: ["title"]
               - label: Sous-menu
                 name: submenu
                 widget: object
+                summary: "{{fields.title}}"
                 fields:
                   - {label: "Titre", name: "title", widget: "string"}
                   - label: Pages
