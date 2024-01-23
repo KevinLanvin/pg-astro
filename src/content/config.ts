@@ -7,6 +7,7 @@ const pageCollection = defineCollection({
   schema: z.object({
     title: z.string(),
     url: z.string(),
+    description: z.string().optional(),
     pageContent: z.array(
       z.discriminatedUnion(
         "_template",

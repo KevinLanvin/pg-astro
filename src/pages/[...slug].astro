@@ -6,6 +6,7 @@ import {
   sectionComponents,
   sectionTemplates,
 } from "../utils/sectionComponents";
+import PageSeo from "src/components/PageSeo.astro";
 
 export async function getStaticPaths() {
   const pages = await getCollection("pages");
@@ -18,12 +19,12 @@ export async function getStaticPaths() {
 
 const { slug } = Astro.params;
 const {
-  data: { title, pageContent },
+  data: { title, description, pageContent },
 } = Astro.props;
 ---
 
 <Layout title={title}>
-  <title slot="head">{title}</title>
+  <PageSeo slot="head" title={title} description={description} />
   <main>
     {
       pageContent.map((sectionProps: any) => {

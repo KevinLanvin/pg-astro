@@ -1,6 +1,7 @@
 ---
 title: Test
 url: test
+description: Page de test à destination de Pauline
 pageContent:
   - _template: hero
     suptitle: Sur-titre
