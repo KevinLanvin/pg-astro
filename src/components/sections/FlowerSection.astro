@@ -5,8 +5,7 @@ const { title, paragraph } = Astro.props;
 ---
 
 <section class="flowerSection">
-  <FlowerVioletIcon class="flowerSection__flower" />
-
+  <!-- <FlowerVioletIcon class="flowerSection__flower" /> -->
   <div class="flowerSection__text">
     <h2>{title}</h2>
     <Markdown content={paragraph} />
@@ -18,14 +17,28 @@ const { title, paragraph } = Astro.props;
 
   .flowerSection {
     display: flex;
+    align-items: flex-start;
     gap: $gutter-large;
     :global(.flowerSection__flower) {
-      width: 25%;
+      height: 100%;
     }
     &__text {
       display: flex;
       flex-direction: column;
       gap: $gutter;
+      position: relative;
+      padding-left: 20vw;
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 15vw;
+        background-image: url("/icons/flower-violet.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
       h2 {
         position: relative;
         align-self: flex-start;
@@ -43,8 +56,14 @@ const { title, paragraph } = Astro.props;
   }
 
   @media (max-width: $breakpoint) {
-    :global(.flowerSection__flower) {
-      display: none;
+    .flowerSection__text {
+      padding-left: 0;
+      &::before {
+        display: none;
+      }
+      h2::after {
+        display: none;
+      }
     }
   }
 </style>
