@@ -8,4 +8,6 @@ entries:
     pages:
       - soins-naturels
       - test
+  - type: page
+    page: qui-suis-je
 ---
