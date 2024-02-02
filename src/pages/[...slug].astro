@@ -6,7 +6,7 @@ import {
   sectionComponents,
   sectionTemplates,
 } from "../utils/sectionComponents";
-import PageSeo from "src/components/PageSeo.astro";
+import PageSeo from "../components/PageSeo.astro";
 
 export async function getStaticPaths() {
   const pages = await getCollection("pages");
