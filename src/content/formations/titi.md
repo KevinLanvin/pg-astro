@@ -1,7 +1,6 @@
 ---
-title: Titi
-date: '2020'
+title: Formation Ventouses / Moxibustion / Guasha
+date: "2019"
 image: /icons/hypnose.svg
-order: 2020
+order: 2019
 ---
-
