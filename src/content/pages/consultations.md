@@ -3,8 +3,7 @@ title: Consultations
 url: consultations
 pageContent:
   - title: Consultations
-    description: |
-      praticienne en bien etre sur lille
+    description: Praticienne en bien etre sur lille
     _template: introduction
   - title: Tarifs
     _template: prices
@@ -18,4 +17,3 @@ pageContent:
   - title: Mes services
     _template: services
 ---
-
