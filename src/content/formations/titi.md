@@ -1,6 +1,6 @@
 ---
 title: Formation Ventouses / Moxibustion / Guasha
 date: "2019"
-image: /icons/hypnose.svg
+image: /images/uploads/ventouses.svg
 order: 2019
 ---
