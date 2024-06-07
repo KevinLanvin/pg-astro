@@ -1,6 +1,6 @@
 ---
 title: Formation Réflexologie Auriculaire
 date: "2019"
-image: /icons/hypnose.svg
+image: /images/uploads/auriculo.svg
 order: 2019
 ---
