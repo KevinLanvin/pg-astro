@@ -7,4 +7,7 @@ pageContent:
     title: Initiations au Reiki Usui (I, II, III & IV)
   - _template: courses
     title: Développer ses Capacités Extrasensorielles et Spirituelles
+  - _template: services
+    title: Découvrez mes autres services
+  - _template: disclaimer
 ---
