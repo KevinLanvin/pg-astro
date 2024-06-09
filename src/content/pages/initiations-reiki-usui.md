@@ -35,7 +35,7 @@ pageContent:
 
           Tarif 200€
         linkLabel: Contactez-moi
-        link: consultations
+        link: contact
         image: /images/uploads/sean-oulashin-kmn4veeepr8-unsplash.jpg
       - title: Reiki Niveau 2
         subtitle: Prochaine date à venir (1 journée)
@@ -55,7 +55,7 @@ pageContent:
 
           Tarif 250€
         linkLabel: Contactez-moi
-        link: consultations
+        link: contact
         image: /images/uploads/sean-oulashin-kmn4veeepr8-unsplash.jpg
       - title: Reiki niveau 3
         subtitle: Prochaine date à venir (1 journée)
@@ -77,7 +77,7 @@ pageContent:
 
           Tarif : 250€
         linkLabel: Contactez-moi
-        link: consultations
+        link: contact
         image: /images/uploads/sean-oulashin-kmn4veeepr8-unsplash.jpg
       - title: Reiki niveau 4
         subtitle: Prochaine date à venir (1 journée)
@@ -91,4 +91,6 @@ pageContent:
 
           Tarif : 350€
         image: /images/uploads/sean-oulashin-kmn4veeepr8-unsplash.jpg
+        linkLabel: Contactez-moi
+        link: contact
 ---
