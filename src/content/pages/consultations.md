@@ -32,6 +32,7 @@ pageContent:
       technique utilisée et votre besoin, la séance durera entre 1h à 1h30."
     linkLabel: Prendre rendez-vous
     _template: columnSection
+    link: contact
   - title: Mes services
     _template: services
 ---
