@@ -8,4 +8,5 @@ pageContent:
   - _template: opinions
     title: Témoignages
     background: /images/uploads/temoignages.jpg
+  - _template: disclaimer
 ---
