@@ -38,6 +38,7 @@ pageContent:
       consulter pour un besoin particulier ou simplement pour une séance de
       détente et relaxation.
     roundedImage: false
+    linkTo: consultations
     hasFlower: false
     imageSource: /images/uploads/roberta-sorge-uvvvnumw2mq-unsplash.jpg
     title: "Dans quel cas me consulter ? "
@@ -54,7 +55,7 @@ pageContent:
       future.
     roundedImage: false
     linkTo: qui-suis-je
-    hasFlower: false
+    hasFlower: true
     imageSource: /images/uploads/_mg_9580-pp-2.jpg
     title: Qui suis-je ?
     _template: splittedSection
