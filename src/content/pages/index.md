@@ -1,9 +1,11 @@
 ---
 title: Accueil
-url: pauline gorlier praticienne bien-être
+url: pauline gorlier praticienne en thérapies brèves et énergétiques
 pageContent:
   - suptitle: Pauline Gorlier
-    title: Kinésiologie, Soins énergétiques, Hypnose, Energétique chinoise
+    title: "Praticienne en Thérapies brèves et Energétiques,  Spécialisée dans
+      l'anxiété et les chocs émotionnels, Prise en charge psychocorporelle
+      Libération émotionnelle "
     buttonLabel: En savoir plus
     background: /images/banner.jpg
     _template: hero
