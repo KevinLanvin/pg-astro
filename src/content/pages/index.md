@@ -1,11 +1,10 @@
 ---
 title: Accueil
-url: pauline gorlier praticienne en thérapies brèves et énergétiques
+url: pauline gorlier thérapies brèves énergétiques et guidances
+description: ""
 pageContent:
-  - suptitle: Pauline Gorlier
-    title: "Praticienne en Thérapies brèves et Energétiques,  Spécialisée dans
-      l'anxiété et les chocs émotionnels, Prise en charge psychocorporelle
-      Libération émotionnelle "
+  - suptitle: Pauline Gorlier - Spécialisée dans l'anxiété et les chocs émotionnels
+    title: Thérapies brèves & Energétiques - Guidances (à distance et présentiel)
     buttonLabel: En savoir plus
     background: /images/banner.jpg
     _template: hero
@@ -22,12 +21,12 @@ pageContent:
 
       Mon but est d’adopter une approche **holistique**. C’est à dire d’apporter un mieux être au niveau émotionnel, physique et énergétique tout en faisant le lien « corps-esprit ».
     roundedImage: true
-    linkTo: ""
+    linkTo: contact
     hasFlower: false
     imageSource: /images/description.jpg
-    title: Une approche globale
+    title: Libération émotionnelle, transgénérationnelle et karmique
     _template: splittedSection
-    linkLabel: ""
+    linkLabel: Réserver ma séance
     altColor: false
   - title: Mes services
     _template: services
