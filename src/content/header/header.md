@@ -8,11 +8,11 @@ entries:
     pages:
       - soins-naturels
   - type: page
+    page: stages
+  - type: page
     page: consultations
   - type: page
     page: qui-suis-je
-  - type: page
-    page: stages
   - type: page
     page: contact
   - type: page
