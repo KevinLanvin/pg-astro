@@ -12,5 +12,7 @@ entries:
   - type: page
     page: qui-suis-je
   - type: page
+    page: stages
+  - type: page
     page: test
 ---
