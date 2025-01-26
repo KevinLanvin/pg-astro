@@ -31,7 +31,7 @@ pageContent:
       un petit temps pour répondre à vos questions.
 
 
-      Durée moyenne d'une séance : 1h à 2h
+      **Durée d'une séance : de 1h à 2h**
     linkLabel: Prendre Rendez-Vous
     _template: columnSection
     link: contact
