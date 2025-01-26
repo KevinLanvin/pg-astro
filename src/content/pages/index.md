@@ -32,19 +32,19 @@ pageContent:
     _template: services
   - isTextOnRight: true
     isButtonAlt: false
-    paragraph: Adultes comme enfants, mes séances s'adressent à toute personne
+    paragraph: "**Adultes comme enfants**, mes séances s'adressent à toute personne
       souhaitant améliorer son bien-être physique, émotionnel ou énergétique.
       Quel que soit le moment de vie dans lequel vous vous trouvez, une réponse
       adaptée vous sera proposée pour vous accompagner. Vous pouvez donc me
       consulter pour un besoin particulier ou simplement pour une séance de
-      détente et relaxation.
+      détente et relaxation."
     roundedImage: false
     linkTo: consultations
     hasFlower: false
     imageSource: /images/uploads/roberta-sorge-uvvvnumw2mq-unsplash.jpg
     title: "Dans quel cas me consulter ? "
     _template: splittedSection
-    linkLabel: Consultation
+    linkLabel: Connaitre les tarifs
     altColor: false
   - isTextOnRight: false
     isButtonAlt: false
