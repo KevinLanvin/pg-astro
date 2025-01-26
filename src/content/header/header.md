@@ -7,7 +7,10 @@ entries:
     title: Services
     pages:
       - soins-naturels
-      - test
+  - type: page
+    page: consultations
   - type: page
     page: qui-suis-je
+  - type: page
+    page: test
 ---
