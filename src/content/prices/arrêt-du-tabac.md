@@ -1,7 +1,7 @@
 ---
 title: Arrêt du tabac
-price: 70€
-duration: 1h à 1h30
+price: 150€
+duration: 2h
 linkLabel: Prendre RDV
 link: contact
 image: /images/tarifs.jpg
