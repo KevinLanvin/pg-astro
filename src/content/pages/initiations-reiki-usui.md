@@ -94,5 +94,5 @@ pageContent:
         linkLabel: Contactez-moi
         link: contact
   - _template: courses
-    title: Ces stages & initiations pourraient aussi vous intéresser
+    title: Retrouvez tous mes stages et initiations
 ---
