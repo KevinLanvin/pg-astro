@@ -3,14 +3,12 @@ title: Consultations & Tarifs
 url: consultations
 pageContent:
   - title: Des séances en présentiel et à distance
-    description: >-
-      Adultes & enfants, je peux vous recevoir à mon cabinet dans la métropole
-      lilloise ou bien réaliser des séances à distance (valable pour l'hypnose,
-      les soins énergétiques, le nettoyage de mémoires cellulaires et les
-      guidances). 
-
-
-      Mes séances s'adressent à toute personne souhaitant améliorer son bien-être physique, émotionnel ou énergétique. Une réponse adaptée vous sera proposée pour vous accompagner dans votre mieux-être.
+    description: "**Adultes & enfants,** je peux vous recevoir à mon cabinet dans la
+      métropole lilloise ou bien réaliser des séances à distance (valable pour
+      l'hypnose, les soins énergétiques, le nettoyage de mémoires cellulaires et
+      les guidances). Mes séances s'adressent à toute personne souhaitant
+      améliorer son bien-être physique, émotionnel ou énergétique. Une réponse
+      adaptée vous sera proposée pour vous accompagner dans votre mieux-être."
     _template: introduction
   - title: Les Tarifs
     _template: prices
