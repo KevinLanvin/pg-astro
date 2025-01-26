@@ -33,9 +33,9 @@ pageContent:
           Vous apprendrez à vous faire un auto-soin reiki ainsi qu’un soin sur une autre personne.
 
 
-          Tarif 200€
+          #### **Tarif 200€**
         linkLabel: Contactez-moi
-        link: consultations
+        link: contact
         image: /images/uploads/sean-oulashin-kmn4veeepr8-unsplash.jpg
       - title: Reiki Niveau 2
         subtitle: Prochaine date à venir (1 journée)
@@ -53,9 +53,9 @@ pageContent:
           Vous apprendrez à réaliser des soins à distance.
 
 
-          Tarif 250€
+          #### **Tarif 250€**
         linkLabel: Contactez-moi
-        link: consultations
+        link: contact
         image: /images/uploads/sean-oulashin-kmn4veeepr8-unsplash.jpg
       - title: Reiki niveau 3
         subtitle: Prochaine date à venir (1 journée)
@@ -75,9 +75,9 @@ pageContent:
           Enfin, vous apprendrez à faire un soin Reiki sur vos animaux.
 
 
-          Tarif : 250€
+          #### **Tarif : 250€**
         linkLabel: Contactez-moi
-        link: consultations
+        link: contact
         image: /images/uploads/sean-oulashin-kmn4veeepr8-unsplash.jpg
       - title: Reiki niveau 4
         subtitle: Prochaine date à venir (1 journée)
@@ -89,6 +89,10 @@ pageContent:
           Le rituel d’initiation vous sera dévoilé lors de ce niveau et vous pourrez à votre tour enseigner le Reiki à la suite de cette journée. 
 
 
-          Tarif : 350€
+          #### **Tarif : 350€**
         image: /images/uploads/sean-oulashin-kmn4veeepr8-unsplash.jpg
+        linkLabel: Contactez-moi
+        link: contact
+  - _template: courses
+    title: Retrouvez tous mes stages et initiations
 ---
