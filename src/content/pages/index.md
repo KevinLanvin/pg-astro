@@ -1,20 +1,15 @@
 ---
 title: Accueil
-url: pauline gorlier thérapies brèves énergétiques et guidances
+url: pauline-gorlier
 description: ""
 pageContent:
   - suptitle: Pauline Gorlier - Spécialisée dans l'anxiété et les chocs émotionnels
     title: Thérapies brèves & Energétiques - Guidances (à distance et présentiel)
-    heroSubtitle: >
-      Hero subtitle 1
-
-      Line 2
     buttonLabel: En savoir plus
     background: /images/banner.jpg
     _template: hero
   - isTextOnRight: true
-    quotation:
-      Prends soin de ton corps, c’est le seul endroit permanent dans lequel
+    quotation: Prends soin de ton corps, c’est le seul endroit permanent dans lequel
       tu es amené à vivre. Jim Rohn
     isButtonAlt: true
     paragraph: >-
@@ -37,8 +32,7 @@ pageContent:
     _template: services
   - isTextOnRight: true
     isButtonAlt: false
-    paragraph:
-      "**Adultes comme enfants**, mes séances s'adressent à toute personne
+    paragraph: "**Adultes comme enfants**, mes séances s'adressent à toute personne
       souhaitant améliorer son bien-être physique, émotionnel ou énergétique.
       Quel que soit le moment de vie dans lequel vous vous trouvez, une réponse
       adaptée vous sera proposée pour vous accompagner. Vous pouvez donc me
@@ -54,8 +48,7 @@ pageContent:
     altColor: false
   - isTextOnRight: false
     isButtonAlt: false
-    paragraph:
-      Je suis praticienne bien-être dans la métropole Lilloise. C'est avec
+    paragraph: Je suis praticienne bien-être dans la métropole Lilloise. C'est avec
       un bagage en neuropsychologie et en techniques alternatives que je vous
       ouvre les portes de mon cabinet. L'écoute de vos besoins reste primordiale
       dans toutes mes démarches. Ainsi, mes différentes approches vous
