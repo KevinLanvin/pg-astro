@@ -14,5 +14,7 @@ entries:
   - type: page
     page: stages
   - type: page
+    page: contact
+  - type: page
     page: test
 ---
