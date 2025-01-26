@@ -9,5 +9,7 @@ pageContent:
     title: Développer ses Capacités Extrasensorielles et Spirituelles
   - _template: services
     title: Découvrez mes autres services
+  - _template: services
+    title: Découvrez mes autres services
   - _template: disclaimer
 ---
