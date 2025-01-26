@@ -35,6 +35,6 @@ pageContent:
     linkLabel: Prendre Rendez-Vous
     _template: columnSection
     link: contact
-  - title: Mes services
+  - title: Découvrez tous mes services
     _template: services
 ---
