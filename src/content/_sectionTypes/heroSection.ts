@@ -6,7 +6,12 @@ const heroSectionType = z.object({
   suptitle: z.string(),
   title: z.string(),
   heroSubtitle: z.string(),
-  buttonLabel: z.string(),
+  button1Label: z.string(),
+  button1To: z.string().optional(),
+  button1Link: z.string().optional(),
+  button2Label: z.string(),
+  button2To: z.string().optional(),
+  button2Link: z.string().optional(),
   background: z.string(),
 });
 

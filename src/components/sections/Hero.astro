@@ -1,7 +1,19 @@
 ---
 import Markdown from '../Markdown.astro'
+import Button from '../Button.astro'
 
-const { title, background, buttonLabel, suptitle, heroSubtitle } = Astro.props
+const {
+	title,
+	background,
+	button1Label,
+	button1To,
+	button1Link,
+	button2Label,
+	button2To,
+	button2Link,
+	suptitle,
+	heroSubtitle,
+} = Astro.props
 ---
 
 <div class='hero'>
@@ -12,7 +24,28 @@ const { title, background, buttonLabel, suptitle, heroSubtitle } = Astro.props
 	<div class='subtitle'>
 		<Markdown content={heroSubtitle} />
 	</div>
-	<button>{buttonLabel}</button>
+	<div class='buttons'>
+		{
+			(button1To || button1Link) && (
+				<Button
+					name={button1Label}
+					externalLink={button1To}
+					link={button1Link}
+					classes='heroButton'
+				/>
+			)
+		}
+		{
+			(button2To || button2Link) && (
+				<Button
+					name={button2Label}
+					externalLink={button2To}
+					link={button2Link}
+					classes='heroButton'
+				/>
+			)
+		}
+	</div>
 </div>
 
 <style lang='scss' define:vars={{ background: `url(${background})` }}>
@@ -30,6 +63,7 @@ const { title, background, buttonLabel, suptitle, heroSubtitle } = Astro.props
 			display: flex;
 			flex-direction: column;
 			align-items: center;
+			max-width: 65%;
 		}
 		h2 {
 			font-family: 'Raleway';
@@ -40,7 +74,6 @@ const { title, background, buttonLabel, suptitle, heroSubtitle } = Astro.props
 			text-shadow: 2px 2px 12px #000;
 			text-transform: uppercase;
 			letter-spacing: 0.25rem;
-			max-width: 65%;
 		}
 		h1 {
 			text-shadow: 2px 2px 12px #000;
@@ -49,9 +82,14 @@ const { title, background, buttonLabel, suptitle, heroSubtitle } = Astro.props
 			font-weight: 400;
 			font-size: 6rem;
 			text-align: center;
-			max-width: 65%;
 		}
-		button {
+
+		.buttons {
+			display: flex;
+			gap: 1rem;
+			justify-content: center;
+		}
+		:global(.heroButton) {
 			background-color: $color-button;
 			color: $color-white;
 			border: 2px solid $color-button;
@@ -76,12 +114,27 @@ const { title, background, buttonLabel, suptitle, heroSubtitle } = Astro.props
 	@media (max-width: $breakpoint) {
 		.hero {
 			gap: 3rem;
+			.title-container {
+				max-width: 90%;
+			}
 			h1 {
 				font-size: 5rem;
 				max-width: 80%;
 			}
 			h2 {
-				font-size: 1rem;
+				font-size: 1.2rem;
+			}
+			.subtitle {
+				max-width: 90%;
+				:global(p) {
+					font-size: 1.5rem;
+				}
+			}
+			.buttons {
+				flex-direction: column;
+				align-items: center;
+				font-size: 1.2rem;
+				gap: 2rem;
 			}
 		}
 	}
