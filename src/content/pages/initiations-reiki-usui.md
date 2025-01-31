@@ -1,6 +1,6 @@
 ---
 title: Initiations Reiki Usui
-url: Initiations Reiki Usui
+url: initiations-reiki-usui
 pageContent:
   - _template: introduction
     title: Initiation Reiki Usui
