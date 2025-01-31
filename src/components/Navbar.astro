@@ -1,332 +1,332 @@
 ---
-import { getEntry } from "astro:content";
-const { entries, logo, currentPageTitle } = Astro.props;
+import { getEntry } from 'astro:content'
+const { entries, logo, currentPageTitle } = Astro.props
 const pages = await entries.reduce(async (pagesP, entry) => {
-  const pages = await pagesP;
-  const newPages = {};
-  if (entry.type === "page") {
-    const realPage = await getEntry("pages", entry.page);
-    newPages[entry.page] = realPage;
-  } else {
-    for (const page of entry.pages) {
-      const realPage = await getEntry("pages", page);
-      newPages[page] = realPage;
-    }
-  }
-  return { ...pages, ...newPages };
-}, {});
+	const pages = await pagesP
+	const newPages = {}
+	if (entry.type === 'page') {
+		const realPage = await getEntry('pages', entry.page)
+		newPages[entry.page] = realPage
+	} else {
+		for (const page of entry.pages) {
+			const realPage = await getEntry('pages', page)
+			newPages[page] = realPage
+		}
+	}
+	return { ...pages, ...newPages }
+}, {})
 ---
 
-<nav class="header__navbar">
-  <a href="/" id="logo">
-    <img src={logo} alt="Logo" id="logo" />
-  </a>
-  <div class="header__desktop">
-    {
-      entries.map((entry) => {
-        if (entry.type === "page")
-          return (
-            <a
-              href={`/${
-                pages[entry.page].slug === "index" ? "" : pages[entry.page].slug
-              }`}
-              class={
-                currentPageTitle === pages[entry.page].data.title
-                  ? "active"
-                  : ""
-              }
-            >
-              {pages[entry.page].data.title}
-            </a>
-          );
-        else
-          return (
-            <div class="submenu">
-              <span>{entry.title}</span>
-              <div class="submenu-content">
-                {entry.pages.map((pageName) => {
-                  return (
-                    <a
-                      href={`/${
-                        pages[pageName].slug === "index"
-                          ? ""
-                          : pages[pageName].slug
-                      }`}
-                      class={
-                        currentPageTitle === pages[pageName].data.title
-                          ? "active"
-                          : ""
-                      }
-                    >
-                      {pages[pageName].data.title}
-                    </a>
-                  );
-                })}
-              </div>
-            </div>
-          );
-      })
-    }
-  </div>
-  <div class="header__mobile">
-    <input type="checkbox" id="hamburger-toggle" />
-    <label class="header__hamburger" for="hamburger-toggle">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </label>
-    <div id="menuMobile" class="header__mobile-menu hidden">
-      {
-        entries.map((entry) => {
-          if (entry.type === "page")
-            return (
-              <a
-                href={`/${
-                  pages[entry.page].slug === "index"
-                    ? ""
-                    : pages[entry.page].slug
-                }`}
-                class={
-                  currentPageTitle === pages[entry.page].data.title
-                    ? "active"
-                    : ""
-                }
-              >
-                {pages[entry.page].data.title}
-              </a>
-            );
-          else
-            return (
-              <div class="submenu">
-                <span>{entry.title}</span>
-                <div class="submenu-content">
-                  {entry.pages.map((pageName) => {
-                    return (
-                      <a
-                        href={`/${
-                          pages[pageName].slug === "index"
-                            ? ""
-                            : pages[pageName].slug
-                        }`}
-                        class={
-                          currentPageTitle === pages[pageName].data.title
-                            ? "active"
-                            : ""
-                        }
-                      >
-                        {pages[pageName].data.title}
-                      </a>
-                    );
-                  })}
-                </div>
-              </div>
-            );
-        })
-      }
-    </div>
-  </div>
+<nav class='header__navbar'>
+	<a href='/' id='logo'>
+		<img src={logo} alt='Logo' id='logo' />
+	</a>
+	<div class='header__desktop'>
+		{
+			entries.map((entry) => {
+				if (entry.type === 'page')
+					return (
+						<a
+							href={`/${
+								pages[entry.page].slug === 'index' ? '' : pages[entry.page].slug
+							}`}
+							class={
+								currentPageTitle === pages[entry.page].data.title
+									? 'active'
+									: ''
+							}
+						>
+							{pages[entry.page].data.title}
+						</a>
+					)
+				else
+					return (
+						<div class='submenu'>
+							<span>{entry.title}</span>
+							<div class='submenu-content'>
+								{entry.pages.map((pageName) => {
+									return (
+										<a
+											href={`/${
+												pages[pageName].slug === 'index'
+													? ''
+													: pages[pageName].slug
+											}`}
+											class={
+												currentPageTitle === pages[pageName].data.title
+													? 'active'
+													: ''
+											}
+										>
+											{pages[pageName].data.title}
+										</a>
+									)
+								})}
+							</div>
+						</div>
+					)
+			})
+		}
+	</div>
+	<div class='header__mobile'>
+		<input type='checkbox' id='hamburger-toggle' />
+		<label class='header__hamburger' for='hamburger-toggle'>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</label>
+		<div id='menuMobile' class='header__mobile-menu hidden'>
+			{
+				entries.map((entry) => {
+					if (entry.type === 'page')
+						return (
+							<a
+								href={`/${
+									pages[entry.page].slug === 'index'
+										? ''
+										: pages[entry.page].slug
+								}`}
+								class={
+									currentPageTitle === pages[entry.page].data.title
+										? 'active'
+										: ''
+								}
+							>
+								{pages[entry.page].data.title}
+							</a>
+						)
+					else
+						return (
+							<div class='submenu'>
+								<span>{entry.title}</span>
+								<div class='submenu-content'>
+									{entry.pages.map((pageName) => {
+										return (
+											<a
+												href={`/${
+													pages[pageName].slug === 'index'
+														? ''
+														: pages[pageName].slug
+												}`}
+												class={
+													currentPageTitle === pages[pageName].data.title
+														? 'active'
+														: ''
+												}
+											>
+												{pages[pageName].data.title}
+											</a>
+										)
+									})}
+								</div>
+							</div>
+						)
+				})
+			}
+		</div>
+	</div>
 </nav>
 
 <script>
-  const menuMobile = document.getElementById("menuMobile");
-  document
-    .getElementById("hamburger-toggle")
-    ?.addEventListener("change", () => menuMobile?.classList.toggle("hidden"));
+	const menuMobile = document.getElementById('menuMobile')
+	document
+		.getElementById('hamburger-toggle')
+		?.addEventListener('change', () => menuMobile?.classList.toggle('hidden'))
 </script>
 
-<style lang="scss">
-  @import "../styles/_vars.scss";
+<style lang='scss'>
+	@import '../styles/_vars.scss';
 
-  .header__navbar {
-    position: sticky;
-    top: 0;
-    z-index: 9999;
-    flex: 1;
-    display: flex;
-    align-items: stretch;
-    justify-content: space-between;
-    padding: 0 $margin;
-    background-color: $color-white;
-    height: 6rem;
-    box-shadow: $shadow-dark;
-    #logo,
-    .logo {
-      height: 100%;
-      padding: 0.5rem 0;
-    }
-    span {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      position: relative;
-      display: flex;
-      .active {
-        color: $color-accent;
-      }
-      a,
-      div {
-        color: $color-grey;
-        height: 3em;
-        display: flex;
-        align-items: center;
-        &:hover {
-          color: $color-accent;
-        }
-        svg {
-          margin-left: 0.5em;
-        }
-      }
-    }
-  }
-  .header__desktop {
-    display: flex;
-    align-items: center;
-    gap: 3rem;
-    a,
-    .submenu {
-      padding: 1rem 0;
-      font-size: 1.2rem;
-      cursor: pointer;
-      position: relative;
-      &:hover .submenu-content {
-        display: flex;
-        align-items: stretch;
-      }
-    }
-    a:hover {
-      color: $color-accent;
-    }
-    .submenu-content {
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      transform: translateX(-50%);
-      width: auto;
-      display: none;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      padding: $gutter-small 0;
-      background-color: $color-white;
-      border-radius: $radius;
-      box-shadow: $shadow-dark-bottom;
-      a {
-        text-align: center;
-        text-wrap: nowrap;
-        padding-left: $gutter;
-        padding-right: $gutter;
-      }
-    }
-  }
+	.header__navbar {
+		position: sticky;
+		top: 0;
+		z-index: 9999;
+		flex: 1;
+		display: flex;
+		align-items: stretch;
+		justify-content: space-between;
+		padding: 0 $margin;
+		background-color: $color-white;
+		height: 6rem;
+		box-shadow: $shadow-dark;
+		#logo,
+		.logo {
+			height: 100%;
+			padding: 0.5rem 0;
+		}
+		span {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			position: relative;
+			display: flex;
+			.active {
+				color: $color-accent;
+			}
+			a,
+			div {
+				color: $color-grey;
+				height: 3em;
+				display: flex;
+				align-items: center;
+				&:hover {
+					color: $color-accent;
+				}
+				svg {
+					margin-left: 0.5em;
+				}
+			}
+		}
+	}
+	.header__desktop {
+		display: flex;
+		align-items: center;
+		gap: 3rem;
+		a,
+		.submenu {
+			padding: 1rem 0;
+			font-size: 1rem;
+			cursor: pointer;
+			position: relative;
+			&:hover .submenu-content {
+				display: flex;
+				align-items: stretch;
+			}
+		}
+		a:hover {
+			color: $color-accent;
+		}
+		.submenu-content {
+			position: absolute;
+			top: 100%;
+			left: 50%;
+			transform: translateX(-50%);
+			width: auto;
+			display: none;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+			padding: $gutter-small 0;
+			background-color: $color-white;
+			border-radius: $radius;
+			box-shadow: $shadow-dark-bottom;
+			a {
+				text-align: center;
+				text-wrap: nowrap;
+				padding-left: $gutter;
+				padding-right: $gutter;
+			}
+		}
+	}
 
-  .header__hamburger {
-    width: 3.6rem;
-    height: 3.25rem;
-    position: relative;
-    cursor: pointer;
-    padding: 1rem;
-    margin-right: -1rem;
-    align-self: center;
-    span {
-      display: block;
-      position: absolute;
-      margin-left: 0;
-      width: 1.6rem;
-      height: 0.25rem;
-      background-color: $color-button;
-      border-radius: 0.2rem;
-      transition:
-        transform 0.2s ease,
-        background-color 0.2s ease;
-      &:nth-child(1) {
-        top: 1;
-      }
-      &:nth-child(2) {
-        top: 1.5rem;
-      }
-      &:nth-child(3) {
-        top: 1.5rem;
-      }
-      &:nth-child(4) {
-        top: 2rem;
-      }
-    }
-  }
+	.header__hamburger {
+		width: 3.6rem;
+		height: 3.25rem;
+		position: relative;
+		cursor: pointer;
+		padding: 1rem;
+		margin-right: -1rem;
+		align-self: center;
+		span {
+			display: block;
+			position: absolute;
+			margin-left: 0;
+			width: 1.6rem;
+			height: 0.25rem;
+			background-color: $color-button;
+			border-radius: 0.2rem;
+			transition:
+				transform 0.2s ease,
+				background-color 0.2s ease;
+			&:nth-child(1) {
+				top: 1;
+			}
+			&:nth-child(2) {
+				top: 1.5rem;
+			}
+			&:nth-child(3) {
+				top: 1.5rem;
+			}
+			&:nth-child(4) {
+				top: 2rem;
+			}
+		}
+	}
 
-  #hamburger-toggle {
-    display: none;
-    &:checked {
-      + .header__hamburger span {
-        background-color: $color-button;
-        &:nth-child(1) {
-          transform: scaleX(0.01) translateY(0.6rem);
-        }
-        &:nth-child(2) {
-          transform: rotate(45deg);
-        }
-        &:nth-child(3) {
-          transform: rotate(-45deg);
-        }
-        &:nth-child(4) {
-          transform: scaleX(0.01) translateY(-0.6rem);
-        }
-      }
-    }
-  }
+	#hamburger-toggle {
+		display: none;
+		&:checked {
+			+ .header__hamburger span {
+				background-color: $color-button;
+				&:nth-child(1) {
+					transform: scaleX(0.01) translateY(0.6rem);
+				}
+				&:nth-child(2) {
+					transform: rotate(45deg);
+				}
+				&:nth-child(3) {
+					transform: rotate(-45deg);
+				}
+				&:nth-child(4) {
+					transform: scaleX(0.01) translateY(-0.6rem);
+				}
+			}
+		}
+	}
 
-  .active {
-    color: $color-accent;
-  }
+	.active {
+		color: $color-accent;
+	}
 
-  .header__mobile {
-    display: none;
-  }
+	.header__mobile {
+		display: none;
+	}
 
-  @media (max-width: $breakpoint) {
-    .header__desktop {
-      display: none;
-    }
+	@media (max-width: $breakpoint) {
+		.header__desktop {
+			display: none;
+		}
 
-    .header__mobile {
-      display: flex;
-      align-items: center;
-    }
+		.header__mobile {
+			display: flex;
+			align-items: center;
+		}
 
-    .header__mobile-menu {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      position: fixed;
-      top: 6rem;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      height: calc(100vh - 6rem);
-      background-color: $color-white;
-      transform: translateX(0);
-      transition: transform 0.3s;
-      padding: $margin;
-      span {
-        margin: 0;
-        & > a {
-          padding: $gutter-small;
-          padding-left: 0;
-          height: auto;
-          line-height: 1.5rem;
-        }
-      }
-      .submenu-content {
-        padding-left: $gutter-small;
-        padding-top: $gutter-small;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        gap: $gutter-small;
-      }
-    }
-    .header__mobile-menu.hidden {
-      transform: translateX(150%);
-    }
-  }
+		.header__mobile-menu {
+			display: flex;
+			flex-direction: column;
+			gap: 2rem;
+			position: fixed;
+			top: 6rem;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			height: calc(100vh - 6rem);
+			background-color: $color-white;
+			transform: translateX(0);
+			transition: transform 0.3s;
+			padding: $margin;
+			span {
+				margin: 0;
+				& > a {
+					padding: $gutter-small;
+					padding-left: 0;
+					height: auto;
+					line-height: 1.5rem;
+				}
+			}
+			.submenu-content {
+				padding-left: $gutter-small;
+				padding-top: $gutter-small;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+				gap: $gutter-small;
+			}
+		}
+		.header__mobile-menu.hidden {
+			transform: translateX(150%);
+		}
+	}
 </style>
