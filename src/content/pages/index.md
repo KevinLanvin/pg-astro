@@ -4,14 +4,14 @@ url: pauline-gorlier
 description: ""
 pageContent:
   - suptitle: Pauline Gorlier
-    title: Thérapies brèves & Energétiques - Guidances (à distance et présentiel)
+    title: Thérapies brèves & Energétiques - Guidances
     buttonLabel: En savoir plus
     background: /images/banner.jpg
     _template: hero
     heroSubtitle: |-
       Spécialisée dans l'anxiété et les chocs émotionnels
 
-      A distance ou au cabinet
+      A distance et en présentiel
   - isTextOnRight: true
     quotation: Prends soin de ton corps, c’est le seul endroit permanent dans lequel
       tu es amené à vivre. Jim Rohn
