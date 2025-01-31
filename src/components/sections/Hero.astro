@@ -28,10 +28,10 @@ const { title, background, buttonLabel, suptitle, heroSubtitle } = Astro.props
 			font-family: 'Raleway';
 			color: $color-white;
 			font-weight: 400;
-			font-size: 1.5rem;
+			font-size: 1rem;
 			text-align: center;
-			letter-spacing: 0.5rem;
 			text-shadow: 2px 2px 12px #000;
+			max-width: 65%;
 		}
 		h1 {
 			text-shadow: 2px 2px 12px #000;
@@ -40,7 +40,7 @@ const { title, background, buttonLabel, suptitle, heroSubtitle } = Astro.props
 			font-weight: 400;
 			font-size: 6rem;
 			text-align: center;
-			max-width: 50%;
+			max-width: 65%;
 		}
 		button {
 			background-color: $color-button;
@@ -54,10 +54,14 @@ const { title, background, buttonLabel, suptitle, heroSubtitle } = Astro.props
 				background-color: initial;
 			}
 		}
-		.subtitle :global(p) {
-			text-align: center;
-			color: $color-white;
-			text-shadow: 2px 2px 12px #000;
+		.subtitle {
+			max-width: 65%;
+			:global(p) {
+				text-align: center;
+				color: $color-white;
+				font-size: 1.2rem;
+				text-shadow: 2px 2px 12px #000;
+			}
 		}
 	}
 	@media (max-width: $breakpoint) {
