@@ -23,15 +23,11 @@ pageContent:
       réaliserai la séance rigoureusement. Mon but est de vous proposer une
       approche globale en travaillant sur différents aspects pour retrouver un
       bon équilibre physique, émotionnel et énergétique.
-    rightColumn: >-
-      Il est très important dans ma pratique de prendre en compte ces différents
-      plans car bien souvent nos émotions, notre corps et nos énergies sont
-      liés. Comme dit Christophe André : "les émotions sont le traits d'union
-      entre le corps et l'esprit". De plus, en fin de séance je prends toujours
-      un petit temps pour répondre à vos questions.
-
-
-      **Durée d'une séance : de 1h à 2h**
+    rightColumn: "Il est très important dans ma pratique de prendre en compte ces
+      différents plans car bien souvent nos émotions, notre corps et nos
+      énergies sont liés. Comme dit Christophe André : \"les émotions sont le
+      traits d'union entre le corps et l'esprit\". De plus, en fin de séance je
+      prends toujours un petit temps pour répondre à vos questions."
     linkLabel: Prendre Rendez-Vous
     _template: columnSection
     link: contact
