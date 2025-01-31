@@ -270,10 +270,41 @@ collections:
                   widget: "markdown",
                 }
               - {
-                  label: "Texte du bouton",
-                  name: "buttonLabel",
+                  label: "Texte du bouton 1",
+                  name: "button1Label",
                   widget: "string",
                 }
+              - label: Au choix - Lien externe
+                name: button1To
+                widget: string
+                required: false
+              - label: Au choix - Lien vers une page du site
+                name: button1Link
+                widget: relation
+                collection: pages
+                value_field: "{{slug}}"
+                display_fields: ["title"]
+                search_fields: ["title"]
+                multiple: false
+                required: false
+              - {
+                  label: "Texte du bouton 2",
+                  name: "button2Label",
+                  widget: "string",
+                }
+              - label: Au choix - Lien externe
+                name: button2To
+                widget: string
+                required: false
+              - label: Au choix - Lien vers une page du site
+                name: button2Link
+                widget: relation
+                collection: pages
+                value_field: "{{slug}}"
+                display_fields: ["title"]
+                search_fields: ["title"]
+                multiple: false
+                required: false
               - label: Image de fond
                 name: background
                 widget: image

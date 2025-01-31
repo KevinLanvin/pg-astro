@@ -1,65 +1,73 @@
 ---
-const { link, onClick, name, alt } = Astro.props;
-const classes = `button ${alt ? "button--alt" : ""}`;
+const { externalLink, link, onClick, name, alt } = Astro.props
+const classes = `button ${alt ? 'button--alt' : ''}`
 ---
 
 <>
-  {
-    !!link && (
-      <a href={`/${link === "index" ? "" : link}`} class={classes}>
-        {name}
-      </a>
-    )
-  }
-  {
-    !!onClick && (
-      <clickable-div data-callback={onClick} class={classes}>
-        {name}
-      </clickable-div>
-    )
-  }
+	{
+		!!externalLink && (
+			<a href={`https://${externalLink}`} class={classes} target='_blank'>
+				{name}
+			</a>
+		)
+	}
+	{
+		!!link && (
+			<a href={`/${link === 'index' ? '' : link}`} class={classes}>
+				{name}
+			</a>
+		)
+	}
+	{
+		!!onClick && (
+			<clickable-div data-callback={onClick} class={classes}>
+				{name}
+			</clickable-div>
+		)
+	}
 </>
 
 <script>
-  class ClickableDiv extends HTMLElement {
-    constructor() {
-      super();
-      const callback = this.dataset.callback;
-      this.addEventListener("click", callback);
-    }
-  }
-  customElements.define("clickable-div", ClickableDiv);
+	class ClickableDiv extends HTMLElement {
+		constructor() {
+			super()
+			const callback = this.dataset.callback
+			this.addEventListener('click', callback)
+		}
+	}
+	customElements.define('clickable-div', ClickableDiv)
 </script>
 
-<style lang="scss">
-  @import "../styles/_vars.scss";
+<style lang='scss'>
+	@import '../styles/_vars.scss';
 
-  .button {
-    padding: 0.5rem 3rem;
-    border-radius: 5rem;
-    border: 2px solid $color-button;
-    background-color: $color-button;
-    color: $color-white;
-    transition: all 0.3s;
-    cursor: pointer;
-    text-align: center;
-    margin: 0 auto;
-    &:hover {
-      border: 2px solid $color-white;
-      background-color: transparent;
-    }
-    &--alt {
-      &:hover {
-        background-color: transparent;
-        color: $color-button;
-        border: 2px solid $color-button;
-      }
-    }
-  }
+	.button {
+		padding: 0.5rem 3rem;
+		border-radius: 5rem;
+		border: 2px solid $color-button;
+		background-color: $color-button;
+		color: $color-white;
+		transition: all 0.3s;
+		cursor: pointer;
+		text-align: center;
+		margin: 0 auto;
+		&:hover {
+			border: 2px solid $color-white;
+			background-color: transparent;
+		}
+		&--alt {
+			&:hover {
+				background-color: transparent;
+				color: $color-button;
+				border: 2px solid $color-button;
+			}
+		}
+	}
 
-  @media (max-width: $breakpoint) {
-    .button {
-      padding: 0.5rem 1rem;
-    }
-  }
+	@media (max-width: $breakpoint) {
+		.button {
+			padding: 1rem 3rem;
+			font-size: 1.2rem;
+		}
+	}
 </style>

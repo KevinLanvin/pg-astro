@@ -10,7 +10,10 @@ pageContent:
       Hero subtitle 1
 
       Line 2
-    buttonLabel: Aller plus bas
+    button1Label: Google
+    button1To: www.google.com
+    button2Label: Aller plus bas
+    button2Link: index
     background: /images/uploads/banner.jpg
   - _template: introduction
     title: Section d'introduction (haut de page)

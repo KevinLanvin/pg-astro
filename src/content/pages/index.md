@@ -5,7 +5,10 @@ description: ""
 pageContent:
   - suptitle: Pauline Gorlier
     title: Thérapies brèves & Energétiques - Guidances
-    buttonLabel: En savoir plus
+    button1Label: Réserver à distance
+    button1To: www.google.com
+    button2Label: Réserver au cabinet
+    button2Link: contact
     background: /images/banner.jpg
     _template: hero
     heroSubtitle: |-
@@ -13,7 +16,8 @@ pageContent:
 
       A distance et en présentiel
   - isTextOnRight: true
-    quotation: Prends soin de ton corps, c’est le seul endroit permanent dans lequel
+    quotation:
+      Prends soin de ton corps, c’est le seul endroit permanent dans lequel
       tu es amené à vivre. Jim Rohn
     isButtonAlt: true
     paragraph: >-
@@ -36,7 +40,8 @@ pageContent:
     _template: services
   - isTextOnRight: true
     isButtonAlt: false
-    paragraph: "**Adultes comme enfants**, mes séances s'adressent à toute personne
+    paragraph:
+      "**Adultes comme enfants**, mes séances s'adressent à toute personne
       souhaitant améliorer son bien-être physique, émotionnel ou énergétique.
       Quel que soit le moment de vie dans lequel vous vous trouvez, une réponse
       adaptée vous sera proposée pour vous accompagner. Vous pouvez donc me
@@ -52,7 +57,8 @@ pageContent:
     altColor: false
   - isTextOnRight: false
     isButtonAlt: false
-    paragraph: Je suis praticienne bien-être dans la métropole Lilloise. C'est avec
+    paragraph:
+      Je suis praticienne bien-être dans la métropole Lilloise. C'est avec
       un bagage en neuropsychologie et en techniques alternatives que je vous
       ouvre les portes de mon cabinet. L'écoute de vos besoins reste primordiale
       dans toutes mes démarches. Ainsi, mes différentes approches vous
