@@ -3,7 +3,11 @@ title: Accueil
 url: "index"
 pageContent:
   - suptitle: Pauline Gorlier
-    title: 'Kinésiologie, Soins énergétiques, Hypnose'
+    title: "Kinésiologie, Soins énergétiques, Hypnose"
+    subtitle: >
+      Sous-titre ligne 1
+
+      Sous-titre ligne 2
     buttonLabel: En savoir plus
     background: /images/banner.jpg
     _template: hero
@@ -22,8 +26,8 @@ pageContent:
     quotation: >-
       Prends soin de ton corps, c’est le seul endroit permanent dans lequel tu
       es amené à vivre. Jim Rohn
-    linkLabel: ''
-    linkTo: ''
+    linkLabel: ""
+    linkTo: ""
     isTextOnRight: true
     isButtonAlt: true
     hasFlower: false
@@ -41,4 +45,3 @@ pageContent:
   - title: Pitet
     _template: disclaimer
 ---
-
