@@ -6,6 +6,10 @@ pageContent:
   - _template: hero
     suptitle: Sur-titre
     title: Bannière d'accueil
+    subtitle: >
+      Sous-titre 1
+
+      Sous-titre 2
     buttonLabel: Aller plus bas
     background: /images/uploads/banner.jpg
   - _template: introduction

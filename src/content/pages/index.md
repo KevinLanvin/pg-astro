@@ -5,6 +5,10 @@ description: ""
 pageContent:
   - suptitle: Pauline Gorlier - Spécialisée dans l'anxiété et les chocs émotionnels
     title: Thérapies brèves & Energétiques - Guidances (à distance et présentiel)
+        subtitle: >
+      Sous-titre ligne 1
+
+      Sous-titre ligne 2
     buttonLabel: En savoir plus
     background: /images/banner.jpg
     _template: hero
@@ -19,7 +23,18 @@ pageContent:
       kinésiologie, hypnose) permettent un travail global sur la personne.
 
 
-      Mon but est d’adopter une approche **holistique**. C’est à dire d’apporter un mieux être au niveau émotionnel, physique et énergétique tout en faisant le lien « corps-esprit ».
+      Mon but est d’adopter une approche **holistique**. C’est à dire d’apporter
+      un mieux être au niveau émotionnel, physique et énergétique tout en
+      faisant le lien « corps-esprit ».
+    quotation: >-
+      Prends soin de ton corps, c’est le seul endroit permanent dans lequel tu
+      es amené à vivre. Jim Rohn
+    linkLabel: ""
+    linkTo: ""
+    isTextOnRight: true
+    isButtonAlt: true
+    hasFlower: false
+    altColor: false
     roundedImage: true
     linkTo: contact
     hasFlower: false
