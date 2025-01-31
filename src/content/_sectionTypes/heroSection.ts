@@ -5,6 +5,7 @@ const heroSectionType = z.object({
   _template: z.literal(sectionTemplates.HERO),
   suptitle: z.string(),
   title: z.string(),
+  heroSubtitle: z.string(),
   buttonLabel: z.string(),
   background: z.string(),
 });

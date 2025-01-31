@@ -1,10 +1,15 @@
 ---
-const { title, background, buttonLabel, suptitle } = Astro.props
+import Markdown from '../Markdown.astro'
+
+const { title, background, buttonLabel, suptitle, heroSubtitle } = Astro.props
 ---
 
 <div class='hero'>
 	<h2>{suptitle}</h2>
 	<h1>{title}</h1>
+	<div class='subtitle'>
+		<Markdown content={heroSubtitle} />
+	</div>
 	<button>{buttonLabel}</button>
 </div>
 
@@ -48,6 +53,11 @@ const { title, background, buttonLabel, suptitle } = Astro.props
 				border: 2px solid $color-white;
 				background-color: initial;
 			}
+		}
+		.subtitle :global(p) {
+			text-align: center;
+			color: $color-white;
+			text-shadow: 2px 2px 12px #000;
 		}
 	}
 	@media (max-width: $breakpoint) {
