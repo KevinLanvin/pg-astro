@@ -1,22 +1,15 @@
 ---
-<<<<<<< HEAD
 import Markdown from '../Markdown.astro'
 
 const { title, background, buttonLabel, suptitle, subtitle } = Astro.props
-=======
-const { title, background, buttonLabel, suptitle } = Astro.props
->>>>>>> b7ed5da (Fix font size)
 ---
 
 <div class='hero'>
 	<h2>{suptitle}</h2>
 	<h1>{title}</h1>
-<<<<<<< HEAD
 	<div class='subtitle'>
 		<Markdown content={subtitle} />
 	</div>
-=======
->>>>>>> b7ed5da (Fix font size)
 	<button>{buttonLabel}</button>
 </div>
 
