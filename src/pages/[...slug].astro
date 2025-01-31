@@ -1,52 +1,50 @@
 ---
-import Layout from "../layouts/MainLayout.astro";
+import Layout from '../layouts/MainLayout.astro'
 
-import { getCollection } from "astro:content";
-import {
-  sectionComponents,
-  sectionTemplates,
-} from "../utils/sectionComponents";
-import PageSeo from "../components/PageSeo.astro";
+import { getCollection } from 'astro:content'
+import { sectionComponents, sectionTemplates } from '../utils/sectionComponents'
+import PageSeo from '../components/PageSeo.astro'
 
 export async function getStaticPaths() {
-  const pages = await getCollection("pages");
-  const pagePaths = pages.map((page) => ({
-    params: { slug: page.slug === "index" ? undefined : page.slug },
-    props: page,
-  }));
-  return pagePaths;
+	const pages = await getCollection('pages')
+	const pagePaths = pages.map((page) => ({
+		params: { slug: page.slug === 'index' ? undefined : page.slug },
+		props: page,
+	}))
+	return pagePaths
 }
 
-const { slug } = Astro.params;
+const { slug } = Astro.params
 const {
-  data: { title, description, pageContent },
-} = Astro.props;
+	data: { title, description, pageContent },
+} = Astro.props
 ---
 
 <Layout title={title}>
-  <PageSeo slot="head" title={title} description={description} />
-  <main>
-    {
-      pageContent.map((sectionProps: any) => {
-        const Component =
-          sectionComponents[sectionProps._template as sectionTemplates];
-        return <Component {...sectionProps} />;
-      })
-    }
-  </main>
+	<PageSeo slot='head' title={title} description={description} />
+	<main>
+		{
+			pageContent.map((sectionProps: any) => {
+				const Component =
+					sectionComponents[sectionProps._template as sectionTemplates]
+				return <Component {...sectionProps} />
+			})
+		}
+	</main>
 </Layout>
 
-<style lang="scss">
-  @import "../styles/_vars.scss";
-  main {
-    display: flex;
-    flex-direction: column;
-    gap: $gutter-large;
-    overflow-x: hidden;
-  }
-  @media (max-width: $breakpoint) {
-    main {
-      margin-top: 0;
-    }
-  }
+<style lang='scss'>
+	@import '../styles/_vars.scss';
+	main {
+		display: flex;
+		flex-direction: column;
+		gap: $gutter-large;
+		overflow-x: hidden;
+		padding-top: 2rem;
+	}
+	@media (max-width: $breakpoint) {
+		main {
+			margin-top: 0;
+		}
+	}
 </style>
