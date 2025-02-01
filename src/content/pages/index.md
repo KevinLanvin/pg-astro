@@ -87,12 +87,12 @@ pageContent:
     linkLabel: En savoir + sur les séances
     altColor: false
   - _template: text
-    title: Formations
+    title: Stages & Initiations
     paragraph: >-
       Vous souhaitez aller plus loin ? 🚀
 
 
-      Découvrez nos **formations variées** en soins énergétiques, développement personnel et bien-être. Des programmes conçus pour vous permettre d’acquérir des compétences précieuses et d’approfondir vos connaissances dans des domaines qui vous passionnent. Que vous soyez novice ou déjà praticien, vous trouverez une formation adaptée à vos besoins.
+      Découvrez nos **stages et des initiations variés** en soins énergétiques, développement personnel et bien-être. Des programmes conçus pour vous permettre d’acquérir des compétences précieuses et d’approfondir vos connaissances dans des domaines qui vous passionnent. Que vous soyez novice ou déjà praticien, vous trouverez une formation adaptée à vos besoins.
   - _template: courses
     title: " "
   - title: Prendre RDV
@@ -119,62 +119,6 @@ pageContent:
   - title: Témoignages
     background: /images/temoignages.jpg
     _template: opinions
-  - isTextOnRight: true
-    isButtonAlt: false
-    paragraph: >-
-      Vous souhaitez aller plus loin ? 🚀 
-
-
-      Développez vos compétences en même temps que votre bien-être !
-
-
-      Découvrez nos **formations variées** en soins énergétiques, développement personnel et bien-être. Des programmes conçus pour vous permettre d’acquérir des compétences précieuses et d’approfondir vos connaissances dans des domaines qui vous passionnent. Que vous soyez novice ou déjà praticien, vous trouverez une formation adaptée à vos besoins.
-    roundedImage: false
-    linkTo: consultations
-    hasFlower: false
-    imageSource: /images/uploads/roberta-sorge-uvvvnumw2mq-unsplash.jpg
-    title: "Dans quel cas me consulter ? "
-    _template: splittedSection
-    linkLabel: Connaitre les tarifs
-    altColor: false
-  - _template: flowerSection
-    paragraph: >-
-      🌟 **Des réponses claires pour avancer sereinement** 🌟
-
-
-      Vous êtes à la croisée des chemins ? Vous ressentez le besoin de trouver des clés pour dépasser un obstacle ou prendre une décision importante ? La **guidance intuitive** est là pour vous éclairer. Grâce à des messages inspirés et des ressentis profonds, je vous aide à :`</br>`
-
-
-      \> 🌱 **Prendre des décisions éclairées**, alignées avec votre vrai chemin de vie
-
-
-      \> 🔮 **Décoder les énergies qui vous entourent**, pour comprendre ce qui vous influence
-
-
-      \> 💡 **Trouver des solutions concrètes** pour avancer avec confiance et sérénité`</br>`
-
-
-      Chaque séance est une rencontre unique, une véritable bouffée d’air frais qui vous permet de clarifier vos pensées et d'apaiser vos doutes. En quelques instants, vous repartirez avec des réponses précieuses et des conseils pratiques pour rétablir votre équilibre.`</br>`
-
-
-      ✨ **Recevez la clarté dont vous avez besoin !** ✨
-    title: Améliorez votre vie avec la Guidance Intuitive
-  - isTextOnRight: false
-    isButtonAlt: false
-    paragraph: Je suis praticienne bien-être dans la métropole Lilloise. C'est avec
-      un bagage en neuropsychologie et en techniques alternatives que je vous
-      ouvre les portes de mon cabinet. L'écoute de vos besoins reste primordiale
-      dans toutes mes démarches. Ainsi, mes différentes approches vous
-      apporteront bien-être et confiance pour appréhender au mieux votre vie
-      future.
-    roundedImage: false
-    linkTo: qui-suis-je
-    hasFlower: true
-    imageSource: /images/uploads/_mg_9580-pp-2.jpg
-    title: Qui suis-je ?
-    _template: splittedSection
-    linkLabel: Voir mon parcours
-    altColor: true
   - title: Pitet
     _template: disclaimer
     paragraph: >-
