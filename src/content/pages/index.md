@@ -162,11 +162,11 @@ pageContent:
       inconscient**. Grâce à une approche personnalisée, je peux vous aider à :
 
 
-      * **Réduire l'envie de fumer** naturellement
+      * **🌸 Réduire l'envie de fumer** naturellement
 
-      * **Modifier les associations émotionnelles** liées au tabac
+      * **🧠 Modifier les associations émotionnelles** liées au tabac
 
-      * Retrouver votre liberté en évitant la frustration et la prise de poids
+      * 💪 Retrouver votre liberté en évitant la frustration et la prise de poids
 
 
       Chaque séance est adaptée à votre parcours pour vous aider à arrêter durablement et en toute sérénité.
