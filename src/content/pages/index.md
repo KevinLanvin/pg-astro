@@ -20,20 +20,22 @@ pageContent:
       tu es amené à vivre. Jim Rohn
     isButtonAlt: true
     paragraph: >-
-      Je vous accompagne, adultes et enfants, dans votre objectif à l’aide de
-      **pratiques naturelles et énergétiques** dans la métropole lilloise. Mes
-      diverses techniques (magnétisme, reiki, énergétique chinoise,
-      kinésiologie, hypnose) permettent un travail global sur la personne.
+      Que vous traversiez une période de stress, d'émotions intenses ou que vous
+      souhaitiez vous libérer de blocages anciens, je vous accompagne, adultes
+      et enfants, dans votre objectif à l’aide de **pratiques naturelles et
+      énergétiques** dans la métropole lilloise ou à distance. Mes diverses
+      techniques (magnétisme, reiki, énergétique chinoise, kinésiologie,
+      hypnose) permettent un travail global sur la personne.
 
 
       Mon but est d’adopter une approche **holistique**. C’est à dire d’apporter un mieux être au niveau émotionnel, physique et énergétique tout en faisant le lien « corps-esprit ».
     roundedImage: true
-    linkTo: contact
+    linkTo: qui-suis-je
     hasFlower: false
     imageSource: /images/description.jpg
     title: Libération émotionnelle, transgénérationnelle et karmique
     _template: splittedSection
-    linkLabel: Réserver ma séance
+    linkLabel: Découvrir qui je suis
     altColor: false
   - title: Mes services
     _template: services
@@ -46,23 +48,22 @@ pageContent:
       Vous êtes à la croisée des chemins ? Vous ressentez le besoin de trouver des clés pour dépasser un obstacle ou prendre une décision importante ? La **guidance intuitive** est là pour vous éclairer. Grâce à des messages inspirés et des ressentis profonds, je vous aide à :
 
 
-      * 🌱 
 
-        **Prendre des décisions éclairées**
 
-        , alignées avec votre vrai chemin de vie
-      * 🔮 
+      \> 🌱 **Prendre des décisions éclairées**, alignées avec votre vrai chemin de vie
 
-        **Décoder les énergies qui vous entourent**
 
-        , pour comprendre ce qui vous influence
-      * 💡 
+      \> 🔮 **Décoder les énergies qui vous entourent**, pour comprendre ce qui vous influence
 
-        **Trouver des solutions concrètes**
 
-         pour avancer avec confiance et sérénité
+      \> 💡 **Trouver des solutions concrètes** pour avancer avec confiance et sérénité
+
+
+
 
       Chaque séance est une rencontre unique, une véritable bouffée d’air frais qui vous permet de clarifier vos pensées et d'apaiser vos doutes. En quelques instants, vous repartirez avec des réponses précieuses et des conseils pratiques pour rétablir votre équilibre.
+
+
 
 
       ✨ **Recevez la clarté dont vous avez besoin !** ✨
@@ -79,14 +80,20 @@ pageContent:
     paragraph: >-
       Se libérer du tabac peut sembler difficile, mais l'hypnose offre une
       **solution efficace** en travaillant directement **avec votre
-      inconscient**. Grâce à une approche personnalisée, vous pouvez : :
+      inconscient**. Grâce à une approche personnalisée, vous pouvez  :
 
 
-      * **Réduire l'envie de fumer** naturellement
 
-      * Modifier les associations émotionnelles liées au tabac
 
-      * Retrouver votre liberté sans frustration ni prise de poids
+      \> **🌸 Réduire l'envie de fumer** naturellement
+
+
+      \> 🧠 Modifier les associations émotionnelles liées au tabac
+
+
+      \> 💪 Retrouver votre liberté sans frustration ni prise de poids
+
+
 
 
       Chaque séance est adaptée à votre parcours pour vous aider à arrêter durablement et en toute sérénité.
@@ -114,6 +121,15 @@ pageContent:
     _template: splittedSection
     linkLabel: Connaitre les tarifs
     altColor: false
+  - _template: text
+    title: Formation - Développez vos compétences en même temps que votre bien-être
+    paragraph: >-
+      Vous souhaitez aller plus loin ? 🚀
+
+
+      Découvrez nos **formations variées** en soins énergétiques, développement personnel et bien-être. Des programmes conçus pour vous permettre d’acquérir des compétences précieuses et d’approfondir vos connaissances dans des domaines qui vous passionnent. Que vous soyez novice ou déjà praticien, vous trouverez une formation adaptée à vos besoins.
+  - _template: courses
+    title: " "
   - isTextOnRight: false
     isButtonAlt: false
     paragraph: Je suis praticienne bien-être dans la métropole Lilloise. C'est avec
