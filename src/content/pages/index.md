@@ -91,10 +91,12 @@ pageContent:
 
       Chaque séance est adaptée à votre parcours pour vous aider à arrêter durablement et en toute sérénité.
     roundedImage: false
+    linkTo: contact
     hasFlower: false
     imageSource: /images/uploads/sean-oulashin-kmn4veeepr8-unsplash.jpg
     title: Arrêt du tabac par hypnose
     _template: splittedSection
+    linkLabel: Découvrir l'hypnose
     altColor: false
   - isTextOnRight: true
     isButtonAlt: false
@@ -154,4 +156,18 @@ pageContent:
       ✨ **Recevez la clarté dont vous avez besoin !** ✨
   - title: Pitet
     _template: disclaimer
+    paragraph: >-
+      Se libérer du tabac peut sembler difficile, mais l'hypnose offre une
+      **solution efficace** en travaillant directement **avec votre
+      inconscient**. Grâce à une approche personnalisée, je peux vous aider à :
+
+
+      * **Réduire l'envie de fumer** naturellement
+
+      * **Modifier les associations émotionnelles** liées au tabac
+
+      * Retrouver votre liberté en évitant la frustration et la prise de poids
+
+
+      Chaque séance est adaptée à votre parcours pour vous aider à arrêter durablement et en toute sérénité.
 ---
