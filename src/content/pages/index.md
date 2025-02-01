@@ -4,20 +4,19 @@ url: pauline-gorlier
 description: ""
 pageContent:
   - suptitle: Pauline Gorlier
-    title: Thérapies brèves & Energétiques - Guidances
-    button1Label: Réserver à distance
-    button1To: www.google.com
-    button2Label: Réserver au cabinet
-    button2Link: contact
     background: /images/banner.jpg
-    _template: hero
     heroSubtitle: |-
       Spécialisée dans l'anxiété et les chocs émotionnels
 
-      A distance et en présentiel
+      En présentiel à Lille ou À distance
+    button2Label: Réserver au cabinet
+    button1Label: Réserver à distance
+    title: Thérapies brèves & Energétiques - Guidances
+    _template: hero
+    button1To: www.google.com
+    button2Link: contact
   - isTextOnRight: true
-    quotation:
-      Prends soin de ton corps, c’est le seul endroit permanent dans lequel
+    quotation: Prends soin de ton corps, c’est le seul endroit permanent dans lequel
       tu es amené à vivre. Jim Rohn
     isButtonAlt: true
     paragraph: >-
@@ -40,8 +39,7 @@ pageContent:
     _template: services
   - isTextOnRight: true
     isButtonAlt: false
-    paragraph:
-      "**Adultes comme enfants**, mes séances s'adressent à toute personne
+    paragraph: "**Adultes comme enfants**, mes séances s'adressent à toute personne
       souhaitant améliorer son bien-être physique, émotionnel ou énergétique.
       Quel que soit le moment de vie dans lequel vous vous trouvez, une réponse
       adaptée vous sera proposée pour vous accompagner. Vous pouvez donc me
@@ -57,8 +55,7 @@ pageContent:
     altColor: false
   - isTextOnRight: false
     isButtonAlt: false
-    paragraph:
-      Je suis praticienne bien-être dans la métropole Lilloise. C'est avec
+    paragraph: Je suis praticienne bien-être dans la métropole Lilloise. C'est avec
       un bagage en neuropsychologie et en techniques alternatives que je vous
       ouvre les portes de mon cabinet. L'écoute de vos besoins reste primordiale
       dans toutes mes démarches. Ainsi, mes différentes approches vous
@@ -80,4 +77,61 @@ pageContent:
     _template: contact
   - title: Pitet
     _template: disclaimer
+  - isTextOnRight: true
+    isButtonAlt: false
+    paragraph: >-
+      🌟 **Des réponses claires pour avancer sereinement** 🌟
+
+
+      Vous êtes à la croisée des chemins ? Vous ressentez le besoin de trouver des clés pour dépasser un obstacle ou prendre une décision importante ? La **guidance intuitive** est là pour vous éclairer. Grâce à des messages inspirés et des ressentis profonds, je vous aide à :
+
+
+      * 🌱 
+
+        **Prendre des décisions éclairées**
+
+        , alignées avec votre vrai chemin de vie
+      * 🔮 
+
+        **Décoder les énergies qui vous entourent**
+
+        , pour comprendre ce qui vous influence
+      * 💡 
+
+        **Trouver des solutions concrètes**
+
+         pour avancer avec confiance et sérénité
+
+      Chaque séance est une rencontre unique, une véritable bouffée d’air frais qui vous permet de clarifier vos pensées et d'apaiser vos doutes. En quelques instants, vous repartirez avec des réponses précieuses et des conseils pratiques pour rétablir votre équilibre.
+
+
+      ✨ **Recevez la clarté dont vous avez besoin !** ✨
+    roundedImage: true
+    hasFlower: false
+    imageSource: /images/uploads/sean-oulashin-kmn4veeepr8-unsplash.jpg
+    title: Améliorez votre vie avec la Guidance Intuitive
+    _template: splittedSection
+    altColor: false
+  - isTextOnRight: false
+    isButtonAlt: false
+    paragraph: >-
+      Se libérer du tabac peut sembler difficile, mais l'hypnose offre une
+      **solution efficace** en travaillant directement **avec votre
+      inconscient**. Grâce à une approche personnalisée, vous pouvez : :
+
+
+      * **Réduire l'envie de fumer** naturellement
+
+      * Modifier les associations émotionnelles liées au tabac
+
+      * Retrouver votre liberté sans frustration ni prise de poids
+
+
+      Chaque séance est adaptée à votre parcours pour vous aider à arrêter durablement et en toute sérénité.
+    roundedImage: false
+    hasFlower: false
+    imageSource: /images/uploads/sean-oulashin-kmn4veeepr8-unsplash.jpg
+    title: Arrêt du tabac par hypnose
+    _template: splittedSection
+    altColor: false
 ---
