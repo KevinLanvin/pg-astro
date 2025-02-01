@@ -124,10 +124,12 @@ pageContent:
   - _template: text
     title: Formation - Développez vos compétences en même temps que votre bien-être
     paragraph: >-
-      Vous souhaitez aller plus loin ? 
+      Vous souhaitez aller plus loin ? 🚀
 
 
       Découvrez nos **formations variées** en soins énergétiques, développement personnel et bien-être. Des programmes conçus pour vous permettre d’acquérir des compétences précieuses et d’approfondir vos connaissances dans des domaines qui vous passionnent. Que vous soyez novice ou déjà praticien, vous trouverez une formation adaptée à vos besoins.
+  - _template: courses
+    title: " "
   - isTextOnRight: false
     isButtonAlt: false
     paragraph: Je suis praticienne bien-être dans la métropole Lilloise. C'est avec
