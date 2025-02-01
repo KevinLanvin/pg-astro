@@ -39,15 +39,12 @@ pageContent:
     altColor: false
   - title: Mes services
     _template: services
-  - isTextOnRight: true
-    isButtonAlt: false
+  - _template: flowerSection
     paragraph: >-
       🌟 **Des réponses claires pour avancer sereinement** 🌟
 
 
-      Vous êtes à la croisée des chemins ? Vous ressentez le besoin de trouver des clés pour dépasser un obstacle ou prendre une décision importante ? La **guidance intuitive** est là pour vous éclairer. Grâce à des messages inspirés et des ressentis profonds, je vous aide à :
-
-
+      Vous êtes à la croisée des chemins ? Vous ressentez le besoin de trouver des clés pour dépasser un obstacle ou prendre une décision importante ? La **guidance intuitive** est là pour vous éclairer. Grâce à des messages inspirés et des ressentis profonds, je vous aide à :`</br>`
 
 
       \> 🌱 **Prendre des décisions éclairées**, alignées avec votre vrai chemin de vie
@@ -56,33 +53,20 @@ pageContent:
       \> 🔮 **Décoder les énergies qui vous entourent**, pour comprendre ce qui vous influence
 
 
-      \> 💡 **Trouver des solutions concrètes** pour avancer avec confiance et sérénité
+      \> 💡 **Trouver des solutions concrètes** pour avancer avec confiance et sérénité`</br>`
 
 
-
-
-      Chaque séance est une rencontre unique, une véritable bouffée d’air frais qui vous permet de clarifier vos pensées et d'apaiser vos doutes. En quelques instants, vous repartirez avec des réponses précieuses et des conseils pratiques pour rétablir votre équilibre.
-
-
+      Chaque séance est une rencontre unique, une véritable bouffée d’air frais qui vous permet de clarifier vos pensées et d'apaiser vos doutes. En quelques instants, vous repartirez avec des réponses précieuses et des conseils pratiques pour rétablir votre équilibre.`</br>`
 
 
       ✨ **Recevez la clarté dont vous avez besoin !** ✨
-    roundedImage: true
-    linkTo: contact
-    hasFlower: false
-    imageSource: /images/uploads/sean-oulashin-kmn4veeepr8-unsplash.jpg
     title: Améliorez votre vie avec la Guidance Intuitive
-    _template: splittedSection
-    linkLabel: Réserver une séance
-    altColor: false
   - isTextOnRight: false
-    isButtonAlt: false
+    isButtonAlt: true
     paragraph: >-
       Se libérer du tabac peut sembler difficile, mais l'hypnose offre une
       **solution efficace** en travaillant directement **avec votre
-      inconscient**. Grâce à une approche personnalisée, vous pouvez  :
-
-
+      inconscient**. Grâce à une approche personnalisée, vous pouvez  :`</br>`
 
 
       \> **🌸 Réduire l'envie de fumer** naturellement
@@ -91,19 +75,17 @@ pageContent:
       \> 🧠 Modifier les associations émotionnelles liées au tabac
 
 
-      \> 💪 Retrouver votre liberté sans frustration ni prise de poids
-
-
+      \> 💪 Retrouver votre liberté sans frustration ni prise de poids`</br>`
 
 
       Chaque séance est adaptée à votre parcours pour vous aider à arrêter durablement et en toute sérénité.
     roundedImage: false
-    linkTo: contact
+    linkTo: consultations
     hasFlower: false
     imageSource: /images/uploads/sean-oulashin-kmn4veeepr8-unsplash.jpg
     title: Arrêt du tabac par hypnose
     _template: splittedSection
-    linkLabel: Découvrir l'hypnose
+    linkLabel: En savoir + sur les séances
     altColor: false
   - isTextOnRight: true
     isButtonAlt: false
