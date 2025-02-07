@@ -1,5 +1,5 @@
 ---
-title: Hypnose Ericksonienne Arret tabac et dépendance au sucre
+title: Hypnose Ericksonienne Arrêt du tabac et dépendance au sucre
 url: hypnose-arret-tabac-et-dependance-au-sucre
 pageContent:
   - _template: introduction
