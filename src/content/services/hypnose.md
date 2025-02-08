@@ -1,6 +1,6 @@
 ---
-title: Hypnose
+title: Hypnose (Arrêt du Tabac)
 image: /images/tarifs.jpg
 imageAlt: Champs coucher de soleil
-link: consultations
+link: hypnose-arret-tabac-et-dependance-au-sucre
 ---
