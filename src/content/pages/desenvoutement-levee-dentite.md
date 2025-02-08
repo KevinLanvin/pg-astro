@@ -1,6 +1,6 @@
 ---
 title: Désenvoutement et levée d'entité
-url: desenvoutement-levee-d'entite
+url: desenvoutement-entite
 pageContent:
   - _template: introduction
     title: Désenvoutement & dégagement d’entités
@@ -21,10 +21,12 @@ pageContent:
 
       Les énergies circulent en permanence tout autour de nous. Il arrive que des énergies étrangères, énergies parasites, entités, entrent dans notre environnement et notre champs énergétique. En effet, lorsque nos vibrations baissent, notre « système immunitaire énergétique » et nos protections énergétiques s’affaiblissent et peuvent laisser la porte ouverte à des entités qui viennent s’accrocher à nous. Toutes les entités ne sont pas malveillantes, cependant, une entité qui reste accrochée à nous va nous pomper notre énergie et affecter notre bien-être. Elles peuvent avoir différents impacts dans notre vie et provoquer des perturbations émotionnelles et physiques (troubles de l’humeur, tristesse et dépression, problèmes de santé et fatigue inexpliqués…). C’est pourquoi il est important de s’en débarrasser, en se purifiant et en se protégeant régulièrement.
     roundedImage: false
+    linkTo: contact
     hasFlower: false
     imageSource: /images/uploads/marcos-paulo-prado-tt7kqcbqgdi-unsplash-1-.jpg
     title: Qu’est-ce qu’une entité ?
     _template: splittedSection
+    linkLabel: Prendre RDV
     altColor: false
   - isTextOnRight: false
     isButtonAlt: false
@@ -53,10 +55,12 @@ pageContent:
       purification et de désenvoûtement pour vous libérer de ces énergies
       néfastes et rétablir votre équilibre intérieur.
     roundedImage: false
+    linkTo: contact
     hasFlower: false
     imageSource: /images/uploads/alexander-andrews-vgcerdhrc3e-unsplash.jpg
     title: Déroulement de la séance
     _template: splittedSection
+    linkLabel: Prendre RDV
     altColor: false
   - _template: services
     title: Mes autres services
