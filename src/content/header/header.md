@@ -6,7 +6,12 @@ entries:
   - type: submenu
     title: Services
     pages:
-      - soins-naturels
+      - soins-energetiques
+      - kinésiologie-nettoyage-mémoires-cellulaires
+      - guidances
+      - desenvoutement-levee-dentite
+      - hypnose-arret-tabac-et-dependance-au-sucre
+      - énergétique-traditionnelle-chinoise
   - type: page
     page: stages
   - type: page
