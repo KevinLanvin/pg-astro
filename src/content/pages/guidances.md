@@ -80,9 +80,4 @@ pageContent:
       à la croisée des chemins ou simplement à la recherche de réponses à vos
       questions je vous accompagnerai de manière bienveillante pour éclairer
       votre chemin de vie.
-  - heroSubtitle: Besoin d'une orientation professionnelle ou sentimentale, de
-      savoir où vous en êtes dans votre parcours FJ, de faire le point sur une
-      situation particulière et connaître son évolution, de comprendre un
-      blocage et de vous libérer de vos mémoires cellulaires... ?  Je vous
-      accompagne pour éclairer votre chemin de vie.
 ---
