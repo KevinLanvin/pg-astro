@@ -1,7 +1,6 @@
 ---
+title: Kinésiologie
 image: /images/description.jpg
 imageAlt: Kinésiologie
-title: Kinésiologie
-link: src/content/pages/index.md
+link: kinésiologie-nettoyage-mémoires-cellulaires
 ---
-
