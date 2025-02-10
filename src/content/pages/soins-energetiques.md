@@ -2,46 +2,22 @@
 title: Soins énergétiques
 url: soins-energetiques
 pageContent:
-  - _template: introduction
-    description: >-
-      Les soins énergétiques permettent d’harmoniser et d’équilibrer les flux
-      énergétiques du corps et de l’esprit. Grâce à cette harmonisation vous
-      atteindrez un niveau vibratoire qui entrainera un état de mieux être. 
+  - suptitle: 🌟  Equilibrez vos énergies et libérez vos blocages pour retrouver
+      votre bien-être  🌟
+    background: /images/uploads/pexels-pixabay-220067.jpg
+    heroSubtitle: >-
+      ✨ **Soin énergétique de base** : nettoyage, purification et harmonisation
+      de vos énergies pour rétablir votre équilibre intérieur
 
 
-      *RDV à distance & au cabinet*
-    title: Soins énergétiques
-    quotation: citation
-  - _template: flowerSection
-    title: Les soins énergétiques
-    paragraph: >-
-      * **Soin énergétique de base**/simple/ nettoyage et harmonisation : 1h -
-      65€ / 55€ à distance (sur photo)
-
-
-      Ce soin permet un nettoyage de vos énergies négatives et d’effectuer une harmonisation des flux énergétiques. 
-
-      ✨ Réalignement, nettoyage & harmonisation des chakras & des corps subtils.
-
-      ⚡ Nettoyage, rééquilibrage & harmonisation des flux énergétiques (harmonisation des méridiens et points d’acupuncture, harmonisation énergétique des systèmes nerveux, endocrinien et lymphatique).
-
-      💖Nettoyage & harmonisation énergétique émotionnelle (nettoyage des mémoires émotionnelles bloquantes, levée des croyances limitantes, aide à l’apaisement des phobies et des addictions). 
-
-      🌪️Extraction des énergies négatives & soulagement des douleurs physiques et émotionnelles. 
-
-
-
-
-      * **Soin de libération Karmique et Transgénérationnelle** : 1h30 - 90€ / 80€ à distance (sur photo)
-
-
-      Ce soin permet un nettoyage énergétique de vos mémoires karmiques et transgénérationnelles qui entravent l'évolution de votre âme. 
-
-      ✨ Soin énergétique de base inclus. 
-
-      🌀 Nettoyage des mémoires karmiques bloquantes (libération des mémoires et énergies issues de vos vies antérieures qui influencent votre vie actuelle).
-
-      🌳 Nettoyage des mémoires transgénérationnelles bloquantes (libération des mémoires ancestrales afin de rétablir l'équilibre et l'harmonie au sein de votre lignée familiale).
+      💫 **Soin de libération karmique et transgénérationnelle** : libérez votre âme des mémoires du passé pour lui permettre d'évoluer sans entrave
+    button2Label: Prendre RDV au cabinet
+    button1Label: Prendre RDV à distance
+    title: Découvrez mes soins énergétiques et offrez-vous un instant de bien-être &
+      de transformation
+    _template: hero
+    button1Link: contact
+    button2Link: contact
   - isTextOnRight: true
     isButtonAlt: false
     paragraph: >-
@@ -85,4 +61,10 @@ pageContent:
   - _template: services
     title: Mes autres services
   - _template: disclaimer
+    heroSubtitle: >-
+      ✨ **Soin énergétique de base** : nettoyage, purification et harmonisation
+      de vos énergies pour rétablir votre équilibre intérieur
+
+
+      💫 **Soin de libération karmique et transgénérationnelle** : libérez votre âme des mémoires du passé pour lui permettre d'évoluer sans entrave
 ---
