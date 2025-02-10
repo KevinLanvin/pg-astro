@@ -79,10 +79,10 @@ pageContent:
 
       Chaque séance est adaptée à votre parcours pour vous aider à arrêter durablement et en toute sérénité.
     roundedImage: false
-    linkTo: consultations
+    linkTo: hypnose-arret-tabac-et-dependance-au-sucre
     hasFlower: false
-    imageSource: /images/uploads/sean-oulashin-kmn4veeepr8-unsplash.jpg
-    title: Arrêt du tabac par hypnose
+    imageSource: /images/uploads/uitbundig-jfexv_pnuj8-unsplash.jpg
+    title: Arrêt du tabac avec l'hypnose
     _template: splittedSection
     linkLabel: En savoir + sur les séances
     altColor: false
