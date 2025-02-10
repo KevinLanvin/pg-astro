@@ -1,8 +1,7 @@
 ---
-title: Initiation Reiki Usui
+title: Initiations Reiki Usui
 price: 200€
 linkLabel: En savoir plus
-link: src/content/pages/index.md
-image: /images/tarifs.jpg
+link: initiations-reiki-usui
+image: /images/uploads/initiations-reiki.jpg
 ---
-
