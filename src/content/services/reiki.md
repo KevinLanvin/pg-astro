@@ -1,6 +1,6 @@
 ---
 title: Soins énergétiques
-image: /images/description.jpg
+image: /images/uploads/_mg_2600.jpg
 imageAlt: soins énergétique
 link: soins-energetiques
 ---
