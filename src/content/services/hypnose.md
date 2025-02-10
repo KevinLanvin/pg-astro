@@ -1,6 +1,6 @@
 ---
 title: Hypnose (Arrêt du Tabac)
-image: /images/tarifs.jpg
-imageAlt: Champs coucher de soleil
+image: /images/uploads/mathew-macquarrie-lzckzlvpyau-unsplash.jpg
+imageAlt: cigarette qui se consume
 link: hypnose-arret-tabac-et-dependance-au-sucre
 ---
