@@ -1,6 +1,6 @@
 ---
 title: Guidances
-image: /images/uploads/banner.jpg
-imageAlt: guidances
+image: /images/uploads/petr-sidorov-gesowh4ylri-unsplash.jpg
+imageAlt: "cartes de tarot "
 link: guidances
 ---
