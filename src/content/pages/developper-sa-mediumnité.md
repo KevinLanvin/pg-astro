@@ -72,4 +72,51 @@ pageContent:
       ▶️ Un livret vous sera remis au début du stage
 
       ▶️ A l'issue de ce stage vous aurez accès au groupe Facebook pour pouvoir échanger avec d'autres personnes, partager vos expériences ou poser toutes vos questions si besoin
+
+
+
+
+
+
+      Merde, je mets où la date ou précise que c'est sur 2j ???
+  - isTextOnRight: true
+    isButtonAlt: false
+    paragraph: >-
+      Ce stage est ouvert à toute personne curieuse et ayant l'envie de
+      développer son intuition. 
+
+
+      Il est ACCESSIBLE à TOUS! Aussi bien pour les débutants que les personnes ayant déjà des connaissances. 
+
+
+      La médiumnité n'est pas un don, elle se travaille. Vous êtes tous capables de participer à ce stage! 
+
+
+      Entre théorie et pratique, vous repartirez de ces 2 journées de stage avec toutes les clefs en main pour faire évoluer votre spiritualité, votre intuition et votre médiumnité. 
+
+
+
+
+      💰 Tarifs :
+
+
+      * 290€ (2 journées)
+
+      * Offre duo : vous en parlez autour de vous et venez accompagné à ce stage, alors vous bénéficierez d'une offre de réduction de 30€. 
+
+
+      \* Un acompte de 50(e) vous sera demandé au moment de l'inscription
+
+
+
+
+      Me contacter pour vous inscrire ou définir une date.
+    roundedImage: false
+    linkTo: contact
+    hasFlower: false
+    imageSource: /images/uploads/greg-rakozy-ompaz-dn-9i-unsplash.jpg
+    title: Vous vous demandez si ce stage est fait pour vous?
+    _template: splittedSection
+    linkLabel: Me contacter
+    altColor: false
 ---
