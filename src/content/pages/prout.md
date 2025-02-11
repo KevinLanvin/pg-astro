@@ -2,6 +2,17 @@
 title: prout
 url: prout
 pageContent:
+  - isTextOnRight: false
+    isButtonAlt: false
+    paragraph: texte 2
+    roundedImage: false
+    linkTo: contact
+    hasFlower: false
+    imageSource: /images/uploads/pexels-alex-andrews-861443.jpg
+    title: 2e texte
+    _template: splittedSection
+    linkLabel: voir 2 texte
+    altColor: false
   - isTextOnRight: true
     isButtonAlt: false
     paragraph: |-
@@ -17,17 +28,6 @@ pageContent:
     title: 1er texte blablablablabla
     _template: splittedSection
     linkLabel: voir blabla
-    altColor: false
-  - isTextOnRight: false
-    isButtonAlt: false
-    paragraph: texte 2
-    roundedImage: false
-    linkTo: contact
-    hasFlower: false
-    imageSource: /images/uploads/pexels-alex-andrews-861443.jpg
-    title: 2e texte
-    _template: splittedSection
-    linkLabel: voir 2 texte
     altColor: false
   - isTextOnRight: true
     isButtonAlt: false
