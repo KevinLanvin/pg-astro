@@ -2,12 +2,11 @@
 title: Soins énergétiques
 url: soins-energetiques
 pageContent:
-  - suptitle: 🌟  Equilibrez vos énergies et libérez vos blocages pour retrouver
-      votre bien-être  🌟
-    background: /images/uploads/pexels-pixabay-220067.jpg
+  - suptitle: 🌟  Equilibrez vos énergies et libérez vos blocages  🌟
+    background: /images/uploads/tino-rischawy-1kcdegkdpf0-unsplash.jpg
     heroSubtitle: >-
       ✨ **Soin énergétique de base** : nettoyage, purification et harmonisation
-      de vos énergies pour rétablir votre équilibre intérieur
+      de vos énergies pour retrouver votre équilibre intérieur
 
 
       💫 **Soin de libération karmique et transgénérationnelle** : libérez votre âme des mémoires du passé pour lui permettre d'évoluer sans entrave
@@ -19,22 +18,26 @@ pageContent:
     button1Link: contact
     button2Link: initiations-reiki-usui
   - isTextOnRight: true
-    isButtonAlt: false
+    isButtonAlt: true
     paragraph: >-
-      Je débute chaque soin en effectuant une **analyse de votre** **aura** et
-      de vos **chakras**, ce qui me permet de détecter les déséquilibres
-      énergétiques.
+      **Soin énergétique de base :** 1h - 65€ 
 
 
-
-      Je poursuis le soin en mettant en œuvre mon **magnétisme** ; une énergie naturelle présente en chacun de nous et tout ce qui nous entoure (animaux, plantes, la terre...). C'est à travers l'apposition de mes mains à différents endroits de votre corps que se fait le transfert d'énergie, favorisant ainsi le renforcement de vos propres capacités d'auto-guérison. 
-
-
-      Mon intuition me guide tout au long du soin, me permettant une approche personnalisée à vos besoins. 
+      Ce soin  comprend :
 
 
+      ✨ Réalignement, nettoyage & harmonisation des chakras & des corps subtils
 
-      En complément, j'utilise des outils supplémentaires comme le **pendule**, les **diapasons** ou les **baguettes coudées**.
+
+      ⚡ Nettoyage, rééquilibrage & harmonisation des flux énergétiques (harmonisation des méridiens et points d’acupuncture, harmonisation énergétique des systèmes nerveux, endocrinien et lymphatique)
+
+
+      💖Nettoyage & harmonisation énergétique émotionnelle (nettoyage des mémoires émotionnelles
+
+      bloquantes, levée des croyances limitantes, aide à l’apaisement des phobies et des addictions)
+
+
+      🌪️Extraction des énergies négatives & soulagement des douleurs physiques et émotionnelles
     roundedImage: false
     linkTo: contact
     hasFlower: false
