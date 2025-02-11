@@ -89,7 +89,7 @@ pageContent:
   - _template: text
     title: Stages & Initiations
     paragraph: >-
-      Vous souhaitez aller plus loin ? 🚀
+      Vous souhaitez aller plus loin ?
 
 
       Découvrez nos **stages et des initiations variés** en soins énergétiques, développement personnel et bien-être. Des programmes conçus pour vous permettre d’acquérir des compétences précieuses et d’approfondir vos connaissances dans des domaines qui vous passionnent. Que vous soyez novice ou déjà praticien, vous trouverez une formation adaptée à vos besoins.
