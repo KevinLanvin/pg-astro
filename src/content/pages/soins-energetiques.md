@@ -2,46 +2,70 @@
 title: Soins énergétiques
 url: soins-energetiques
 pageContent:
-  - _template: introduction
-    description: >-
-      Les soins énergétiques permettent d’harmoniser et d’équilibrer les flux
-      énergétiques du corps et de l’esprit. Grâce à cette harmonisation vous
-      atteindrez un niveau vibratoire qui entrainera un état de mieux être. 
+  - suptitle: 🌟  Equilibrez vos énergies et libérez vos blocages pour retrouver
+      votre bien-être  🌟
+    background: /images/uploads/pexels-pixabay-220067.jpg
+    heroSubtitle: >-
+      ✨ **Soin énergétique de base** : nettoyage, purification et harmonisation
+      de vos énergies pour rétablir votre équilibre intérieur
 
 
-      *RDV à distance & au cabinet*
-    title: Soins énergétiques
-    quotation: citation
-  - _template: flowerSection
-    title: Les soins énergétiques
+      💫 **Soin de libération karmique et transgénérationnelle** : libérez votre âme des mémoires du passé pour lui permettre d'évoluer sans entrave
+    button2Label: S'initier au Reiki
+    button1Label: Prendre RDV
+    title: Découvrez mes soins énergétiques et offrez-vous un instant de bien-être &
+      de transformation
+    _template: hero
+    button1Link: contact
+    button2Link: initiations-reiki-usui
+  - isTextOnRight: true
+    isButtonAlt: false
     paragraph: >-
-      * **Soin énergétique de base**/simple/ nettoyage et harmonisation : 1h -
-      65€ / 55€ à distance (sur photo)
-
-
-      Ce soin permet un nettoyage de vos énergies négatives et d’effectuer une harmonisation des flux énergétiques. 
-
-      ✨ Réalignement, nettoyage & harmonisation des chakras & des corps subtils.
-
-      ⚡ Nettoyage, rééquilibrage & harmonisation des flux énergétiques (harmonisation des méridiens et points d’acupuncture, harmonisation énergétique des systèmes nerveux, endocrinien et lymphatique).
-
-      💖Nettoyage & harmonisation énergétique émotionnelle (nettoyage des mémoires émotionnelles bloquantes, levée des croyances limitantes, aide à l’apaisement des phobies et des addictions). 
-
-      🌪️Extraction des énergies négatives & soulagement des douleurs physiques et émotionnelles. 
+      Je débute chaque soin en effectuant une **analyse de votre** **aura** et
+      de vos **chakras**, ce qui me permet de détecter les déséquilibres
+      énergétiques.
 
 
 
+      Je poursuis le soin en mettant en œuvre mon **magnétisme** ; une énergie naturelle présente en chacun de nous et tout ce qui nous entoure (animaux, plantes, la terre...). C'est à travers l'apposition de mes mains à différents endroits de votre corps que se fait le transfert d'énergie, favorisant ainsi le renforcement de vos propres capacités d'auto-guérison. 
 
-      * **Soin de libération Karmique et Transgénérationnelle** : 1h30 - 90€ / 80€ à distance (sur photo)
+
+      Mon intuition me guide tout au long du soin, me permettant une approche personnalisée à vos besoins. 
 
 
-      Ce soin permet un nettoyage énergétique de vos mémoires karmiques et transgénérationnelles qui entravent l'évolution de votre âme. 
 
-      ✨ Soin énergétique de base inclus. 
+      En complément, j'utilise des outils supplémentaires comme le **pendule**, les **diapasons** ou les **baguettes coudées**.
+    roundedImage: false
+    linkTo: contact
+    hasFlower: false
+    imageSource: /images/uploads/_mg_2600.jpg
+    title: Plongez dans l'univers de mes soins énergétiques
+    _template: splittedSection
+    linkLabel: Prendre RDV
+    altColor: false
+  - isTextOnRight: false
+    isButtonAlt: false
+    paragraph: >-
+      Les soins énergétiques apportent un moment de **relaxation profonde**,
+      permettant **d'apaiser les douleurs physiques** et **émotionnelles** tout
+      en libérant les blocages et les tensions. 
 
-      🌀 Nettoyage des mémoires karmiques bloquantes (libération des mémoires et énergies issues de vos vies antérieures qui influencent votre vie actuelle).
 
-      🌳 Nettoyage des mémoires transgénérationnelles bloquantes (libération des mémoires ancestrales afin de rétablir l'équilibre et l'harmonie au sein de votre lignée familiale).
+      Parfois une seule séance est suffisante avec des **résultats étonnants**, cependant, d’autres fois il faut compter plusieurs séances pour réaliser un soin en profondeur et pouvoir ressentir les bienfaits. 
+
+
+      Pendant un soin énergétique, la personne reste habillée, (le soin énergétique ne nécessite pas un contact direct avec la peau, contrairement au massage). 
+
+
+      Que vous soyez adulte, enfant ou même bébé, chacun peut bénéficier de soins énergétiques pour rétablir son équilibre et améliorer son bien-être.
+    roundedImage: false
+    linkTo: contact
+    hasFlower: false
+    imageSource: /images/uploads/openart-image_xb8utvzf_1739228398318_raw.jpg
+    title: Libération des héritages du passé
+    _template: splittedSection
+    linkLabel: Prendre RDV
+    altColor: false
   - isTextOnRight: true
     isButtonAlt: false
     paragraph: >-
@@ -57,10 +81,10 @@ pageContent:
       Le **magnétisme** est une énergie présente en chacun de nous (plus ou moins développée), comme tout ce qui nous entoure et contient de l’énergie (animaux, plantes, la terre…). J’utilise donc mon magnétisme, c’est-à-dire ma propre énergie, l’énergie universelle, et la transmets à la personne lors d’un soin. Le transfert d’énergie se fait via l’apposition de mains à différents endroits du corps. Le but est d’amener l’énergie là où le corps en a besoin afin qu’il soit en mesure de renforcer ses propres capacités d’auto-guérison. Je fais appelle pour cela à mon intuition qui me guide tout au long du soin.
     roundedImage: false
     hasFlower: false
-    imageSource: /images/uploads/_mg_2600.jpg
-    title: Le Magnétisme
+    imageSource: /images/uploads/_mg_2540.jpg
+    title: Le Magnétisme, une approche personnalisée et intuitive
     _template: splittedSection
-    altColor: false
+    altColor: true
   - isTextOnRight: false
     isButtonAlt: false
     paragraph: >-
@@ -78,11 +102,36 @@ pageContent:
       Tout le monde peut recevoir un soin énergétique, aussi bien les adultes, enfants ou bébés, dans le but de rééquilibrer ses énergies.
     roundedImage: false
     hasFlower: false
-    imageSource: /images/uploads/_mg_2540.jpg
+    imageSource: /images/uploads/_mg_0203web-1.jpg
     title: Bon à savoir sur les soins énergétiques
     _template: splittedSection
+    altColor: false
+  - isTextOnRight: true
+    isButtonAlt: false
+    paragraph: >-
+      Que vous souhaitiez utiliser le Reiki pour vous-même ou pour accompagner
+      les autres, cette pratique est une porte ouverte vers un chemin de bien
+      être et de sérénité. 
+
+      L'initiation au Reiki n'est pas seulement un apprentissage, c'est une véritable transformation intérieure. 
+
+
+      **Prêt(e) à découvrir et à maîtriser le Reiki ?**
+    roundedImage: false
+    linkTo: initiations-reiki-usui
+    hasFlower: false
+    imageSource: /images/uploads/openart-image_nvqnvgqg_1739228783074_raw.jpg
+    title: S'initier au Reiki
+    _template: splittedSection
+    linkLabel: En savoir + sur les initiations Reiki
     altColor: false
   - _template: services
     title: Mes autres services
   - _template: disclaimer
+    heroSubtitle: >-
+      ✨ **Soin énergétique de base** : nettoyage, purification et harmonisation
+      de vos énergies pour rétablir votre équilibre intérieur
+
+
+      💫 **Soin de libération karmique et transgénérationnelle** : libérez votre âme des mémoires du passé pour lui permettre d'évoluer sans entrave
 ---
