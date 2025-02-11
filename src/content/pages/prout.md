@@ -20,12 +20,12 @@ pageContent:
     altColor: false
   - isTextOnRight: false
     isButtonAlt: false
-    paragraph: texte 2 blablabla prout et reprout
+    paragraph: texte 2
     roundedImage: false
     linkTo: contact
     hasFlower: false
     imageSource: /images/uploads/pexels-alex-andrews-861443.jpg
-    title: 2e texte blablabla
+    title: 2e texte
     _template: splittedSection
     linkLabel: voir 2 texte
     altColor: false
