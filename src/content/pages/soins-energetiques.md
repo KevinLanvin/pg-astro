@@ -11,13 +11,13 @@ pageContent:
 
 
       💫 **Soin de libération karmique et transgénérationnelle** : libérez votre âme des mémoires du passé pour lui permettre d'évoluer sans entrave
-    button2Label: Prendre RDV au cabinet
-    button1Label: Prendre RDV à distance
+    button2Label: S'initier au Reiki
+    button1Label: Prendre RDV
     title: Découvrez mes soins énergétiques et offrez-vous un instant de bien-être &
       de transformation
     _template: hero
     button1Link: contact
-    button2Link: contact
+    button2Link: initiations-reiki-usui
   - isTextOnRight: true
     isButtonAlt: false
     paragraph: >-
@@ -105,6 +105,25 @@ pageContent:
     imageSource: /images/uploads/_mg_0203web-1.jpg
     title: Bon à savoir sur les soins énergétiques
     _template: splittedSection
+    altColor: false
+  - isTextOnRight: true
+    isButtonAlt: false
+    paragraph: >-
+      Que vous souhaitiez utiliser le Reiki pour vous-même ou pour accompagner
+      les autres, cette pratique est une porte ouverte vers un chemin de bien
+      être et de sérénité. 
+
+      L'initiation au Reiki n'est pas seulement un apprentissage, c'est une véritable transformation intérieure. 
+
+
+      **Prêt(e) à découvrir et à maîtriser le Reiki ?**
+    roundedImage: false
+    linkTo: initiations-reiki-usui
+    hasFlower: false
+    imageSource: /images/uploads/openart-image_nvqnvgqg_1739228783074_raw.jpg
+    title: S'initier au Reiki
+    _template: splittedSection
+    linkLabel: En savoir + sur les initiations Reiki
     altColor: false
   - _template: services
     title: Mes autres services
