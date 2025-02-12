@@ -55,15 +55,17 @@ pageContent:
   - isTextOnRight: true
     isButtonAlt: true
     paragraph: >-
-      La **mémoire cellulaire** c’est la mémoire de tout ce que nous avons vécu,
-      depuis notre plus jeune âge, qui est inscrite dans notre corps. Notre
-      corps est capable d’enregistrer toutes nos expériences de vie, y compris
-      nos différents chocs émotionnels, depuis notre conception jusqu’à
-      l’instant présent.
+      La **mémoire cellulaire** est la capacité du corps à enregistrer toutes
+      nos expériences, y compris les chocs émotionnels, depuis notre conception
+      jusqu’à aujourd’hui. Elle inclut aussi les traumatismes
+      transgénérationnels. En résumé, nos cellules sont porteuses des **mémoires
+      de notre vécu personnel** et **familial**.
 
-      La mémoire cellulaire n’est pas seulement en lien avec notre propre vécu. Elle est aussi appelée mémoire transgénérationnelle. C’est-à-dire que nous pouvons porter en nous le poids de certains traumatismes de nos ancêtres qu’ils n’ont pas su gérer et qui se transmet alors de génération en génération.
 
-      En résumé, nos cellules sont porteuses de **mémoires personnelles** et **familiales**.
+      Lorsqu'une émotion intense se manifeste, une partie de cette **émotion se fige** et **se cristallise dans notre corps.** Cette mémoire cellulaire peut alors provoquer des douleurs physiques, des blocages émotionnels, des croyances limitantes, des schémas répétitifs, de l'auto-sabotage ou encore des peurs inexpliquées.
+
+
+      Le but d’une **séance de nettoyage de mémoires cellulaires** est de se reconnecter à l'émotion afin de s'en libérer complètement. En identifiant la source de vos blocages, je vous accompagnerai dans ce **processus de libération** pour vous permettre de **vivre pleinement le présent** et ne plus être influencé par le passé.
     roundedImage: false
     linkTo: contact
     hasFlower: false
