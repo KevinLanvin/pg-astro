@@ -7,8 +7,8 @@ pageContent:
     description: La kinésiologie est une méthode qui allie le corps et l’esprit pour
       **libérer vos blocages émotionnels** et **physiques** en interrogeant la
       **mémoire de votre corps** à l’aide de tests musculaires. En utilisant des
-      techniques comme le *Touch for Health* et le *One Brain* , je vous
-      accompagne vers un mieux être.
+      techniques comme le *Touch for Health,* le *One Brain* et le nettoyage de
+      mémoires cellulaires, je vous accompagne vers un mieux être.
     quotation: « *J’ai décidé d’être heureux parce que c’est bon pour la santé* » Voltaire
   - isTextOnRight: true
     isButtonAlt: true
