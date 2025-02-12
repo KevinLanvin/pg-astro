@@ -52,7 +52,7 @@ pageContent:
     _template: splittedSection
     linkLabel: Voir les Tarifs
     altColor: false
-  - isTextOnRight: false
+  - isTextOnRight: true
     isButtonAlt: true
     paragraph: >-
       La **mémoire cellulaire** c’est la mémoire de tout ce que nous avons vécu,
@@ -67,7 +67,7 @@ pageContent:
     roundedImage: false
     linkTo: contact
     hasFlower: false
-    imageSource: /images/uploads/hal-gatewood-ogvqxgl7xo4-unsplash.jpg
+    imageSource: /images/uploads/openart-image_66okxlt4_1739372815308_raw.jpg
     title: La mémoire cellulaire, source de blocages ?
     _template: splittedSection
     linkLabel: Prendre RDV
