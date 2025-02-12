@@ -4,51 +4,53 @@ url: kinésiologie-nettoyage-mémoires-cellulaires
 pageContent:
   - _template: introduction
     title: Kinésiologie & Nettoyage de Mémoires Cellulaires
-    description: >-
-      La kinésiologie est une méthode psycho-corporelle qui a pour but la
-      libération de problèmes émotionnels et physiques. Elle repose
-      principalement sur la tonicité des muscles. Depuis notre plus jeune âge
-      notre corps enregistre tout. Nous parlons de mémoire cellulaire. C’est à
-      l’aide de tests musculaires précis que nous interrogeons le corps pour
-      accéder à sa mémoire et ainsi déterminer les blocages émotionnels et
-      déséquilibres du corps.
-
-      En kinésiologie, je me sers de 2 techniques principales qui sont le « Touch for health » et le « One brain ».
-    quotation: « *J’ai décidé d’être heureux parce que c’est bon pour la santé.* » –
-      Voltaire
+    description: La kinésiologie est une méthode qui allie le corps et l’esprit pour
+      **libérer vos blocages émotionnels** et **physiques** en interrogeant la
+      **mémoire de votre corps** à l’aide de tests musculaires. En utilisant des
+      techniques comme le *Touch for Health* et le *One Brain* , je vous
+      accompagne vers un mieux être.
+    quotation: « *J’ai décidé d’être heureux parce que c’est bon pour la santé* » Voltaire
   - isTextOnRight: true
-    isButtonAlt: false
+    isButtonAlt: true
     paragraph: >-
-      Le « Touch for health » est une technique qui permet d’équilibrer le sujet
-      dans sa globalité. La réalisation d’une série de tests musculaires va
-      déterminer les muscles en faiblesses afin de les « corriger ».
+      Le "**Touch for Health**" est une technique qui vise à **rétablir
+      l'équilibre énergétique du corps**. Grâce à une série de **tests
+      musculaires**, le touch for health permet d’identifier les faiblesses et
+      déséquilibres dans les méridiens (selon la médecine traditionnelle
+      chinoise). Des **stimulations tactiles** sur des points précis sont
+      utilisées pour **rétablir l’harmonie** et **soulager les douleurs
+      physiques**. 
 
-      La technique d’équilibration énergétique repose sur l’harmonisation des méridiens (de la médecine traditionnelle chinoise) ainsi que sur des stimulations tactiles de points précis.
 
-      Technique très efficace pour apaiser les douleurs physiques.
-
-      Il est possible de réaliser une séance sur un enfant en bas âge (ou bébé) grâce à une technique de transfert via le parent.
+      Cette méthode est aussi efficace pour les enfants et même les bébés grâce à une technique de transfert d’énergie via le parent.
     roundedImage: false
+    linkTo: contact
     hasFlower: false
     imageSource: /images/uploads/kinesiologie.jpg
     title: La kinésiologie Touch for health
     _template: splittedSection
+    linkLabel: Prendre RDV
     altColor: false
   - isTextOnRight: false
-    isButtonAlt: false
+    isButtonAlt: true
     paragraph: >-
-      Le « one brain » signifie l’intégration du corps, du mental et de
-      l’esprit. C’est une technique très efficace qui va permettre un travail
-      sur la gestion des émotions.
+      Le "**One Brain**" en kinésiologie est une méthode qui intègre le corps,
+      le mental et l'esprit pour travailler sur la **gestion des émotions**.
+      Elle permet de lever les blocages émotionnels en modifiant la perception
+      des événements passés qui génèrent des blocages émotionnels. 
 
-      L’objectif consiste à lever vos blocages émotionnels en modifiant votre perception du temps présent sur une situation difficile du passé.
 
-      Des techniques de libération émotionnelle, de visualisation, de mouvements oculaires ou encore de verbalisation des émotions vont permettre de réduire les émotions négatives associées à l’évènement passé. C’est pourquoi la kinésiologie se trouve particulièrement performante pour aborder toutes problématiques émotionnelles.
+      Grâce à des techniques telles que la **libération de stress émotionnelle,** la **visualisation**, les **mouvements oculaires** et la **verbalisation des émotions**, cette approche aide à réduire les émotions négatives associées aux expériences passées. 
+
+
+      Le "One Brain" est particulièrement efficace pour aborder les problématiques émotionnelles et favoriser un **bien-être durable**.
     roundedImage: false
+    linkTo: consultations
     hasFlower: false
     imageSource: /images/uploads/kinesiologie-2.jpg
     title: La kinésiologie One Brain
     _template: splittedSection
+    linkLabel: Voir les tarifs
     altColor: false
   - isTextOnRight: true
     isButtonAlt: false
