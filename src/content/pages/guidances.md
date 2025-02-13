@@ -6,7 +6,7 @@ pageContent:
     title: La guidance intuitive personnalisée, un éclairage pour avancer sereinement
     button1Label: Prendre un RDV à distance
     button1Link: contact
-    background: /images/uploads/henrik-berg-nicwcz2lsvs-unsplash.jpg
+    background: /images/uploads/kazuend-2kxeb_8g5vo-unsplash.jpg
     suptitle: Des réponses à vos questions
     button2Label: " "
     heroSubtitle: En quête de réponses? Besoin d'une orientation professionnelle ou
