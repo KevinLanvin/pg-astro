@@ -1,6 +1,6 @@
 ---
 title: Kinésiologie & Nettoyage de Mémoires Cellulaires
-url: kinésiologie-nettoyage-mémoires-cellulaires
+url: kinesiologie-nettoyage-memoires-cellulaires
 pageContent:
   - _template: introduction
     title: Kinésiologie & Nettoyage de Mémoires Cellulaires
@@ -11,6 +11,7 @@ pageContent:
       mémoires cellulaires, je vous accompagne vers un mieux être.
     quotation: « *J’ai décidé d’être heureux parce que c’est bon pour la santé* » Voltaire
     banner: /images/uploads/pexels-pixabay-220067.jpg
+    bannerAlt: illustration abstraite colorée avec des bulles
   - isTextOnRight: true
     isButtonAlt: true
     paragraph: >-
