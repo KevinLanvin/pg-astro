@@ -26,10 +26,10 @@ pageContent:
       ✨ Réalignement, nettoyage & harmonisation des chakras & des corps subtils
 
 
-      ⚡ Nettoyage, rééquilibrage & harmonisation des flux énergétiques (harmonisation des méridiens et points d’acupuncture, harmonisation énergétique des systèmes nerveux, endocrinien et lymphatique)
+      ⚡ Nettoyage, rééquilibrage & harmonisation des flux énergétiques (des méridiens et points d’acupuncture, des systèmes nerveux, endocrinien et lymphatique)
 
 
-      💖Nettoyage & harmonisation énergétique émotionnelle (nettoyage des mémoires émotionnelles bloquantes, levée des croyances limitantes, aide à l’apaisement des phobies et des addictions)
+      💖Nettoyage & harmonisation énergétique émotionnelle (mémoires émotionnelles bloquantes, levée des croyances limitantes, aide à l’apaisement des phobies et des addictions)
 
 
       🌪️Extraction des énergies négatives & soulagement des douleurs physiques et émotionnelles
@@ -53,7 +53,7 @@ pageContent:
       🌀 Nettoyage des mémoires karmiques bloquantes : libération des mémoires issues de vos vies antérieures qui influencent votre vie actuelle, permettant à votre âme d'évoluer sans entrave
 
 
-      🌳 Nettoyage des mémoires transgénérationnelles bloquantes : libération des mémoires ancestrales afin de rétablir l'équilibre et l'harmonie au sein de votre lignée familiale.
+      🌳 Nettoyage des mémoires transgénérationnelles bloquantes : libération des mémoires ancestrales afin de rétablir l'équilibre et l'harmonie au sein de votre lignée familiale
     roundedImage: false
     linkTo: contact
     hasFlower: false
