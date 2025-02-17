@@ -2,31 +2,15 @@
 title: Développer ses capacités extrasensorielles et spirituelles
 url: developper-sa-mediumnité
 pageContent:
-  - suptitle: Développer vos capacités extrasensorielles et spirituelles tout en
-      vous libérant de vos blocages, croyances limitantes et en écartant les
-      doutes de votre mental
+  - suptitle: 🌟 Explorez votre intuition et révélez votre potentiel spirituel 🌟
     background: /images/uploads/developper-ses-capacités.jpg
-    heroSubtitle: >-
-      
-
-      ▶️ Si vous souhaitez développer votre intuition, vos ressentis et votre
-
-      médiumnité... Ce stage est fait pour vous.
-
-
-      ▶️ Si vous vous posez beaucoup de questions sur le monde de la spiritualité
-
-      ou que vous êtes en plein éveil spirituel... Ce stage est fait pour vous. 
-
-
-      ▶️ Si vous désirez rencontrer votre guide spirituel, apprendre à vous
-
-      connecter à votre âme, vos guides et aux autres personnes... Ce stage est fait
-
-      pour vous.
-    button2Label: Mes autres stages?
+    heroSubtitle: Et si vos perceptions allaient bien au-delà du visible ? Apprenez
+      à affiner votre intuition, à ressentir l’invisible, tout en vous libérant
+      de vos blocages, croyances limitantes et en écartant les doutes de votre
+      mental.
+    button2Label: Mes autres stages
     button1Label: M'inscrire à ce stage
-    title: Développer ses capacités extrasensorielles et spirituelles
+    title: Développer vos capacités extrasensorielles et spirituelles
     _template: hero
     button1Link: contact
     button2Link: stages
