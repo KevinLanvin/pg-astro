@@ -17,48 +17,64 @@ pageContent:
   - _template: flowerSection
     title: "Contenu du stage : "
     paragraph: >-
-      ▶️ Thématiques autour de la spiritualité (la médiumnité, le 3e œil, le
-      taux vibratoire, les guides...)
+      🔮 **Exploration de la spiritualité et de l’intuition**
 
-      ▶️ Les signes et les étapes d'un "éveil spirituel"
 
-      ▶️ Vous découvrirez les différentes capacités extrasensorielles et celles qui prédominent chez vous
+      * La médiumnité, le 3e œil, le taux vibratoire et les guides spirituels
 
-      ▶️ Les différents blocages liés à la médiumnité 
+      * Les signes et les étapes d’un éveil spirituel
 
-      ▶️ Les clefs pour développer vos capacités extrasensorielles
+      * Les différents blocages liés à la médiumnité
 
-      ▶️ Vous apprendrez à vous ancrer et vous aligner rapidement
-
-      ▶️ Vous vivrez plusieurs méditations guidées
-
-      ▶️ Vous apprendrez à vous connecter à votre âme mais aussi aux autres personnes et à vos guides
-
-      ▶️ Techniques de protection et de purification 
-
-      ▶️ Nous aborderons le pouvoir de l'imagination et la question du mental dans nos perceptions extrasensorielles
-
-      ▶️ Vous vivrez une expérience sous hypnose pour développer votre intuition et vos capacités extrasensorielles
-
-      ▶️ Vous apprendrez à utiliser un oracle, votre validation corporelle et vous travaillerez vos ressentis de différentes façons (avec et sans supports)
-
-      ▶️ Vous serez guidés lors d'un exercice d'écriture intuitive
-
-      ▶️ Exercices ludiques en petit groupe pour développer votre intuition 
-
-      ▶️ Vous partirez à la rencontre de votre guide spirituel 
+      * Le pouvoir de l’imagination et la place du mental dans nos perceptions extrasensorielles
 
 
 
-
-      Inclus dans ce stage : 
-
-      ▶️ Un livret vous sera remis au début du stage
-
-      ▶️ A l'issue de ce stage vous aurez accès au groupe Facebook pour pouvoir échanger avec d'autres personnes, partager vos expériences ou poser toutes vos questions si besoin
+      ✨ **Développement de vos capacités extrasensorielles** 
 
 
+      * Découverte des différentes capacités extrasensorielles et identification de celles qui prédominent chez vous
 
+      * Les clés pour développer votre intuition et vos perceptions extrasensorielles
+
+      * Pratique ludique en petit groupe pour augmenter vos ressentis
+
+      * Utilisation d’un oracle, validation corporelle et travail de votre intuition avec et sans supports
+
+      * Exercice d’écriture intuitive guidée
+
+
+
+      🌿 **Alignement, ancrage et protection énergétique**
+
+
+      * Apprentissage des méthodes d’ancrage et d’alignement 
+
+      * Techniques de protection et de purification 
+
+      * Connexion à votre âme, à vos guides spirituels et aux autres personnes
+
+
+
+
+      🧘‍♀️ **Immersion sous hypnose et méditation guidée**
+
+
+      * Expérience sous hypnose pour développer vos capacités extrasensorielles et votre intuition
+
+      * Méditations guidées pour amplifier vos perceptions subtiles
+
+      * Rencontre immersive avec votre guide spirituel
+
+
+
+
+      📖 **Inclus dans ce stage**
+
+
+      * Un livret vous sera remis au début du stage 
+
+      * Accès à un groupe Facebook privé après le stage pour échanger, partager vos expériences et poser vos questions
 
 
 
