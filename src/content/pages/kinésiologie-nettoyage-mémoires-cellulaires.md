@@ -18,7 +18,7 @@ pageContent:
       Le "**One Brain**" en kinésiologie est une méthode qui intègre le corps,
       le mental et l'esprit pour travailler sur la **gestion des émotions**.
       Elle permet de lever les blocages émotionnels en modifiant la perception
-      des événements passés qui génèrent des blocages émotionnels. 
+      des événements passés qui génèrent des difficultés. 
 
 
       Grâce à des techniques telles que la **libération de stress émotionnelle,** la **visualisation**, les **mouvements oculaires** et la **verbalisation des émotions**, cette approche aide à réduire les émotions négatives associées aux expériences passées. 
