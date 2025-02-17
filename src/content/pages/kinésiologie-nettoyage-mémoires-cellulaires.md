@@ -9,7 +9,7 @@ pageContent:
       **mémoire de votre corps** à l’aide de tests musculaires. En utilisant des
       techniques comme le *Touch for Health,* le *One Brain* et le nettoyage de
       mémoires cellulaires, je vous accompagne vers un mieux être.
-    quotation: « *J’ai décidé d’être heureux parce que c’est bon pour la santé* » Voltaire
+    quotation: ""
     banner: ""
     bannerAlt: ""
   - isTextOnRight: true
