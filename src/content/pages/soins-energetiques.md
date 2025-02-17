@@ -20,10 +20,7 @@ pageContent:
   - isTextOnRight: true
     isButtonAlt: true
     paragraph: >-
-      **Soin énergétique de base :** 1h - 65€ 
-
-
-      Ce soin  comprend :
+      **Soin énergétique** : 1h - 65€ 
 
 
       ✨ Réalignement, nettoyage & harmonisation des chakras & des corps subtils
@@ -40,7 +37,7 @@ pageContent:
     linkTo: contact
     hasFlower: false
     imageSource: /images/uploads/_mg_2600.jpg
-    title: Plongez dans l'univers de mes soins énergétiques
+    title: Soin énergétique de base
     _template: splittedSection
     linkLabel: Prendre RDV
     altColor: false
@@ -48,9 +45,6 @@ pageContent:
     isButtonAlt: true
     paragraph: >-
       **Soin de libération Karmique et Transgénérationnelle** : 1h30 - 90€ 
-
-
-      Ce soin comprend : 
 
 
       ✨ Soin énergétique de base inclus
@@ -89,7 +83,7 @@ pageContent:
     imageSource: /images/uploads/_mg_2540.jpg
     title: Le Magnétisme, une approche personnalisée et intuitive
     _template: splittedSection
-    linkLabel: Apprenez à développer votre intuition
+    linkLabel: Développez votre intuition
     altColor: true
   - isTextOnRight: false
     isButtonAlt: true
