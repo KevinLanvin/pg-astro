@@ -2,7 +2,7 @@
 title: Soins énergétiques
 url: soins-energetiques
 pageContent:
-  - suptitle: 🌟  Equilibrez vos énergies et libérez vos blocages  🌟
+  - suptitle: 🌟 Harmonisez vos énergies pour retrouver votre équilibre  🌟
     background: /images/uploads/tino-rischawy-1kcdegkdpf0-unsplash.jpg
     heroSubtitle: >-
       ✨ **Soin énergétique de base** : nettoyage, purification et harmonisation
@@ -12,8 +12,7 @@ pageContent:
       💫 **Soin de libération karmique et transgénérationnelle** : libérez votre âme des mémoires du passé
     button2Label: S'initier au Reiki
     button1Label: Prendre RDV
-    title: Découvrez mes soins énergétiques et offrez-vous un instant de bien-être &
-      de transformation
+    title: Les soins énergétiques, un instant de bien-être & de transformation
     _template: hero
     button1Link: contact
     button2Link: initiations-reiki-usui
@@ -111,9 +110,9 @@ pageContent:
   - isTextOnRight: true
     isButtonAlt: true
     paragraph: >-
-      Que vous souhaitiez utiliser le Reiki pour vous-même ou pour accompagner
-      les autres, cette pratique est une porte ouverte vers un chemin de bien
-      être et de sérénité. 
+      Je vous propose des initiations au Reiki. Que vous souhaitiez utiliser le
+      Reiki pour vous-même ou pour accompagner les autres, cette pratique est
+      une porte ouverte vers un chemin de bien être et de sérénité. 
 
       L'initiation au Reiki n'est pas seulement un apprentissage, c'est une véritable transformation intérieure. 
 
