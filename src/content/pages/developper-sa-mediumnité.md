@@ -153,7 +153,7 @@ pageContent:
     roundedImage: false
     linkTo: stages
     hasFlower: false
-    imageSource: /images/uploads/aldebaran-s-uxchdiks4qi-unsplash.jpg
+    imageSource: /images/uploads/greg-rakozy-ompaz-dn-9i-unsplash.jpg
     title: Contenu du stage
     _template: splittedSection
     linkLabel: Voir les autres stages
