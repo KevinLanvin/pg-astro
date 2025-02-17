@@ -3,7 +3,7 @@ title: Soins énergétiques
 url: soins-energetiques
 pageContent:
   - suptitle: 🌟  Equilibrez vos énergies et libérez vos blocages  🌟
-    background: /images/uploads/tino-rischawy-1kcdegkdpf0-unsplash.jpg
+    background: /images/uploads/openart-f56dee03c0c34a04abaac5a341a0cde3_raw-1-.jpg
     heroSubtitle: >-
       ✨ **Soin énergétique de base** : nettoyage, purification et harmonisation
       de vos énergies pour retrouver votre équilibre intérieur
