@@ -3,15 +3,15 @@ title: Guidances
 url: guidances
 pageContent:
   - _template: hero
-    title: La guidance intuitive personnalisée, un éclairage pour avancer sereinement
+    title: La guidance intuitive, un éclairage pour avancer sereinement
     button1Label: Prendre un RDV à distance
     button1Link: contact
-    background: /images/uploads/andre-benz-slokliaciti-unsplash.jpg
-    suptitle: Des réponses à vos questions
+    background: /images/uploads/openart-f56dee03c0c34a04abaac5a341a0cde3_raw-1-.jpg
+    suptitle: 🌟 Des réponses à vos questions 🌟
     button2Label: " "
-    heroSubtitle: En quête de réponses? Besoin d'une orientation professionnelle ou
-      sentimentale, de faire le point sur une situation ou encore de comprendre
-      un blocage... ?  Je vous accompagne pour éclairer votre chemin.
+    heroSubtitle: Besoin d'une orientation professionnelle ou sentimentale, de faire
+      le point sur une situation ou encore de comprendre un blocage... ?  Je
+      vous accompagne pour éclairer votre chemin.
   - _template: flowerSection
     title: "Guidance : des clés pour mieux comprendre votre chemin"
     paragraph: >-
