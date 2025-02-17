@@ -10,6 +10,7 @@ pageContent:
       techniques comme le *Touch for Health,* le *One Brain* et le nettoyage de
       mémoires cellulaires, je vous accompagne vers un mieux être.
     quotation: « *J’ai décidé d’être heureux parce que c’est bon pour la santé* » Voltaire
+    banner: /images/uploads/pexels-pixabay-220067.jpg
   - isTextOnRight: true
     isButtonAlt: true
     paragraph: >-
