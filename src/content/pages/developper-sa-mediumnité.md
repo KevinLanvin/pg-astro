@@ -143,5 +143,71 @@ pageContent:
 
 
       \*Me contacter pour une demande de nouvelle date
-    title: "Vous vous demandez si ce stage est fait pour vous ? "
+    title: "Vous vous demandez si ce stage est fait pour vous? "
+  - isTextOnRight: false
+    isButtonAlt: true
+    paragraph: >-
+      🔮 **Exploration de la spiritualité et de l’intuition**
+
+
+      * La médiumnité, le 3e œil, le taux vibratoire et les guides spirituels
+
+      * Les signes et les étapes d’un éveil spirituel
+
+      * Les différents blocages liés à la médiumnité
+
+      * Le pouvoir de l’imagination et la place du mental dans nos perceptions extrasensorielles
+
+
+      ✨ **Développement de vos capacités extrasensorielles** 
+
+
+      * Découverte des différentes capacités extrasensorielles et identification de celles qui prédominent chez vous
+
+      * Les clés pour développer votre intuition et vos perceptions extrasensorielles
+
+      * Pratique ludique en petit groupe pour augmenter vos ressentis
+
+      * Utilisation d’un oracle, validation corporelle et travail de votre intuition avec et sans supports
+
+      * Exercice d’écriture intuitive guidée
+
+
+      🌿 **Alignement, ancrage et protection énergétique**
+
+
+      * Apprentissage des méthodes d’ancrage et d’alignement 
+
+      * Techniques de protection et de purification 
+
+      * Connexion à votre âme, à vos guides spirituels et aux autres personnes
+
+
+      🧘‍♀️ **Immersion sous hypnose et méditation guidée**
+
+
+      * Expérience sous hypnose pour développer vos capacités extrasensorielles et votre intuition
+
+      * Méditations guidées pour amplifier vos perceptions subtiles
+
+      * Rencontre immersive avec votre guide spirituel
+
+
+      📖 **Inclus dans ce stage**
+
+
+      * Un livret vous sera remis au début du stage 
+
+      * Accès à un groupe Facebook privé après le stage pour échanger, partager vos expériences et poser vos questions
+
+
+      Merde, je mets où la date ou précise que c'est sur 2j ???
+    roundedImage: false
+    linkTo: stages
+    hasFlower: false
+    imageSource: /images/uploads/aldebaran-s-uxchdiks4qi-unsplash.jpg
+    title: Contenu du stage
+    _template: splittedSection
+    linkLabel: Voir les autres stages
+    altColor: true
 ---
