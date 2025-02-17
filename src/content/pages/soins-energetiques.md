@@ -3,13 +3,13 @@ title: Soins énergétiques
 url: soins-energetiques
 pageContent:
   - suptitle: 🌟  Equilibrez vos énergies et libérez vos blocages  🌟
-    background: /images/uploads/openart-f56dee03c0c34a04abaac5a341a0cde3_raw-1-.jpg
+    background: /images/uploads/tino-rischawy-1kcdegkdpf0-unsplash.jpg
     heroSubtitle: >-
       ✨ **Soin énergétique de base** : nettoyage, purification et harmonisation
-      de vos énergies pour retrouver votre équilibre intérieur
+      de vos énergies 
 
 
-      💫 **Soin de libération karmique et transgénérationnelle** : libérez votre âme des mémoires du passé pour lui permettre d'évoluer sans entrave
+      💫 **Soin de libération karmique et transgénérationnelle** : libérez votre âme des mémoires du passé
     button2Label: S'initier au Reiki
     button1Label: Prendre RDV
     title: Découvrez mes soins énergétiques et offrez-vous un instant de bien-être &
