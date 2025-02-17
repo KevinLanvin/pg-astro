@@ -2,7 +2,7 @@
 title: Développer ses capacités extrasensorielles et spirituelles
 url: developper-sa-mediumnité
 pageContent:
-  - suptitle: 🌟 Explorez votre intuition et révélez votre potentiel spirituel 🌟
+  - suptitle: 🌟 Explorez votre intuition et révélez votre potentiel 🌟
     background: /images/uploads/developper-ses-capacités.jpg
     heroSubtitle: Et si vos perceptions allaient bien au-delà du visible ? Apprenez
       à affiner votre intuition, à ressentir l’invisible, tout en vous libérant
@@ -119,4 +119,29 @@ pageContent:
     _template: splittedSection
     linkLabel: Me contacter
     altColor: false
+  - _template: flowerSection
+    paragraph: >-
+      ▶️ Si vous souhaitez développer votre intuition, vos ressentis et votre
+      médiumnité... Ce stage est fait pour vous.
+
+
+      ▶️ Si vous vous posez beaucoup de questions sur le monde de la spiritualité ou que vous êtes en plein éveil spirituel... Ce stage est fait pour vous. 
+
+
+      ▶️ Si vous désirez rencontrer votre guide spirituel, apprendre à vous connecter à votre âme, vos guides et aux autres personnes... Ce stage est fait pour vous.
+
+
+      Ce stage est ouvert à toute personne curieuse et ayant l'envie de développer son intuition. 
+
+
+      Il est ACCESSIBLE à tous, aussi bien pour les débutants que les personnes ayant déjà des connaissances. La médiumnité n'est pas un don, elle se travaille. Alors vous êtes tous capables de participer à ce stage! 
+
+
+
+
+      **Prochaine date de stage* : à venir**
+
+
+      \*Me contacter pour une demande de nouvelle date
+    title: "Vous vous demandez si ce stage est fait pour vous ? "
 ---
