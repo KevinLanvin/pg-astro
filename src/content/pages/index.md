@@ -4,7 +4,7 @@ url: pauline-gorlier
 description: ""
 pageContent:
   - suptitle: Pauline Gorlier
-    background: /images/banner.jpg
+    background: /images/uploads/openart-9b30c8f88d994721958b0272c22b5f9b_raw.jpg
     heroSubtitle: |-
       Spécialisée dans l'anxiété et les chocs émotionnels
 
@@ -20,20 +20,24 @@ pageContent:
       tu es amené à vivre. Jim Rohn
     isButtonAlt: true
     paragraph: >-
-      Que vous traversiez une période de stress, d'émotions intenses ou que vous
-      souhaitiez vous libérer de blocages anciens, je vous accompagne, adultes
-      et enfants, dans votre objectif à l’aide de **pratiques naturelles et
-      énergétiques** dans la métropole lilloise ou à distance. Mes diverses
-      techniques (magnétisme, reiki, énergétique chinoise, kinésiologie,
-      hypnose) permettent un travail global sur la personne.
+      Je vous accompagne dans un **processus de libération émotionnelle** pour
+      apaiser le stress, l'anxiété et les émotions intenses grâce à des
+      pratiques naturelles, douces et efficaces. En utilisant des techniques
+      variées telles que le magnétisme, la kinésiologie, l’hypnose,
+      l’énergétique chinoise ou encore la guidance, je vous aide à **dissiper
+      vos blocages** les plus profonds, en abordant également les dimensions
+      karmiques et transgénérationnelles. 
 
 
-      Mon but est d’adopter une approche **holistique**. C’est à dire d’apporter un mieux être au niveau émotionnel, physique et énergétique tout en faisant le lien « corps-esprit ».
+      Mon **approche holistique** prend en compte votre bien-être global (corps & esprit) et s’adresse aussi bien aux **adultes** qu'aux **enfants**. 
+
+
+      Disponible en **métropole lilloise** et **à distance,** je vous propose un **suivi personnalisé** pour retrouver un mieux-être durable.
     roundedImage: true
     linkTo: qui-suis-je
     hasFlower: false
     imageSource: /images/description.jpg
-    title: Libération émotionnelle, transgénérationnelle et karmique
+    title: Un accompagnement vers la libération
     _template: splittedSection
     linkLabel: Découvrir qui je suis
     altColor: false
@@ -92,7 +96,13 @@ pageContent:
       Vous souhaitez aller plus loin ? 🚀
 
 
-      Découvrez nos **stages et des initiations variés** en soins énergétiques, développement personnel et bien-être. Des programmes conçus pour vous permettre d’acquérir des compétences précieuses et d’approfondir vos connaissances dans des domaines qui vous passionnent. Que vous soyez novice ou déjà praticien, vous trouverez une formation adaptée à vos besoins.
+      Découvrez **mes stages et initiations** diversifiés en soins énergétiques, spiritualité et bien-être, pour enrichir votre parcours personnel. 
+
+
+      Des programmes conçus pour vous permettre d’acquérir des compétences précieuses et d’approfondir vos connaissances dans des domaines qui vous passionnent. 
+
+
+      Que vous soyez novice ou déjà praticien, vous trouverez des stages adaptés à vos besoins.
   - _template: courses
     title: " "
   - title: Prendre RDV
