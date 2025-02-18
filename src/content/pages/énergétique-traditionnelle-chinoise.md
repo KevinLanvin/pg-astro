@@ -20,22 +20,6 @@ pageContent:
       favorisant une meilleure circulation du Qi. Cette approche complète vise à
       vous offrir une expérience de bien-être durable et à vous reconnecter à
       votre vitalité.
-  - isTextOnRight: true
-    isButtonAlt: false
-    paragraph: Je procède dans un premier temps à l’élimination des mauvaises
-      énergies et énergies stagnantes de votre corps. Le Guasha (pierre taillée
-      à bord lisse) est l’un des outils permettant de faire sortir le « mal »
-      par les pores de la peau, à l’aide de frottements énergiques contre la
-      peau. Le massage Guasha consiste donc à purifier le corps pour prévenir
-      les déséquilibres énergétiques. Très efficace pour apaiser les douleurs,
-      le guasha permet une meilleure circulation des énergies et vous donne une
-      peau plus lisse et lumineuse.
-    roundedImage: false
-    hasFlower: false
-    imageSource: /images/uploads/guasha-1.jpg
-    title: Le guasha
-    _template: splittedSection
-    altColor: false
   - isTextOnRight: false
     isButtonAlt: false
     paragraph: >-
@@ -69,6 +53,22 @@ pageContent:
     hasFlower: false
     imageSource: /images/uploads/diapason.jpg
     title: Le diapason
+    _template: splittedSection
+    altColor: false
+  - isTextOnRight: true
+    isButtonAlt: false
+    paragraph: Je procède dans un premier temps à l’élimination des mauvaises
+      énergies et énergies stagnantes de votre corps. Le Guasha (pierre taillée
+      à bord lisse) est l’un des outils permettant de faire sortir le « mal »
+      par les pores de la peau, à l’aide de frottements énergiques contre la
+      peau. Le massage Guasha consiste donc à purifier le corps pour prévenir
+      les déséquilibres énergétiques. Très efficace pour apaiser les douleurs,
+      le guasha permet une meilleure circulation des énergies et vous donne une
+      peau plus lisse et lumineuse.
+    roundedImage: false
+    hasFlower: false
+    imageSource: /images/uploads/guasha-1.jpg
+    title: Le guasha
     _template: splittedSection
     altColor: false
   - isTextOnRight: false
