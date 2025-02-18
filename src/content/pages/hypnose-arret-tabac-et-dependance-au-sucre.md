@@ -3,7 +3,7 @@ title: Hypnose Ericksonienne Arrêt du tabac et dépendance au sucre
 url: hypnose-arret-tabac-dependance-au-sucre
 pageContent:
   - suptitle: 🌟 Hypnose Ericksonienne 🌟
-    background: /images/uploads/openart-885b021c145d44d78e8ff3a476c4495e_raw.jpg
+    background: /images/uploads/openart-cf7f01878a86401eb65475a521041d92_raw.jpg
     heroSubtitle: Marre de la cigarette ou de vos grignotages qui dictent votre
       quotidien? Découvrez l'hypnose pour vous libérer de votre dépendance en 1
       seule séance seulement.
