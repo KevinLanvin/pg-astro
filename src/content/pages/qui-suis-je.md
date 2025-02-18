@@ -3,11 +3,18 @@ title: Qui suis-je ?
 url: qui-suis-je
 pageContent:
   - title: Qui suis-je ?
-    description: Passionnée par le bien-être et le développement personnel, j'ai
-      exploré différentes pratiques énergétiques et holistiques afin
-      d'accompagner chacun(e) vers un mieux-être durable.
-    banner: /images/praticienne-soins-naturels-2.jpg
-    bannerAlt: Soin énergétique en plein air
+    description: >-
+      Passionnée par l’accompagnement, j’aide celles et ceux qui traversent des
+      périodes de stress, d’anxiété ou de chocs émotionnels à retrouver leur
+      équilibre intérieur et plus de sérénité. 
+
+
+      A travers les soins énergétiques, une approche en thérapies brèves et les guidances intuitives, je vous propose un accompagnement personnalisé pour libérer vos blocages et retrouver un mieux être durable. 
+
+
+      Chaque parcours est unique, et je suis là pour vous aider à avancer avec bienveillance.
+    banner: ""
+    bannerAlt: ""
     quotation: |
       Un voyage de mille lieues commence toujours par un premier pas. Lao Tseu
     _template: introduction
