@@ -114,30 +114,11 @@ pageContent:
     altColor: false
   - title: Découvrez tous mes services
     _template: services
-    paragraph: >-
-      Vous vous sentez stressé(e), perdu(e) ou confronté(e) à des obstacles
-      émotionnels ? Voici quelques situations dans lesquelles mes soins et
-      accompagnements peuvent vous apporter un réel soutien :`<br>`
-
-
-      * **🥶 Anxiété et stress**
-
-        Si vous êtes submergé(e) par le quotidien, ou si vous vivez des périodes de forte pression, je vous aide à retrouver calme et sérénité.
-      * **🫀 Chocs émotionnels**
-
-        Des événements perturbants (ruptures, deuils, changements majeurs) peuvent laisser des traces. Ensemble, nous libérerons ces émotions pour retrouver votre équilibre intérieur.
-      * **🙅‍♀️ Blocages personnels ou professionnels**
-
-        Vous avez l'impression de ne pas avancer ? La kinésiologie, le Reiki ou la guidance peuvent vous aider à débloquer les zones d'ombre qui freinent votre progression.
-      * **🫁 Se libérer du tabac**
-
-        L'arrêt du tabac peut être difficile, mais grâce à l'hypnose, vous pouvez retrouver votre liberté sans frustration ni prise de poids.
-      * **🚀 Prendre des décisions importantes**
-
-        Si vous êtes à la croisée des chemins et avez besoin d'éclaircissements sur vos choix de vie, la guidance intuitive vous donnera des réponses claires.
-      * **☀️ Renouer avec votre énergie**
-
-        Si vous vous sentez fatigué(e), démotivé(e) ou en manque d'énergie, un soin énergétique tel que le Reiki peut rééquilibrer vos centres d’énergie pour un regain de vitalité.`<br>`
-
-      Chaque situation est unique, et je m'engage à vous accompagner avec une approche personnalisée et bienveillante, pour que vous puissiez avancer en toute confiance.
+    paragraph: Rejoignez mes **stages et initiations** pour approfondir vos
+      connaissances et acquérir de nouvelles compétences dans les domaines des
+      soins énergétiques, de la spiritualité et du bien-être. En petits groupes,
+      je vous guiderai dans un apprentissage personnalisé pour vous permettre de
+      progresser à votre rythme et d’intégrer de nouvelles pratiques dans votre
+      quotidien. Ces moments d’échange et de partage sont l’occasion de vous
+      ouvrir à de nouvelles perspectives.
 ---
