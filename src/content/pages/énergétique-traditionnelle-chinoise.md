@@ -20,8 +20,8 @@ pageContent:
       favorisant une meilleure circulation du Qi. Cette approche complète vise à
       vous offrir une expérience de bien-être durable et à vous reconnecter à
       votre vitalité.
-  - isTextOnRight: false
-    isButtonAlt: false
+  - isTextOnRight: true
+    isButtonAlt: true
     paragraph: >-
       Tout comme en réflexologie plantaire, il existe une cartographie des
       parties du corps et des organes au niveau de l’oreille. J’effectue un
@@ -31,15 +31,17 @@ pageContent:
       vous-même après la séance. 
 
 
-      La réflexologie auriculaire est une technique très efficace (et même plus puissante que la réflexologie plantaire) car le pavillon de l’oreille possède beaucoup d’innervations et se trouve proche du cerveau. L’information est donc envoyée au cerveau très rapidement, qui peut donc la transmettre aux différentes parties du corps concernées. La réflexologie auriculaire permet ainsi d’observer des bienfaits rapidement. Elle est utile pour réduire vos maux et douleurs.
+      La réflexologie auriculaire est une technique très efficace car le pavillon de l’oreille possède beaucoup d’innervations et se trouve proche du cerveau. L’information est donc envoyée au cerveau très rapidement, qui peut donc la transmettre aux différentes parties du corps concernées. La réflexologie auriculaire permet ainsi d’observer des bienfaits rapidement. Elle est utile pour réduire vos maux et douleurs.
     roundedImage: false
+    linkTo: contact
     hasFlower: false
     imageSource: /images/uploads/réflexo-auriculaire.jpg
     title: La réflexologie auriculaire
     _template: splittedSection
+    linkLabel: Prendre RDV
     altColor: false
-  - isTextOnRight: true
-    isButtonAlt: false
+  - isTextOnRight: false
+    isButtonAlt: true
     paragraph: En complément, j’utilise également mon diapason pour venir stimuler
       certaines zones de réflexologie plantaire ou pour travailler sur des
       méridiens et points d’acupuncture. Le diapason est un instrument qui émet
@@ -50,38 +52,44 @@ pageContent:
       l’énergie vitale (le Qi) et permettent d’harmoniser les énergies de votre
       corps.
     roundedImage: false
+    linkTo: consultations
     hasFlower: false
     imageSource: /images/uploads/diapason.jpg
     title: Le diapason
     _template: splittedSection
+    linkLabel: Voir les Tarifs
     altColor: false
   - isTextOnRight: true
-    isButtonAlt: false
-    paragraph: Je procède dans un premier temps à l’élimination des mauvaises
-      énergies et énergies stagnantes de votre corps. Le Guasha (pierre taillée
-      à bord lisse) est l’un des outils permettant de faire sortir le « mal »
-      par les pores de la peau, à l’aide de frottements énergiques contre la
-      peau. Le massage Guasha consiste donc à purifier le corps pour prévenir
-      les déséquilibres énergétiques. Très efficace pour apaiser les douleurs,
-      le guasha permet une meilleure circulation des énergies et vous donne une
-      peau plus lisse et lumineuse.
+    isButtonAlt: true
+    paragraph: Je procède ensuite à l’élimination des mauvaises énergies et énergies
+      stagnantes de votre corps. Le Guasha (pierre taillée à bord lisse) est
+      l’un des outils permettant de faire sortir le « mal » par les pores de la
+      peau, à l’aide de frottements énergiques contre la peau. Le massage Guasha
+      consiste donc à purifier le corps pour prévenir les déséquilibres
+      énergétiques. Très efficace pour apaiser les douleurs, le guasha permet
+      une meilleure circulation des énergies et vous donne une peau plus lisse
+      et lumineuse.
     roundedImage: false
+    linkTo: qui-suis-je
     hasFlower: false
     imageSource: /images/uploads/guasha-1.jpg
     title: Le guasha
     _template: splittedSection
+    linkLabel: Découvrir qui je suis
     altColor: false
   - isTextOnRight: false
-    isButtonAlt: false
+    isButtonAlt: true
     paragraph: Enfin, je vous fais profiter d’un moment de détente avec la lampe Wei
       Qi que je place au niveau du bas du dos. Cette lampe Wei Qi est dotée
       d’une plaque minérale et diffuse une source de chaleur. Cela permet de
       vous détendre et de renforcer votre énergie vitale (énergie des reins).
     roundedImage: false
+    linkTo: stages
     hasFlower: false
     imageSource: /images/uploads/lampe-wei-qi.jpg
     title: La lampe Wei Qi
     _template: splittedSection
+    linkLabel: Voir les Stages
     altColor: false
   - _template: services
     title: Mes autres services
