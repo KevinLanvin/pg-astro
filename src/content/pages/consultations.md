@@ -95,6 +95,23 @@ pageContent:
           : À la fin de la séance, nous ferons un point sur les ressentis et les progrès réalisés. Je vous fournirai également des conseils pratiques ou des exercices à faire chez vous pour prolonger les bienfaits de la séance.
 
       Chaque rencontre est un moment d'écoute et de bienveillance, où vous pourrez vous sentir pleinement en confiance pour avancer vers une vie plus équilibrée.
+  - isTextOnRight: true
+    isButtonAlt: true
+    paragraph: Rejoignez mes **stages et initiations** pour approfondir vos
+      connaissances et acquérir de nouvelles compétences dans les domaines des
+      soins énergétiques, de la spiritualité et du bien-être. En petits groupes,
+      je vous guiderai dans un apprentissage pratique et personnalisé, pour vous
+      permettre de progresser à votre rythme et d’intégrer de nouvelles
+      pratiques dans votre quotidien. Ces moments d’échange et de partage sont
+      l’occasion de vous ouvrir à de nouvelles perspectives.
+    roundedImage: false
+    linkTo: stages
+    hasFlower: false
+    imageSource: /images/uploads/faye-cornish-uq3gtiplqro-unsplash.jpg
+    title: Vous souhaitez aller plus loin dans votre développement ?
+    _template: splittedSection
+    linkLabel: Découvrez mes stages
+    altColor: false
   - title: Découvrez tous mes services
     _template: services
     paragraph: >-
