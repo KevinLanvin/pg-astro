@@ -1,18 +1,18 @@
 ---
 title: Energétique traditionnelle chinoise
-url: énergétique-traditionnelle-chinoise
+url: energetique-traditionnelle-chinoise
 pageContent:
   - _template: introduction
     title: Energétique traditionnelle chinoise
     description: >-
-      L’énergétique traditionnelle chinoise est une technique ancestrale basée
-      sur l’énergie vitale que l’on nomme le « Qi ». Elle se veut surtout
-      préventive mais peut également apaiser vos douleurs physiques et
-      émotionnelles. 
+      L’énergétique traditionnelle chinoise est une **technique ancestrale**
+      basée sur l’équilibre de **l’énergie vitale**, le « **Qi** », pour
+      préserver votre bien-être global. Elle se veut surtout **préventive** mais
+      permet également d’apaiser vos douleurs physiques et émotionnelles. 
 
 
-      En énergétique chinoise je travaille de 2 manières ; soit en m’adaptant à votre demande et problématique, soit en proposant des séances de « détox et revitalisation » en prévention.
-    quotation: citation
+      Dans le cadre de mes séances, je vous propose deux types d'accompagnement : l'un sur-mesure, adapté à vos besoins et problématiques, et l'autre préventif, sous forme de séances de « **détox et revitalisation** ».
+    quotation: ""
   - _template: text
     title: Qu’est-ce qu’une séance « détox et revitalisation » ?
     paragraph: Le but de cette séance est de procéder à un « nettoyage » de votre
