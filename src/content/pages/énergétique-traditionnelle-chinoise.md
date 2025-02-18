@@ -15,11 +15,15 @@ pageContent:
     quotation: ""
   - _template: text
     title: Qu’est-ce qu’une séance « détox et revitalisation » ?
-    paragraph: Le but de cette séance est de procéder à un « nettoyage » de votre
-      corps afin de vous rebooster, tout en renforçant votre énergie et en
-      favorisant une meilleure circulation du Qi. Cette approche complète vise à
-      vous offrir une expérience de bien-être durable et à vous reconnecter à
-      votre vitalité.
+    paragraph: >-
+      Le but de cette séance est de procéder à un « nettoyage » de votre corps
+      afin de vous rebooster, tout en renforçant votre énergie et en favorisant
+      une meilleure circulation du Qi. Cette approche complète vise à vous
+      offrir une expérience de bien-être durable et à vous reconnecter à votre
+      vitalité.
+
+
+      Il est conseillé de prendre rendez-vous à chaque changement de saison afin de vous aligner aux énergies propres à chacune d’elles, ou dès qu'un besoin spécifique se fait ressentir.
   - isTextOnRight: true
     isButtonAlt: true
     paragraph: >-
