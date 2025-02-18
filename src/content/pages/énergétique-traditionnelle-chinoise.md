@@ -16,7 +16,10 @@ pageContent:
   - _template: text
     title: Qu’est-ce qu’une séance « détox et revitalisation » ?
     paragraph: Le but de cette séance est de procéder à un « nettoyage » de votre
-      corps et de vous rebooster.
+      corps afin de vous rebooster, tout en renforçant votre énergie et en
+      favorisant une meilleure circulation du Qi. Cette approche complète vise à
+      vous offrir une expérience de bien-être durable et à vous reconnecter à
+      votre vitalité.
   - isTextOnRight: true
     isButtonAlt: false
     paragraph: Je procède dans un premier temps à l’élimination des mauvaises
