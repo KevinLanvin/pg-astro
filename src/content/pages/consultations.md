@@ -1,15 +1,16 @@
 ---
 title: Consultations & Tarifs
-url: consultations
+url: consultations-tarifs
 pageContent:
-  - title: Des séances en présentiel à Lille et à distance
-    description: "**Adultes & enfants,** je peux vous recevoir à mon cabinet dans la
-      métropole lilloise ou bien réaliser des séances à distance (valable pour
-      l'hypnose, les soins énergétiques, le nettoyage de mémoires cellulaires et
-      les guidances). Mes séances s'adressent à toute personne souhaitant
-      améliorer son bien-être physique, émotionnel ou énergétique. Une réponse
-      adaptée vous sera proposée pour vous accompagner dans votre mieux-être."
-    _template: introduction
+  - suptitle: 🌟 Au cabinet & à distance 🌟
+    background: /images/uploads/openart-885b021c145d44d78e8ff3a476c4495e_raw.jpg
+    heroSubtitle: Des consultations sur-mesure pour votre bien-être, à des tarifs accessibles
+    button2Label: RDV à distance
+    button1Label: Prendre RDV au cabinet
+    title: Consultations et Tarifs
+    _template: hero
+    button1Link: contact
+    button2Link: contact
   - _template: flowerSection
     title: Dans quel cas me consulter ?
     paragraph: >-
