@@ -1,5 +1,5 @@
 ---
-title: Arrêt du tabac
+title: Hypnose - Arrêt tabac & sucre
 price: 150€
 duration: 2h
 linkLabel: Prendre RDV
