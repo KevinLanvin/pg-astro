@@ -1,6 +1,7 @@
 ---
 title: Guidances
-price: à partir de 30€
+price: 30€
+duration: à partir de
 linkLabel: Prendre RDV
 link: contact
 image: /images/uploads/tarif-holi-scan.jpg
