@@ -1,7 +1,7 @@
 ---
 title: Soins énergétiques
-price: à partir de 65€
-duration: 1h
+price: 65€
+duration: à partir de
 linkLabel: Prendre RDV
 link: contact
 image: /images/uploads/jason-leung-feylaom-64y-unsplash.jpg
