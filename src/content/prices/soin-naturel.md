@@ -1,9 +1,8 @@
 ---
-title: Soin naturel
-price: 150€
-duration: 1h à 1h30
+title: Kinésiologie
+price: 65€
+duration: 1h
 linkLabel: Prendre RDV
-link: src/content/pages/index.md
-image: /images/tarifs.jpg
+link: contact
+image: /images/uploads/pexels-eberhard-grossgasteiger-2088210.jpg
 ---
-
