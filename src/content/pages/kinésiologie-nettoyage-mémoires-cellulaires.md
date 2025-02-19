@@ -1,5 +1,5 @@
 ---
-title: Kinésiologie & Nettoyage de Mémoires Cellulaires
+title: Kinésiologie
 url: kinesiologie-nettoyage-memoires-cellulaires
 pageContent:
   - _template: introduction
