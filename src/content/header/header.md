@@ -6,8 +6,8 @@ entries:
   - type: submenu
     title: Services
     pages:
-      - soins-energetiques
       - kinésiologie-nettoyage-mémoires-cellulaires
+      - soins-energetiques
       - guidances
       - desenvoutement-levee-dentite
       - hypnose-arret-tabac-et-dependance-au-sucre
