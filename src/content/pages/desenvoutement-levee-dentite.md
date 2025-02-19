@@ -1,5 +1,5 @@
 ---
-title: Désenvoutement et levée d'entité
+title: Désenvoutement
 url: desenvoutement-entite
 pageContent:
   - _template: introduction
