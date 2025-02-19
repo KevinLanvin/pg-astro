@@ -1,5 +1,5 @@
 ---
-title: Développer ses capacités extrasensorielles et spirituelles
+title: Développer vos capacités extrasensorielles et spirituelles
 url: developper-sa-mediumnite
 pageContent:
   - suptitle: 🌟 Explorez votre intuition et révélez votre potentiel 🌟
