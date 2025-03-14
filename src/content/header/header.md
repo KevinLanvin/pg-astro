@@ -18,9 +18,6 @@ entries:
         page: hypnose-arret-tabac-et-dependance-au-sucre
       - type: page
         page: énergétique-traditionnelle-chinoise
-      - type: externalPage
-        title: Test page externe
-        externalLink: www.google.fr
   - type: page
     page: stages
   - type: page
@@ -31,7 +28,4 @@ entries:
     page: contact
   - type: page
     page: test
-  - type: externalPage
-    title: Test page externe
-    externalLink: www.google.fr
 ---
