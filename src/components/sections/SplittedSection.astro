@@ -9,6 +9,8 @@ const {
 	paragraph,
 	linkLabel,
 	linkTo,
+	externalLinkLabel,
+	externalLinkTo,
 	imageSource,
 	imageAlt,
 	quotation,
@@ -37,12 +39,24 @@ const imageClass = `splitted-section__image ${
 			<div>
 				<Markdown content={paragraph} />
 			</div>
-			{
-				linkLabel && isButtonAlt && (
-					<Button alt name={linkLabel} link={linkTo} />
-				)
-			}
-			{linkLabel && !isButtonAlt && <Button name={linkLabel} link={linkTo} />}
+			<div class='splitted-section__buttons'>
+				{
+					linkLabel && isButtonAlt && (
+						<Button alt name={linkLabel} link={linkTo} />
+					)
+				}
+				{linkLabel && !isButtonAlt && <Button name={linkLabel} link={linkTo} />}
+				{
+					externalLinkLabel && isButtonAlt && (
+						<Button alt name={externalLinkLabel} link={externalLinkTo} />
+					)
+				}
+				{
+					externalLinkLabel && !isButtonAlt && (
+						<Button name={externalLinkLabel} externalLink={externalLinkTo} />
+					)
+				}
+			</div>
 			{quotation && <BlockQuote text={quotation} />}
 		</div>
 		<div class={imageClass}>
@@ -121,6 +135,11 @@ const imageClass = `splitted-section__image ${
 				max-height: 0;
 				align-self: center;
 			}
+		}
+		&__buttons {
+			display: flex;
+			justify-content: flex-start;
+			gap: $gutter;
 		}
 		:global(.splitted-section__flower) {
 			position: absolute;

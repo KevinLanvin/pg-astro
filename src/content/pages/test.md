@@ -113,7 +113,7 @@ pageContent:
   - isTextOnRight: true
     quotation: Qui s'endort avec le cul qui gratte se réveille avec le doigt qui
       pue. Proverbe africain
-    isButtonAlt: false
+    isButtonAlt: true
     paragraph: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate,
       mi id condimentum rhoncus, ex erat convallis nisl, sed ultricies purus
@@ -125,12 +125,14 @@ pageContent:
 
       Aliquam bibendum lacus et mattis imperdiet. Fusce ut tellus tristique, dapibus arcu in, dictum eros. Morbi in ullamcorper sem. Proin eget blandit sapien, eu vulputate sem. Sed vulputate, justo id malesuada venenatis, magna nisl fringilla orci, maximus varius purus nibh ut lorem. Quisque pharetra nisl et efficitur dignissim. Mauris maximus urna vitae mi mollis, ut mollis neque ullamcorper.
     roundedImage: true
-    linkTo: index
     hasFlower: false
     imageSource: /images/uploads/description.jpg
     title: Section texte et image
     _template: splittedSection
     linkLabel: Bouton
+    linkTo: index
+    externalLinkLabel: Bouton externe
+    externalLinkTo: www.google.fr
     altColor: false
   - _template: text
     title: Section titre et texte

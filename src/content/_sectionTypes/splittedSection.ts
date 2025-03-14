@@ -9,6 +9,8 @@ const splittedSectionType = z.object({
   quotation: z.string().optional(),
   linkLabel: z.string().optional(),
   linkTo: z.string().optional(),
+  externalLinkLabel: z.string().optional(),
+  externalLinkTo: z.string().optional(),
   isTextOnRight: z.boolean().optional(),
   isButtonAlt: z.boolean().optional(),
   hasFlower: z.boolean().optional(),

@@ -382,12 +382,12 @@ collections:
                   required: false,
                 }
               - {
-                  label: "Texte du bouton",
+                  label: "Texte du bouton vers page interne",
                   name: "linkLabel",
                   widget: "string",
                   required: false,
                 }
-              - label: Page vers laquelle redirige le bouton
+              - label: Page vers laquelle redirige le bouton interne
                 name: linkTo
                 widget: relation
                 collection: pages
@@ -395,6 +395,16 @@ collections:
                 display_fields: ["title"]
                 search_fields: ["title"]
                 multiple: false
+                required: false
+              - {
+                  label: "Texte du bouton vers page externe",
+                  name: "externalLinkLabel",
+                  widget: "string",
+                  required: false,
+                }
+              - label: Url cible du bouton
+                name: externalLinkTo
+                widget: string
                 required: false
               - {
                   label: "Texte à droite",
