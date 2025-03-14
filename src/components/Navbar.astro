@@ -1,16 +1,33 @@
 ---
 import { getEntry } from 'astro:content'
+type Entries = (Page | ExternalPage | SubMenu)[]
+type SubMenu = {
+	type: 'submenu'
+	title: string
+	entries: (Page | ExternalPage)[]
+}
+type Page = {
+	type: 'page'
+	page: string
+}
+type ExternalPage = {
+	type: 'externalPage'
+	title: string
+	externalLink: string
+}
 const { entries, logo, currentPageTitle } = Astro.props
-const pages = await entries.reduce(async (pagesP, entry) => {
-	const pages = await pagesP
-	const newPages = {}
+const pages = await (entries as Entries).reduce(async (allPages, entry) => {
+	const pages = await allPages
+	const newPages: Record<string, any> = {}
 	if (entry.type === 'page') {
 		const realPage = await getEntry('pages', entry.page)
 		newPages[entry.page] = realPage
-	} else {
-		for (const page of entry.pages) {
-			const realPage = await getEntry('pages', page)
-			newPages[page] = realPage
+	} else if (entry.type === 'submenu') {
+		for (const subEntry of entry.entries) {
+			if (subEntry.type === 'page') {
+				const realPage = await getEntry('pages', subEntry.page)
+				newPages[subEntry.page] = realPage
+			}
 		}
 	}
 	return { ...pages, ...newPages }
@@ -23,7 +40,7 @@ const pages = await entries.reduce(async (pagesP, entry) => {
 	</a>
 	<div class='header__desktop'>
 		{
-			entries.map((entry) => {
+			(entries as Entries).map((entry) => {
 				if (entry.type === 'page')
 					return (
 						<a
@@ -39,28 +56,34 @@ const pages = await entries.reduce(async (pagesP, entry) => {
 							{pages[entry.page].data.title}
 						</a>
 					)
+				else if (entry.type === 'externalPage')
+					return <a href={`https://${entry.externalLink}`}>{entry.title}</a>
 				else
 					return (
 						<div class='submenu'>
 							<span>{entry.title}</span>
 							<div class='submenu-content'>
-								{entry.pages.map((pageName) => {
-									return (
-										<a
-											href={`/${
-												pages[pageName].slug === 'index'
-													? ''
-													: pages[pageName].slug
-											}`}
-											class={
-												currentPageTitle === pages[pageName].data.title
-													? 'active'
-													: ''
-											}
-										>
-											{pages[pageName].data.title}
-										</a>
-									)
+								{entry.entries.map((subEntry) => {
+									if (subEntry.type === 'page') {
+										return (
+											<a
+												href={`/${
+													pages[subEntry.page].slug === 'index'
+														? ''
+														: pages[subEntry.page].slug
+												}`}
+												class={
+													currentPageTitle === pages[subEntry.page].data.title
+														? 'active'
+														: ''
+												}
+											>
+												{pages[subEntry.page].data.title}
+											</a>
+										)
+									} else {
+										return <a href={`https://${subEntry.externalLink}`}>{subEntry.title}</a>
+									}
 								})}
 							</div>
 						</div>
@@ -96,28 +119,35 @@ const pages = await entries.reduce(async (pagesP, entry) => {
 								{pages[entry.page].data.title}
 							</a>
 						)
+					else if (entry.type === 'externalPage')
+						return <a href={`https://${entry.externalLink}`}>{entry.title}</a>
 					else
 						return (
 							<div class='submenu'>
 								<span>{entry.title}</span>
 								<div class='submenu-content'>
-									{entry.pages.map((pageName) => {
-										return (
-											<a
-												href={`/${
-													pages[pageName].slug === 'index'
-														? ''
-														: pages[pageName].slug
-												}`}
-												class={
-													currentPageTitle === pages[pageName].data.title
-														? 'active'
-														: ''
-												}
-											>
-												{pages[pageName].data.title}
-											</a>
-										)
+									{entry.entries.map((subEntry) => {
+										if (subEntry.type === 'page')
+											return (
+												<a
+													href={`/${
+														pages[subEntry.page].slug === 'index'
+															? ''
+															: pages[subEntry.page].slug
+													}`}
+													class={
+														currentPageTitle === pages[subEntry.page].data.title
+															? 'active'
+															: ''
+													}
+												>
+													{pages[subEntry.page].data.title}
+												</a>
+											)
+										else
+											return (
+												<a href={`https://${subEntry.externalLink}`}>{subEntry.title}</a>
+											)
 									})}
 								</div>
 							</div>
@@ -307,6 +337,7 @@ const pages = await entries.reduce(async (pagesP, entry) => {
 			transform: translateX(0);
 			transition: transform 0.3s;
 			padding: $margin;
+			overflow-y: auto;
 			span {
 				margin: 0;
 				& > a {

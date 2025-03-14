@@ -5,13 +5,22 @@ entries:
     page: index
   - type: submenu
     title: Services
-    pages:
-      - kinésiologie-nettoyage-mémoires-cellulaires
-      - soins-energetiques
-      - guidances
-      - desenvoutement-levee-dentite
-      - hypnose-arret-tabac-et-dependance-au-sucre
-      - énergétique-traditionnelle-chinoise
+    entries:
+      - type: page
+        page: kinésiologie-nettoyage-mémoires-cellulaires
+      - type: page
+        page: soins-energetiques
+      - type: page
+        page: guidances
+      - type: page
+        page: desenvoutement-levee-dentite
+      - type: page
+        page: hypnose-arret-tabac-et-dependance-au-sucre
+      - type: page
+        page: énergétique-traditionnelle-chinoise
+      - type: externalPage
+        title: Test page externe
+        externalLink: www.google.fr
   - type: page
     page: stages
   - type: page
@@ -22,4 +31,7 @@ entries:
     page: contact
   - type: page
     page: test
+  - type: externalPage
+    title: Test page externe
+    externalLink: www.google.fr
 ---

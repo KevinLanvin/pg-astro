@@ -29,9 +29,26 @@ const headerCollection = defineCollection({
           page: z.string(),
         }),
         z.object({
+          type: z.literal("externalPage"),
+          title: z.string(),
+          externalLink: z.string(),
+        }),
+        z.object({
           type: z.literal("submenu"),
           title: z.string(),
-          pages: z.array(z.string()),
+          entries: z.array(
+            z.discriminatedUnion("type", [
+              z.object({
+                type: z.literal("page"),
+                page: z.string(),
+              }),
+              z.object({
+                type: z.literal("externalPage"),
+                title: z.string(),
+                externalLink: z.string(),
+              })
+            ])
+          )
         }),
       ]),
     ),
