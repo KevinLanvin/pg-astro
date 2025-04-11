@@ -12,7 +12,7 @@ pageContent:
       Line 2
     button1Label: Google
     button1To: www.google.com
-    button2Label: Aller plus bas
+    button2Label: Accueil
     button2Link: index
     background: /images/uploads/banner.jpg
   - _template: introduction
@@ -61,6 +61,18 @@ pageContent:
 
           Proin eget blandit sapien, eu vulputate sem. Sed vulputate, justo id malesuada venenatis, magna nisl fringilla orci, maximus varius purus nibh ut lorem. Quisque pharetra nisl et efficitur dignissim. Mauris maximus urna vitae mi mollis, ut mollis neque ullamcorper.
         image: /images/uploads/tarifs.jpg
+  - _template: banner
+    suptitle: Sur-titre
+    title: Titre n'étant pas un h1
+    heroSubtitle: >
+      Hero subtitle 1
+
+      Line 2
+    button1Label: Google
+    button1To: www.google.com
+    button2Label: Accueil
+    button2Link: index
+    background: /images/uploads/banner.jpg
   - _template: columnSection
     title: Section à 2 colonnes
     leftColumn: >-
