@@ -56,9 +56,9 @@ const {
 		justify-content: center;
 		gap: 3rem;
 		align-items: center;
-		height: calc(100vh - 6rem);
 		background-image: var(--background);
 		background-size: cover;
+		padding: $gutter-large $gutter;
 		.title-container {
 			display: flex;
 			flex-direction: column;
@@ -103,7 +103,8 @@ const {
 		}
 		.subtitle {
 			max-width: 65%;
-			:global(p) {
+			:global(*) {
+				color: $color-white;
 				text-align: center;
 				color: $color-white;
 				font-size: 1.2rem;
@@ -135,6 +136,7 @@ const {
 				align-items: center;
 				font-size: 1.2rem;
 				gap: 2rem;
+				width: 100%;
 			}
 		}
 	}

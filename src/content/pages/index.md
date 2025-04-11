@@ -61,7 +61,7 @@ pageContent:
     button2Label: RDV au cabinet
     button1Label: RDV en visio
     title: Améliorez votre vie avec la Guidance Intuitive
-    _template: hero
+    _template: banner
     button1To: www.google.fr
     button2Link: contact
   - isTextOnRight: false
