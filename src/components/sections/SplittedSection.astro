@@ -60,7 +60,6 @@ const imageClass = `splitted-section__image ${
 			{quotation && <BlockQuote text={quotation} />}
 		</div>
 		<div class={imageClass}>
-			{imageClass}
 			<img src={imageSource} alt={imageAlt} />
 		</div>
 	</div>
@@ -183,6 +182,13 @@ const imageClass = `splitted-section__image ${
 			}
 			&__text {
 				padding: $gutter 0;
+				min-width: 0;
+			}
+			&__buttons {
+				flex-direction: column;
+				align-items: stretch;
+				width: 100%;
+				gap: $gutter;
 			}
 			h2::after {
 				display: none;
