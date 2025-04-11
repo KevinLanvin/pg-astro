@@ -1,6 +1,5 @@
 ---
 import { getCollection, getEntries } from "astro:content";
-import { getFileSlug } from "../../utils/fileSlug";
 import Service from "../Service.astro";
 
 const { title } = Astro.props;
@@ -13,7 +12,7 @@ const services = (await getCollection("services")).map(
   <h2>{title}</h2>
   <div class="servicesGrid">
     {
-      services.map((service, index) => (
+      services.sort((serviceA, serviceB) => serviceA.order - serviceB.order).map((service, index) => (
         <Service
           link={service.link === "index" ? "/" : service.link}
           image={service.image}
