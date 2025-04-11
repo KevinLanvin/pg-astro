@@ -67,4 +67,14 @@ const courses = await getCollection("courses");
       font-size: 2rem;
     }
   }
+	@media (max-width: $breakpoint) {
+    .courses__text {
+      h3 {
+        height: auto;
+      }
+      &__main-text {
+        flex-grow: 0;
+      }
+    }
+  }
 </style>

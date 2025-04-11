@@ -33,4 +33,10 @@ const { image } = Astro.props;
       transform: translateY(5em);
     }
   }
+
+	@media (max-width: $breakpoint) {
+    .card__text {
+      height: auto;
+    }
+  }
 </style>

@@ -51,6 +51,7 @@ const prices = await getCollection("prices");
       flex-direction: column;
       align-items: center;
       gap: $gutter-small;
+      height: 100%;
       h3 {
         height: 3rem;
         text-align: center;
@@ -60,9 +61,20 @@ const prices = await getCollection("prices");
       display: flex;
       flex-direction: column;
       align-items: center;
+      flex-grow: 1;
     }
     &__price {
       font-size: 2rem;
+    }
+  }
+	@media (max-width: $breakpoint) {
+    .prices__text {
+      h3 {
+        height: auto;
+      }
+      &__main-text {
+        flex-grow: 0;
+      }
     }
   }
 </style>
