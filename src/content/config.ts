@@ -71,6 +71,7 @@ const servicesCollection = defineCollection({
     imageAlt: z.string(),
     title: z.string(),
     link: z.string(),
+    order: z.number(),
   }),
 });
 
@@ -109,6 +110,7 @@ const pricesCollection = defineCollection({
     linkLabel: z.string(),
     link: z.string(),
     image: z.string(),
+    order: z.number(),
   }),
 });
 

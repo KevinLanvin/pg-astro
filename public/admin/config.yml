@@ -511,6 +511,12 @@ collections:
         display_fields: ["title"]
         search_fields: ["title"]
         multiple: false
+      - {
+          label: "Ordre",
+          name: "order",
+          widget: "number",
+          default: 1
+        }
   - label: Tarifs
     name: prices
     folder: src/content/prices
@@ -544,6 +550,12 @@ collections:
           widget: "image",
           allow_multiple: false,
           choose_url: false,
+        }
+      - {
+          label: "Ordre",
+          name: "order",
+          widget: "number",
+          default: 1
         }
   - label: Témoignages
     name: opinions

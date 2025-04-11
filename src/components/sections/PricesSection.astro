@@ -12,7 +12,7 @@ const prices = await getCollection("prices");
   <h2>{title}</h2>
   <div class="prices__cards">
     {
-      prices.map((price) => (
+      prices.sort((priceA, priceB) => priceA.data.order - priceB.data.order).map((price) => (
         <Card image={price.data.image}>
           <div class="prices__text">
             <h3>{price.data.title}</h3>
