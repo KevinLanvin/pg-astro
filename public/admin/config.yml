@@ -142,11 +142,16 @@ collections:
                     types:
                       - label: Page
                         name: page
-                        widget: relation
-                        collection: pages
-                        value_field: "{{slug}}"
-                        display_fields: ["title"]
-                        search_fields: ["title"]
+                        widget: object
+                        summary: "{{fields.page}}"
+                        fields:
+                          - label: Page
+                            name: page
+                            widget: relation
+                            collection: pages
+                            value_field: "{{slug}}"
+                            display_fields: ["title"]
+                            search_fields: ["title"]
                       - label: Page externe
                         name: externalPage
                         widget: object
