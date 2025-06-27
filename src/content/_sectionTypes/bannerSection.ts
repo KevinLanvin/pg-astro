@@ -9,7 +9,7 @@ const bannerSectionType = z.object({
   button1Label: z.string(),
   button1To: z.string().optional(),
   button1Link: z.string().optional(),
-  button2Label: z.string(),
+  button2Label: z.string().optional(),
   button2To: z.string().optional(),
   button2Link: z.string().optional(),
   background: z.string(),

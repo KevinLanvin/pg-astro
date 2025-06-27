@@ -314,6 +314,7 @@ collections:
                   label: "Texte du bouton 2",
                   name: "button2Label",
                   widget: "string",
+                  required: false,
                 }
               - label: Au choix - Lien externe
                 name: button2To
@@ -367,6 +368,7 @@ collections:
                   label: "Texte du bouton 2",
                   name: "button2Label",
                   widget: "string",
+                  required: false,
                 }
               - label: Au choix - Lien externe
                 name: button2To
