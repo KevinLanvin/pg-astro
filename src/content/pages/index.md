@@ -9,7 +9,7 @@ pageContent:
       Spécialisée dans l'anxiété et les chocs émotionnels
 
       En présentiel à Lille ou À distance
-    button2Label: " "
+    button2Label: ""
     button1Label: Prendre RDV
     title: Thérapies brèves & Energétiques - Guidances
     _template: hero
