@@ -135,9 +135,9 @@ pageContent:
 
 
       💫 **Soin de libération karmique et transgénérationnelle** : libérez votre âme des mémoires du passé pour lui permettre d'évoluer sans entrave
-  - _template: introduction
+  - _template: text
     title: Désenvoutement & dégagement d’entités
-    description: Parfois nous avons tout essayé et rien ne semble efficace. Nous ne
+    paragraph: Parfois nous avons tout essayé et rien ne semble efficace. Nous ne
       trouvons aucune solution à nos problèmes et blocages. Dans ce cas, il est
       pertinent de se poser la question d'une éventuelle présence d’entité ou
       d’un potentiel envoutement (sort, mauvais œil, magie noire...). La
