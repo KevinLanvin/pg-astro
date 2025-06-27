@@ -9,12 +9,12 @@ pageContent:
       Spécialisée dans l'anxiété et les chocs émotionnels
 
       En présentiel à Lille ou À distance
-    button2Label: ""
+    button2Label: " "
     button1Label: Prendre RDV
     title: Thérapies brèves & Energétiques - Guidances
     _template: hero
     button1To: www.google.com
-    button2Link: ""
+    button2Link: contact
   - isTextOnRight: true
     quotation: Prends soin de ton corps, c’est le seul endroit permanent dans lequel
       tu es amené à vivre. Jim Rohn
@@ -44,7 +44,7 @@ pageContent:
   - title: Mes services
     _template: services
   - suptitle: 🌟 Des réponses claires pour avancer sereinement 🌟
-    background: /images/uploads/tarifs.jpg
+    background: /images/uploads/henrik-berg-nicwcz2lsvs-unsplash.jpg
     heroSubtitle: >-
       Vous êtes à la croisée des chemins ? Vous ressentez le besoin de trouver
       des clés pour dépasser un obstacle ou prendre une décision importante ? La
