@@ -27,13 +27,7 @@ pageContent:
       ▶️ Si vous désirez rencontrer votre guide spirituel, apprendre à vous connecter à votre âme, vos guides et aux autres personnes... Ce stage est fait pour vous.
 
 
-      Ce stage est ouvert à toute personne curieuse et ayant l'envie de développer son intuition. 
-
-
-      Il est ACCESSIBLE à tous, aussi bien pour les débutants que les personnes ayant déjà des connaissances. La médiumnité n'est pas un don, elle se travaille. Alors, vous êtes tous capables de participer à ce stage! 
-
-
-      **Prochaine date de stage*** : à venir
+      **Prochaine date de stage*** : 5 & 6 Juillet 2025
 
 
       \*Me contacter pour une demande de nouvelle date
