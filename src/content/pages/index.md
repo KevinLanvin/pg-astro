@@ -9,12 +9,13 @@ pageContent:
       Spécialisée dans l'anxiété et les chocs émotionnels
 
       En présentiel à Lille ou À distance
-    button2Label: " "
+    button2Label: ""
     button1Label: Prendre RDV
     title: Thérapies brèves & Energétiques - Guidances
     _template: hero
-    button1To: www.google.com
-    button2Link: contact
+    button1Link: contact
+    button1To: ""
+    button2Link: ""
   - isTextOnRight: true
     quotation: Prends soin de ton corps, c’est le seul endroit permanent dans lequel
       tu es amené à vivre. Jim Rohn
@@ -57,12 +58,13 @@ pageContent:
        🔮 **Décoder les énergies qui vous entourent**, pour comprendre ce qui vous influence
 
        💡 **Trouver des solutions concrètes** pour avancer avec confiance et sérénité
-    button2Label: " "
+    button2Label: ""
     button1Label: Prendre RDV
     title: Améliorez votre vie avec la Guidance Intuitive
     _template: banner
-    button1To: www.google.fr
-    button2Link: contact
+    button1Link: contact
+    button1To: ""
+    button2Link: ""
   - isTextOnRight: false
     isButtonAlt: true
     paragraph: >-
@@ -70,11 +72,19 @@ pageContent:
       **solution efficace** en travaillant directement **avec votre
       inconscient**. Grâce à une approche personnalisée, vous pouvez  :
 
+
+
+
+
        **🌸 Réduire l'envie de fumer** naturellement
 
        🧠 Modifier les associations émotionnelles liées au tabac
 
        💪 Retrouver votre liberté sans frustration ni prise de poids
+
+
+
+
 
       Chaque séance est adaptée à votre parcours pour vous aider à arrêter durablement et en toute sérénité.
     roundedImage: false
