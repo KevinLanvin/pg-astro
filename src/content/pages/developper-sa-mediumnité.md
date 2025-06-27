@@ -2,35 +2,18 @@
 title: Développer vos capacités extrasensorielles et spirituelles
 url: developper-sa-mediumnite
 pageContent:
-  - suptitle: 🌟 Explorez votre intuition et révélez votre potentiel 🌟
+  - suptitle: "🌟 Prochaine date : 5 & 6 Juillet 2025 🌟"
     background: /images/uploads/developper-ses-capacités.jpg
-    heroSubtitle: Et si vos perceptions allaient bien au-delà du visible ? Apprenez
-      à affiner votre intuition, à ressentir l’invisible, tout en vous libérant
-      de vos blocages, croyances limitantes et en écartant les doutes de votre
-      mental.
+    heroSubtitle: Et si vos perceptions allaient bien au-delà du visible ?  Explorez
+      votre intuition et révélez votre potentiel. Apprenez à ressentir
+      l’invisible, tout en vous libérant de vos blocages et en écartant les
+      doutes de votre mental.
     button2Label: Mes autres stages
     button1Label: M'inscrire à ce stage
     title: Développer vos capacités extrasensorielles et spirituelles
     _template: hero
     button1Link: contact
     button2Link: stages
-  - _template: flowerSection
-    paragraph: >-
-      ▶️ Si vous souhaitez développer votre intuition, vos ressentis et votre
-      médiumnité... Ce stage est fait pour vous.
-
-
-      ▶️ Si vous vous posez beaucoup de questions sur le monde de la spiritualité ou que vous êtes en plein éveil spirituel... Ce stage est fait pour vous. 
-
-
-      ▶️ Si vous désirez rencontrer votre guide spirituel, apprendre à vous connecter à votre âme, vos guides et aux autres personnes... Ce stage est fait pour vous.
-
-
-      **Prochaine date de stage* : à venir**
-
-
-      \*Me contacter pour une demande de nouvelle date
-    title: "Vous vous demandez si ce stage est fait pour vous? "
   - isTextOnRight: false
     isButtonAlt: true
     paragraph: >-
