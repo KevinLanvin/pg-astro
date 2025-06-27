@@ -45,7 +45,7 @@ pageContent:
   - title: Mes services
     _template: services
   - suptitle: 🌟 Des réponses claires pour avancer sereinement 🌟
-    background: /images/uploads/freestocks-kvv8avokj7g-unsplash.jpg
+    background: /images/uploads/mask-group-1-.jpg
     heroSubtitle: >-
       Vous êtes à la croisée des chemins ? Vous ressentez le besoin de trouver
       des clés pour dépasser un obstacle ou prendre une décision importante ? La
