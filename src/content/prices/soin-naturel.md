@@ -5,5 +5,5 @@ duration: ""
 linkLabel: Prendre RDV
 link: contact
 image: /images/uploads/pexels-eberhard-grossgasteiger-2088210.jpg
-order: 6
+order: 1
 ---
