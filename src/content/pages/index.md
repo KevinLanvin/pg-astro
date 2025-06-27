@@ -9,8 +9,8 @@ pageContent:
       Spécialisée dans l'anxiété et les chocs émotionnels
 
       En présentiel à Lille ou À distance
-    button2Label: Réserver au cabinet
-    button1Label: Réserver à distance
+    button2Label: " "
+    button1Label: Prendre RDV
     title: Thérapies brèves & Energétiques - Guidances
     _template: hero
     button1To: www.google.com
@@ -48,18 +48,17 @@ pageContent:
     heroSubtitle: >-
       Vous êtes à la croisée des chemins ? Vous ressentez le besoin de trouver
       des clés pour dépasser un obstacle ou prendre une décision importante ? La
-      **guidance intuitive** est là pour vous clarifier vos pensées et apaiser
-      vos doutes. Grâce à des messages inspirés et des ressentis profonds, je
-      vous aide à :
+      **guidance intuitive** est là pour clarifier vos pensées et apaiser vos
+      doutes. Grâce à des messages inspirés et des ressentis profonds, je vous
+      aide à :
 
+       🌱 **Prendre des décisions éclairées**, alignées avec votre vrai chemin de vie
 
-      * \> 🌱 **Prendre des décisions éclairées**, alignées avec votre vrai chemin de vie
+       🔮 **Décoder les énergies qui vous entourent**, pour comprendre ce qui vous influence
 
-      * \> 🔮 **Décoder les énergies qui vous entourent**, pour comprendre ce qui vous influence
-
-      * \> 💡 **Trouver des solutions concrètes** pour avancer avec confiance et sérénité
-    button2Label: RDV au cabinet
-    button1Label: RDV en visio
+       💡 **Trouver des solutions concrètes** pour avancer avec confiance et sérénité
+    button2Label: " "
+    button1Label: Prendre RDV
     title: Améliorez votre vie avec la Guidance Intuitive
     _template: banner
     button1To: www.google.fr
@@ -69,17 +68,13 @@ pageContent:
     paragraph: >-
       Se libérer du tabac peut sembler difficile, mais l'hypnose offre une
       **solution efficace** en travaillant directement **avec votre
-      inconscient**. Grâce à une approche personnalisée, vous pouvez  :`</br>`
+      inconscient**. Grâce à une approche personnalisée, vous pouvez  :
 
+       **🌸 Réduire l'envie de fumer** naturellement
 
-      \> **🌸 Réduire l'envie de fumer** naturellement
+       🧠 Modifier les associations émotionnelles liées au tabac
 
-
-      \> 🧠 Modifier les associations émotionnelles liées au tabac
-
-
-      \> 💪 Retrouver votre liberté sans frustration ni prise de poids`</br>`
-
+       💪 Retrouver votre liberté sans frustration ni prise de poids
 
       Chaque séance est adaptée à votre parcours pour vous aider à arrêter durablement et en toute sérénité.
     roundedImage: false
