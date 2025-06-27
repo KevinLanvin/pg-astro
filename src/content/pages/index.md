@@ -14,7 +14,7 @@ pageContent:
     title: Thérapies brèves & Energétiques - Guidances
     _template: hero
     button1To: www.google.com
-    button2Link: contact
+    button2Link: ""
   - isTextOnRight: true
     quotation: Prends soin de ton corps, c’est le seul endroit permanent dans lequel
       tu es amené à vivre. Jim Rohn
