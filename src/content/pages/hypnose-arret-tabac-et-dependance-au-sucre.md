@@ -62,7 +62,7 @@ pageContent:
       Cependant, selon ce que vous traversez dans votre vie, il peut arriver que
       vous ressentiez le besoin de faire une seconde séance pour renforcer votre
       arrêt et éviter toute rechute. (séance de soutien/suivi, tarif d'une
-      séance d'1h : 65(e)).
+      séance d'1h : 65€).
 
 
       **Séance d'arrêt du tabac** ou **du sucre** par hypnose, **en présentiel** ou **à distance** (en visio), prévoir **1h30 à 2h.**
