@@ -1,11 +1,9 @@
 ---
-import FlowerVioletIcon from "../../icons/FlowerVioletIcon.astro";
 import Markdown from "../Markdown.astro";
 const { title, paragraph } = Astro.props;
 ---
 
 <section class="flowerSection">
-  <!-- <FlowerVioletIcon class="flowerSection__flower" /> -->
   <div class="flowerSection__text">
     <h2>{title}</h2>
     <Markdown content={paragraph} />
