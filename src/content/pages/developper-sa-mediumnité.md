@@ -35,7 +35,7 @@ pageContent:
     linkTo: contact
     hasFlower: false
     imageSource: /images/uploads/aldebaran-s-uxchdiks4qi-unsplash.jpg
-    title: Ce stage est fait pour vous : 
+    title: "Ce stage est fait pour vous :" 
     _template: splittedSection
     linkLabel: Me contacter
     altColor: false

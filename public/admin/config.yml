@@ -108,7 +108,7 @@ collections:
             name: entries
             widget: list
             types:
-              - label: Page
+              - label: Page interne
                 name: page
                 widget: object
                 summary: "{{fields.page}}"

@@ -10,12 +10,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.0.4",
+    "astro": "5.11.0",
     "astro-default-layout": "^2.0.2",
     "remarkable": "^2.0.1",
     "sass": "^1.69.5",
     "slick-carousel": "^1.8.1",
-    "swiper": "^11.0.5"
+    "swiper": "^11.0.5",
+    "typescript": "5.8.3"
   },
   "devDependencies": {
     "@types/node": "^20.10.4",
