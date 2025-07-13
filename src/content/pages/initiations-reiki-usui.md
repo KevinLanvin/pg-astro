@@ -57,7 +57,7 @@ pageContent:
           Vous apprendrez à réaliser des soins à distance.
 
 
-          ###### **Tarif 250€**
+          **Tarif 250€**
 
 
 
@@ -103,7 +103,7 @@ pageContent:
           Le rituel d’initiation vous sera dévoilé lors de ce niveau et vous pourrez à votre tour enseigner le Reiki à la suite de cette journée. 
 
 
-          ###### **Tarif : 350€**
+          **Tarif : 350€**
 
 
 
