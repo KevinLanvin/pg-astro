@@ -43,7 +43,7 @@ pageContent:
 
       🌿 **Une approche holistique et personnalisée** – Je prends en compte votre parcours et vos besoins spécifiques pour des soins sur-mesure.
 
-      💫 **Des méthodes naturelles et éprouvées** – Kinésiologie, Reiki et hypnose sont des techniques douces, accessibles à tous.
+      💫 **Des méthodes naturelles et éprouvées** – Kinésiologie, Magnétisme et hypnose sont des techniques douces, accessibles à tous.
 
       🤝 **Un accompagnement en toute confiance** – Un cadre sécurisant où votre bien-être est ma priorité.
 
