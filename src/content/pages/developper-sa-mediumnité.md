@@ -1,8 +1,8 @@
 ---
-title: Développer vos capacités extrasensorielles et spirituelles
+title: Développez vos capacités extrasensorielles et spirituelles
 url: developper-sa-mediumnite
 pageContent:
-  - suptitle: "🌟 Prochaine date : 5 & 6 Juillet 2025 🌟"
+  - suptitle: "🌟 Prochaine date : 11 & 12 Octobre 2025 🌟"
     background: /images/uploads/developper-ses-capacités.jpg
     heroSubtitle: Et si vos perceptions allaient bien au-delà du visible ?  Explorez
       votre intuition et révélez votre potentiel. Apprenez à ressentir
@@ -10,7 +10,7 @@ pageContent:
       doutes de votre mental.
     button2Label: Mes autres stages
     button1Label: M'inscrire à ce stage
-    title: Développer vos capacités extrasensorielles et spirituelles
+    title: Développez vos capacités extrasensorielles et spirituelles
     _template: hero
     button1Link: contact
     button2Link: stages
@@ -27,7 +27,7 @@ pageContent:
       ▶️ Si vous désirez rencontrer votre guide spirituel, apprendre à vous connecter à votre âme, vos guides et aux autres personnes...
 
 
-      **Prochaine date de stage*** : 5 & 6 Juillet 2025
+      **Prochaine date de stage*** : 11 & 12 Octobre 2025
 
 
       \*Me contacter pour une demande de nouvelle date
@@ -35,7 +35,7 @@ pageContent:
     linkTo: contact
     hasFlower: false
     imageSource: /images/uploads/aldebaran-s-uxchdiks4qi-unsplash.jpg
-    title: "Ce stage est fait pour vous :" 
+    title: "Ce stage est fait pour vous :"
     _template: splittedSection
     linkLabel: Me contacter
     altColor: false
