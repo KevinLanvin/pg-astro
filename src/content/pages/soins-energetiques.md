@@ -155,23 +155,6 @@ pageContent:
     _template: splittedSection
     linkLabel: Prendre RDV
     altColor: false
-  - isTextOnRight: false
-    isButtonAlt: true
-    paragraph: >-
-      Les entités sont des **présences énergétiques invisibles**. Elles peuvent
-      être considérées comme des formes de conscience qui n’ont pas de corps
-      physique (âme désincarnée, défunt, forme de pensée…). 
-
-
-      Les énergies circulent en permanence tout autour de nous. Il arrive que des énergies étrangères, énergies parasites, entités, entrent dans notre environnement et notre champs énergétique. En effet, lorsque nos vibrations baissent, notre « système immunitaire énergétique » et nos protections énergétiques s’affaiblissent et peuvent laisser la porte ouverte à des entités qui viennent s’accrocher à nous. Toutes les entités ne sont pas malveillantes, cependant, une entité qui reste accrochée à nous va nous pomper notre énergie et affecter notre bien-être. Elles peuvent avoir différents impacts dans notre vie et provoquer des perturbations émotionnelles et physiques (troubles de l’humeur, tristesse et dépression, problèmes de santé et fatigue inexpliqués…). C’est pourquoi il est important de s’en débarrasser, en se purifiant et en se protégeant régulièrement.
-    roundedImage: false
-    linkTo: consultations
-    hasFlower: false
-    imageSource: /images/uploads/marcos-paulo-prado-tt7kqcbqgdi-unsplash-1-.jpg
-    title: Qu’est-ce qu’une entité ?
-    _template: splittedSection
-    linkLabel: Voir les tarifs
-    altColor: false
   - isTextOnRight: true
     isButtonAlt: true
     paragraph: Lors de la séance je commence par vous poser une série de questions
