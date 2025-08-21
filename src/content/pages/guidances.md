@@ -64,7 +64,7 @@ pageContent:
     roundedImage: false
     linkTo: contact
     hasFlower: false
-    imageSource: /images/uploads/img_20230624_114912.jpg
+    imageSource: /images/uploads/1000037276.jpg
     title: Bon à savoir sur les guidances
     _template: splittedSection
     linkLabel: Prendre RDV
