@@ -5,5 +5,5 @@ duration: à partir de
 linkLabel: Prendre RDV
 link: contact
 image: /images/uploads/jason-leung-feylaom-64y-unsplash.jpg
-order: 1
+order: 2
 ---
