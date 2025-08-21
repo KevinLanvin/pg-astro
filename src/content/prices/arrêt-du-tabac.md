@@ -5,5 +5,5 @@ duration: ""
 linkLabel: Prendre RDV
 link: contact
 image: /images/tarifs.jpg
-order: 1
+order: 6
 ---
