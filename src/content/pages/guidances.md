@@ -47,7 +47,7 @@ pageContent:
     roundedImage: false
     linkTo: developper-sa-mediumnité
     hasFlower: false
-    imageSource: /images/uploads/viva-luna-studios-mnf5q9ntkhs-unsplash.jpg
+    imageSource: /images/uploads/1000037276.jpg
     title: Pourquoi faire une guidance ?
     _template: splittedSection
     linkLabel: Développer vos capacités extrasensorielles et spirituelles
