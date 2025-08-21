@@ -107,25 +107,6 @@ pageContent:
     _template: splittedSection
     linkLabel: Prendre RDV
     altColor: false
-  - isTextOnRight: true
-    isButtonAlt: true
-    paragraph: >-
-      Je vous propose des initiations au Reiki. Que vous souhaitiez utiliser le
-      Reiki pour vous-même ou pour accompagner les autres, cette pratique est
-      une porte ouverte vers un chemin de bien être et de sérénité. 
-
-      L'initiation au Reiki n'est pas seulement un apprentissage, c'est une véritable transformation intérieure. 
-
-
-      **Prêt(e) à découvrir et à maîtriser le Reiki ?**
-    roundedImage: false
-    linkTo: initiations-reiki-usui
-    hasFlower: false
-    imageSource: /images/uploads/openart-image_nvqnvgqg_1739228783074_raw.jpg
-    title: S'initier au Reiki
-    _template: splittedSection
-    linkLabel: En savoir + sur les initiations Reiki
-    altColor: false
   - _template: text
     title: Désenvoutement
     paragraph: Parfois nous avons tout essayé et rien ne semble efficace. Nous ne
@@ -169,6 +150,25 @@ pageContent:
     title: Déroulement de la séance
     _template: splittedSection
     linkLabel: Prendre RDV
+    altColor: false
+  - isTextOnRight: true
+    isButtonAlt: true
+    paragraph: >-
+      Je vous propose des initiations au Reiki. Que vous souhaitiez utiliser le
+      Reiki pour vous-même ou pour accompagner les autres, cette pratique est
+      une porte ouverte vers un chemin de bien être et de sérénité. 
+
+      L'initiation au Reiki n'est pas seulement un apprentissage, c'est une véritable transformation intérieure. 
+
+
+      **Prêt(e) à découvrir et à maîtriser le Reiki ?**
+    roundedImage: false
+    linkTo: initiations-reiki-usui
+    hasFlower: false
+    imageSource: /images/uploads/openart-image_nvqnvgqg_1739228783074_raw.jpg
+    title: S'initier au Reiki
+    _template: splittedSection
+    linkLabel: En savoir + sur les initiations Reiki
     altColor: false
   - _template: services
     title: Mes autres services
