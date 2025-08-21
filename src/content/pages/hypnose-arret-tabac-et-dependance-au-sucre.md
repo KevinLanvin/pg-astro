@@ -61,7 +61,7 @@ pageContent:
       s’adressent aux personnes motivées par une profonde envie de changement.
       Cependant, selon ce que vous traversez dans votre vie, il peut arriver que
       vous ressentiez le besoin de faire une seconde séance pour renforcer votre
-      arrêt et éviter toute rechute. (séance de soutien/suivi, tarif d'une
+      arrêt et éviter toute rechute (la séance de suivi est au tarif d'une
       séance d'1h : 65€).
 
 
