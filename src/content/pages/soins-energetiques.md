@@ -127,7 +127,7 @@ pageContent:
     linkLabel: En savoir + sur les initiations Reiki
     altColor: false
   - _template: text
-    title: Désenvoutement & dégagement d’entités
+    title: Désenvoutement
     paragraph: Parfois nous avons tout essayé et rien ne semble efficace. Nous ne
       trouvons aucune solution à nos problèmes et blocages. Dans ce cas, il est
       pertinent de se poser la question d'une éventuelle présence d’entité ou
@@ -155,7 +155,7 @@ pageContent:
     _template: splittedSection
     linkLabel: Prendre RDV
     altColor: false
-  - isTextOnRight: true
+  - isTextOnRight: false
     isButtonAlt: true
     paragraph: Lors de la séance je commence par vous poser une série de questions
       pour comprendre votre problématique et savoir s'il s'agit bien de la
@@ -165,7 +165,7 @@ pageContent:
     roundedImage: false
     linkTo: contact
     hasFlower: false
-    imageSource: /images/uploads/alexander-andrews-vgcerdhrc3e-unsplash.jpg
+    imageSource: /images/uploads/marcos-paulo-prado-tt7kqcbqgdi-unsplash-1-.jpg
     title: Déroulement de la séance
     _template: splittedSection
     linkLabel: Prendre RDV
@@ -188,4 +188,13 @@ pageContent:
 
 
       La séance d'1h : 80€
+  - paragraph: >-
+      Lors de la séance je commence par vous poser une série de questions pour
+      comprendre votre problématique et savoir s'il s'agit bien d'un
+      envoutement. Je réalise ensuite un **rituel de purification** et de
+      **désenvoûtement** pour vous **libérer de ces énergies néfastes** et
+      **rétablir votre équilibre intérieur**.
+
+
+      Séance d'1h : 80€
 ---
