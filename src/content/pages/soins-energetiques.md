@@ -126,15 +126,6 @@ pageContent:
     _template: splittedSection
     linkLabel: En savoir + sur les initiations Reiki
     altColor: false
-  - _template: services
-    title: Mes autres services
-  - _template: disclaimer
-    heroSubtitle: >-
-      ✨ **Soin énergétique de base** : nettoyage, purification et harmonisation
-      de vos énergies pour rétablir votre équilibre intérieur
-
-
-      💫 **Soin de libération karmique et transgénérationnelle** : libérez votre âme des mémoires du passé pour lui permettre d'évoluer sans entrave
   - _template: text
     title: Désenvoutement & dégagement d’entités
     paragraph: Parfois nous avons tout essayé et rien ne semble efficace. Nous ne
@@ -196,4 +187,22 @@ pageContent:
     _template: splittedSection
     linkLabel: Prendre RDV
     altColor: false
+  - _template: services
+    title: Mes autres services
+  - _template: disclaimer
+    heroSubtitle: >-
+      ✨ **Soin énergétique de base** : nettoyage, purification et harmonisation
+      de vos énergies pour rétablir votre équilibre intérieur
+
+
+      💫 **Soin de libération karmique et transgénérationnelle** : libérez votre âme des mémoires du passé pour lui permettre d'évoluer sans entrave
+    paragraph: >-
+      Lors de la séance je commence par vous poser une série de questions pour
+      comprendre votre problématique et savoir s'il s'agit bien d'un
+      envoutement. Je réalise ensuite un **rituel de purification** et de
+      **désenvoûtement** pour vous **libérer de ces énergies néfastes** et
+      **rétablir votre équilibre intérieur**.
+
+
+      La séance d'1h : 80€
 ---
