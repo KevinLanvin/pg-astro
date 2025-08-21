@@ -138,11 +138,15 @@ pageContent:
     altColor: false
   - isTextOnRight: false
     isButtonAlt: true
-    paragraph: Lors de la séance je commence par vous poser une série de questions
-      pour comprendre votre problématique et savoir s'il s'agit bien de la
-      présence d’une entité ou d'un envoutement. Je réalise ensuite un **rituel
-      de purification** et de **désenvoûtement** pour vous **libérer de ces
-      énergies néfastes** et **rétablir votre équilibre intérieur**.
+    paragraph: >-
+      Lors de la séance je commence par vous poser une série de questions pour
+      comprendre votre problématique et savoir s'il s'agit bien de la présence
+      d'un envoutement. Je réalise ensuite un **rituel de purification** et de
+      **désenvoûtement** pour vous **libérer de ces énergies néfastes** et
+      **rétablir votre équilibre intérieur**.
+
+
+      Séance d'1h : 80€
     roundedImage: false
     linkTo: contact
     hasFlower: false
