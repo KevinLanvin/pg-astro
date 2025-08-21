@@ -64,7 +64,7 @@ pageContent:
     roundedImage: false
     linkTo: contact
     hasFlower: false
-    imageSource: /images/uploads/1000037276.jpg
+    imageSource: /images/uploads/viva-luna-studios-mnf5q9ntkhs-unsplash.jpg
     title: Bon à savoir sur les guidances
     _template: splittedSection
     linkLabel: Prendre RDV
