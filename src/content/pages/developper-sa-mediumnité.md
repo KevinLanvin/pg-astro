@@ -110,6 +110,8 @@ pageContent:
       Entre théorie et pratique, vous repartirez de ces 2 journées de stage avec toutes les clefs en main pour faire évoluer votre spiritualité, votre intuition et votre médiumnité. 
 
 
+
+
       💰 Tarifs : 290€ (2 journées)
 
 
@@ -117,6 +119,8 @@ pageContent:
 
 
       \* Un acompte de 50€ vous sera demandé au moment de l'inscription
+
+
 
 
       Me contacter pour vous inscrire ou définir une date.
