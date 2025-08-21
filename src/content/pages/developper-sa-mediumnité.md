@@ -31,6 +31,14 @@ pageContent:
 
 
       \*Me contacter pour une demande de nouvelle date
+
+
+
+
+      📍 **En présentiel** maximum 8 personnes
+
+
+      🖥️ 2 places **en visio**
     roundedImage: false
     linkTo: contact
     hasFlower: false
