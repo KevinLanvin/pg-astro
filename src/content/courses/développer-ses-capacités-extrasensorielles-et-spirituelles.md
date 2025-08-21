@@ -1,5 +1,5 @@
 ---
-title: Développer vos capacités extrasensorielles et spirituelles
+title: Développez vos capacités extrasensorielles et spirituelles
 price: "290€ "
 linkLabel: En savoir plus
 link: developper-sa-mediumnité
