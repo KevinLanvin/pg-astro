@@ -29,7 +29,7 @@ pageContent:
       à vos besoins avec sérieux et bienveillance.
     roundedImage: false
     hasFlower: true
-    imageSource: /images/uploads/_mg_9580-pp-2.jpg
+    imageSource: /images/uploads/dsc08990.jpg
     title: Mon parcours
     _template: splittedSection
     altColor: true
