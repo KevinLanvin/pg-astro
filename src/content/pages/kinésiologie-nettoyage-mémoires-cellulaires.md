@@ -76,6 +76,25 @@ pageContent:
     _template: splittedSection
     linkLabel: Prendre RDV
     altColor: false
+  - isTextOnRight: false
+    isButtonAlt: false
+    paragraph: >-
+      *"J'ai eu mon premier rendez vous avec Pauline le mois dernier et je dois
+      dire que les effets se sont fait ressentir de suite !! Incroyable
+      praticienne, très pédagogue et douce. Ne force pas la main pour enchaîner
+      les rendez vous, très à l'écoute !
+
+
+      Expérience à renouveler les yeux fermés
+
+
+      Merci Pauline !" -* Mathilde
+    roundedImage: false
+    hasFlower: false
+    imageSource: /images/uploads/avis-google.jpg
+    title: Témoignage
+    _template: splittedSection
+    altColor: false
   - _template: services
     title: Mes autres services
     paragraph: >-
