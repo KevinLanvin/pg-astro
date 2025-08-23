@@ -80,10 +80,10 @@ pageContent:
     isTextOnRight: false
     isButtonAlt: true
     paragraph: >-
-      "*J'ai eu mon premier rendez vous avec Pauline le mois dernier et je dois
-      dire que les effets se sont fait ressentir de suite !! Incroyable
-      praticienne, très pédagogue et douce. Ne force pas la main pour enchaîner
-      les rendez vous, très à l'écoute !*
+      "*J'ai eu mon premier rendez vous de kinésiologie avec Pauline le mois
+      dernier et je dois dire que les effets se sont fait ressentir de suite !!
+      Incroyable praticienne, très pédagogue et douce. Ne force pas la main pour
+      enchaîner les rendez vous, très à l'écoute !*
 
 
       *Expérience à renouveler les yeux fermés*
