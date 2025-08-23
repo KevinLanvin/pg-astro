@@ -124,7 +124,7 @@ pageContent:
 
       *Je la recommande à tous ceux qui cherchent à évoluer dans leur parcours Reiki* " - **Solène**
     roundedImage: false
-    externalLinkLabel: Me laisse un avis
+    externalLinkLabel: Me laisser un avis
     hasFlower: false
     imageSource: /images/uploads/copie-de-jeu-concours-2-.jpg
     title: Témoignage
