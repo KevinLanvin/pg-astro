@@ -95,11 +95,8 @@ pageContent:
     _template: splittedSection
     linkLabel: Voir les Stages
     altColor: false
-  - _template: services
-    title: Mes autres services
-  - _template: disclaimer
   - externalLinkTo: https://g.co/kgs/WRVxMY
-    isTextOnRight: false
+    isTextOnRight: true
     isButtonAlt: false
     paragraph: >-
       " *Pauline a réalisé une séance auprès de ma fille de 11 ans suite à des
@@ -115,4 +112,7 @@ pageContent:
     title: Témoignage
     _template: splittedSection
     altColor: false
+  - _template: services
+    title: Mes autres services
+  - _template: disclaimer
 ---
