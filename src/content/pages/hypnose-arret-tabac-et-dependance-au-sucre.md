@@ -77,4 +77,27 @@ pageContent:
   - _template: services
     title: Mes autres services
   - _template: disclaimer
+  - externalLinkTo: https://g.co/kgs/WRVxMY
+    isTextOnRight: false
+    isButtonAlt: false
+    paragraph: >-
+      " *J'ai été voir pauline pour qu'elle m'accompagne dans mon arrêt du tabac
+      ; fumeuse depuis plus de 20 ans avec 2 arrêts en autonomie à mon actif, je
+      désire me séparer définitivement de la cigarette.* 
+
+
+      *3 semaines plus tard, les envies sont toujours très rares et s'estompent de plus en plus : la programmation marche!*
+
+
+      *Pauline m'a écoutée dans ma démarche, a pris conscience de mon environnement et m'a offert les bons outils!* 
+
+
+      *Elle reste présente et disponible en ces débuts de vie sans tabac. Je ne peux que la recommander!* " - **Bénédicte**
+    roundedImage: false
+    externalLinkLabel: Me laisser un avis
+    hasFlower: false
+    imageSource: /images/uploads/copie-de-jeu-concours-2-.jpg
+    title: Témoignage
+    _template: splittedSection
+    altColor: false
 ---
