@@ -13,8 +13,6 @@ entries:
       - type: page
         page: guidances
       - type: page
-        page: desenvoutement-levee-dentite
-      - type: page
         page: hypnose-arret-tabac-et-dependance-au-sucre
       - type: page
         page: énergétique-traditionnelle-chinoise
@@ -26,6 +24,4 @@ entries:
     page: qui-suis-je
   - type: page
     page: contact
-  - type: page
-    page: test
 ---

@@ -79,7 +79,7 @@ pageContent:
   - isTextOnRight: false
     isButtonAlt: false
     paragraph: >-
-      *"J'ai eu mon premier rendez vous avec Pauline le mois dernier et je dois
+      J'ai eu mon premier rendez vous avec Pauline le mois dernier et je dois
       dire que les effets se sont fait ressentir de suite !! Incroyable
       praticienne, très pédagogue et douce. Ne force pas la main pour enchaîner
       les rendez vous, très à l'écoute !
@@ -88,7 +88,7 @@ pageContent:
       Expérience à renouveler les yeux fermés
 
 
-      Merci Pauline !" -* Mathilde
+      Merci Pauline ! - Mathilde
     roundedImage: false
     hasFlower: false
     imageSource: /images/uploads/avis-google.jpg
@@ -110,20 +110,4 @@ pageContent:
 
       Le but d’une **séance de nettoyage des mémoires cellulaires** est de se reconnecter à l'émotion afin de s'en libérer complètement. En identifiant la source de vos blocages, je vous accompagnerai dans ce **processus de libération** pour vous permettre de **vivre pleinement le présent** et ne plus être influencé par le passé.
   - _template: disclaimer
-    paragraph: >-
-      *"J'ai eu mon premier rendez vous avec Pauline le mois dernier et je dois
-      dire que les effets se sont fait ressentir de suite !! Incroyable
-      praticienne, très pédagogue et douce. Ne force pas la main pour enchaîner
-      les rendez vous, très à l'écoute !
-
-
-      Expérience à renouveler les yeux fermés
-
-
-      Merci Pauline !" -* Mathilde 
-
-
-
-
-      "*Une séance de Kinesiologie avec Pauline qui s'est déroulée en douceur, car c'est une praticienne qui a vraiment pris le temps de m'écouter, de discuter. Pauline est également très pédagogue car elle explique ce qu'elle fait pour vraiment accompagner le corps et l'esprit. Incroyable !*" - Tov
 ---
