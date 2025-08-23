@@ -1,17 +1,12 @@
 ---
 import { getEntry } from "astro:content";
 const { data: social } = await getEntry("socialMedia", "socialmedia");
-const { tel, email } = Astro.props;
+const { tel  } = Astro.props;
 ---
 
 <div class="header__topbar">
   <div class="header__contact">
     <span><img src="/icons/phone.svg" alt="phone" />{tel}</span>
-    <span>
-      <a href={`mailto:${email}`}
-        ><img src="/icons/mailto.svg" alt="mail" />{email}</a
-      >
-    </span>
   </div>
   <div class="header__social">
     <span>
