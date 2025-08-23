@@ -78,7 +78,7 @@ pageContent:
     altColor: false
   - externalLinkTo: https://g.co/kgs/WRVxMY
     isTextOnRight: false
-    isButtonAlt: false
+    isButtonAlt: true
     paragraph: >-
       "*J'ai eu mon premier rendez vous avec Pauline le mois dernier et je dois
       dire que les effets se sont fait ressentir de suite !! Incroyable
@@ -93,7 +93,7 @@ pageContent:
     roundedImage: false
     externalLinkLabel: Me laisser un avis
     hasFlower: false
-    imageSource: /images/uploads/copie-de-jeu-concours.jpg
+    imageSource: /images/uploads/copie-de-jeu-concours-2-.jpg
     title: Témoignage
     _template: splittedSection
     altColor: false
