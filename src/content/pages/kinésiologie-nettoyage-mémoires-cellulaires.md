@@ -76,22 +76,24 @@ pageContent:
     _template: splittedSection
     linkLabel: Prendre RDV
     altColor: false
-  - isTextOnRight: false
+  - externalLinkTo: https://g.co/kgs/WRVxMY
+    isTextOnRight: false
     isButtonAlt: false
     paragraph: >-
-      J'ai eu mon premier rendez vous avec Pauline le mois dernier et je dois
+      "*J'ai eu mon premier rendez vous avec Pauline le mois dernier et je dois
       dire que les effets se sont fait ressentir de suite !! Incroyable
       praticienne, très pédagogue et douce. Ne force pas la main pour enchaîner
-      les rendez vous, très à l'écoute !
+      les rendez vous, très à l'écoute !*
 
 
-      Expérience à renouveler les yeux fermés
+      *Expérience à renouveler les yeux fermés*
 
 
-      Merci Pauline ! - Mathilde
+      *Merci Pauline !*" - **Mathilde**
     roundedImage: false
+    externalLinkLabel: Me laisser un avis
     hasFlower: false
-    imageSource: /images/uploads/avis-google.jpg
+    imageSource: /images/uploads/copie-de-jeu-concours.jpg
     title: Témoignage
     _template: splittedSection
     altColor: false
