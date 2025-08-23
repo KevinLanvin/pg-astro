@@ -140,4 +140,28 @@ pageContent:
     _template: splittedSection
     linkLabel: Me contacter
     altColor: false
+  - externalLinkTo: https://g.co/kgs/WRVxMY
+    isTextOnRight: false
+    isButtonAlt: true
+    paragraph: >-
+      " *Super stage ! Un stage au delà de mes espérances.* 
+
+
+      *Un stage de partage avec pleins d'énergie d'amour.* 
+
+
+      *Je suis sortie de là avec des réponses à mes questions et plus.*
+
+
+      *Pauline est une personne bienveillante, elle donne des moments à chaque personne du groupe pour répondre à nos questions.* 
+
+
+      *Merci !* " - **Catherine**
+    roundedImage: false
+    externalLinkLabel: Me laisser un avis
+    hasFlower: false
+    imageSource: /images/uploads/copie-de-jeu-concours-2-.jpg
+    title: Témoignages
+    _template: splittedSection
+    altColor: false
 ---
