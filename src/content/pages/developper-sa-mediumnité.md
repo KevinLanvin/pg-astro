@@ -141,10 +141,10 @@ pageContent:
     linkLabel: Me contacter
     altColor: false
   - externalLinkTo: https://g.co/kgs/WRVxMY
-    isTextOnRight: false
+    isTextOnRight: true
     isButtonAlt: true
     paragraph: >-
-      " *Super stage ! Un stage au delà de mes espérances.* 
+      " *Super stage ! Au delà de mes espérances.* 
 
 
       *Un stage de partage avec pleins d'énergie d'amour.* 
@@ -161,7 +161,7 @@ pageContent:
     externalLinkLabel: Me laisser un avis
     hasFlower: false
     imageSource: /images/uploads/copie-de-jeu-concours-2-.jpg
-    title: Témoignages
+    title: Témoignage
     _template: splittedSection
     altColor: false
 ---
