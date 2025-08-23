@@ -89,7 +89,7 @@ pageContent:
       *Expérience à renouveler les yeux fermés*
 
 
-      *Merci Pauline !*" - **Mathilde**
+      *Merci Pauline !* " - **Mathilde**
     roundedImage: false
     externalLinkLabel: Me laisser un avis
     hasFlower: false
