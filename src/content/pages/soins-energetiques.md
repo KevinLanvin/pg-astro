@@ -3,6 +3,7 @@ title: Soins énergétiques
 url: soins-energetiques
 pageContent:
   - suptitle: 🌟 Harmonisez vos énergies pour retrouver votre équilibre  🌟
+    _template: hero
     background: /images/uploads/tino-rischawy-1kcdegkdpf0-unsplash.jpg
     heroSubtitle: >-
       ✨ **Soin énergétique de base** : nettoyage, purification et harmonisation
@@ -13,7 +14,6 @@ pageContent:
     button2Label: S'initier au Reiki
     button1Label: Prendre RDV
     title: Les soins énergétiques, un instant de bien-être & de transformation
-    _template: hero
     button1Link: contact
     button2Link: initiations-reiki-usui
   - isTextOnRight: true
@@ -177,28 +177,4 @@ pageContent:
   - _template: services
     title: Mes autres services
   - _template: disclaimer
-    heroSubtitle: >-
-      ✨ **Soin énergétique de base** : nettoyage, purification et harmonisation
-      de vos énergies pour rétablir votre équilibre intérieur
-
-
-      💫 **Soin de libération karmique et transgénérationnelle** : libérez votre âme des mémoires du passé pour lui permettre d'évoluer sans entrave
-    paragraph: >-
-      Lors de la séance je commence par vous poser une série de questions pour
-      comprendre votre problématique et savoir s'il s'agit bien d'un
-      envoutement. Je réalise ensuite un **rituel de purification** et de
-      **désenvoûtement** pour vous **libérer de ces énergies néfastes** et
-      **rétablir votre équilibre intérieur**.
-
-
-      La séance d'1h : 80€
-  - paragraph: >-
-      Lors de la séance je commence par vous poser une série de questions pour
-      comprendre votre problématique et savoir s'il s'agit bien d'un
-      envoutement. Je réalise ensuite un **rituel de purification** et de
-      **désenvoûtement** pour vous **libérer de ces énergies néfastes** et
-      **rétablir votre équilibre intérieur**.
-
-
-      Séance d'1h : 80€
 ---
