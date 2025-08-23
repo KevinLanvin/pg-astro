@@ -73,10 +73,10 @@ pageContent:
     isTextOnRight: true
     isButtonAlt: true
     paragraph: >-
-      " *Pauline, je tiens à te remercier pour cette 1ere séance avec toi. J'ai
-      déjà pratiqué pas mal et ta guidance a été une belle surprise! Elle a été
-      précise, en résonnance complète avec ce que je vis sans que j'ai besoin de
-      te donner des précisions.* 
+      " *Pauline, je tiens à te remercier pour cette 1ere séance de guidance
+      avec toi. J'ai déjà pratiqué pas mal et ta guidance a été une belle
+      surprise! Elle a été précise, en résonnance complète avec ce que je vis
+      sans que j'ai besoin de te donner des précisions.* 
 
 
       *Tu as pu éclairer l'état d'esprit de mon chéri me permettant de mieux comprendre ce qui se joue...*
