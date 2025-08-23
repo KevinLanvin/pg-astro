@@ -99,6 +99,9 @@ pageContent:
 
 
       Que vous soyez adulte, enfant ou même bébé, chacun peut bénéficier de soins énergétiques pour rétablir son équilibre et améliorer son bien-être.
+
+
+      Les soins énergétiques peuvent se réaliser **en présentiel** mais également **à distance**.
     roundedImage: false
     linkTo: contact
     hasFlower: false
