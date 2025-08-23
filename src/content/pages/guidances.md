@@ -4,7 +4,7 @@ url: guidances
 pageContent:
   - _template: hero
     title: La guidance intuitive, un éclairage pour avancer sereinement
-    button1Label: Prendre un RDV à distance
+    button1Label: Prendre un RDV
     button1Link: contact
     background: /images/uploads/openart-f56dee03c0c34a04abaac5a341a0cde3_raw-1-.jpg
     suptitle: 🌟 Des réponses à vos questions 🌟
@@ -15,7 +15,7 @@ pageContent:
   - _template: flowerSection
     title: "Guidance : des clés pour mieux comprendre votre chemin"
     paragraph: >-
-      * **Guidance 1h** : 50€ / **Guidance 30min** : 30€ 
+      * **Guidance 1h** : 50€ / **Guidance 30min** : 30€ (à distance)
 
 
       Domaine professionnel & sentimental - parcours FJ - évolution d’une situation - comprendre
