@@ -50,7 +50,7 @@ pageContent:
     imageSource: /images/uploads/1000037276.jpg
     title: Pourquoi faire une guidance ?
     _template: splittedSection
-    linkLabel: Développer vos capacités extrasensorielles et spirituelles
+    linkLabel: Développez vos capacités extrasensorielles et spirituelles
     altColor: false
   - isTextOnRight: false
     isButtonAlt: true
