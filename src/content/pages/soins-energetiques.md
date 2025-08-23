@@ -155,6 +155,25 @@ pageContent:
     _template: splittedSection
     linkLabel: Prendre RDV
     altColor: false
+  - externalLinkTo: https://g.co/kgs/WRVxMY
+    isTextOnRight: true
+    isButtonAlt: true
+    paragraph: >-
+      " *Première séance réalisée : moment de détente et de soin puissant, les
+      effets se font aussi ressentir dans les jours qui suivent.*
+
+
+      *Réelle amélioration des symptômes pour lesquels je consultais (cauchemars sujets récurrents, réveils très anxieux, poids sur la poitrine).*
+
+
+      *Je suis très reconnaissante de l'aide que m'a apporté Pauline.* " - **Jade**
+    roundedImage: false
+    externalLinkLabel: Me laisser un avis
+    hasFlower: false
+    imageSource: /images/uploads/copie-de-jeu-concours-2-.jpg
+    title: Témoignage
+    _template: splittedSection
+    altColor: false
   - isTextOnRight: true
     isButtonAlt: true
     paragraph: >-
@@ -177,23 +196,4 @@ pageContent:
   - _template: services
     title: Mes autres services
   - _template: disclaimer
-  - externalLinkTo: https://g.co/kgs/WRVxMY
-    isTextOnRight: false
-    isButtonAlt: true
-    paragraph: >-
-      " *Première séance réalisée : moment de détente et de soin puissant, les
-      effets se font aussi ressentir dans les jours qui suivent.*
-
-
-      *Réelle amélioration des symptômes pour lesquels je consultais (cauchemars sujets récurrents, réveils très anxieux, poids sur la poitrine).*
-
-
-      *Je suis très reconnaissante de l'aide que m'a apporté Pauline.* " - **Jade**
-    roundedImage: false
-    externalLinkLabel: Me laisser un avis
-    hasFlower: false
-    imageSource: /images/uploads/copie-de-jeu-concours-2-.jpg
-    title: Témoignage
-    _template: splittedSection
-    altColor: false
 ---
