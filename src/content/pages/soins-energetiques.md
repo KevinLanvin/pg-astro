@@ -174,7 +174,7 @@ pageContent:
     title: Témoignage
     _template: splittedSection
     altColor: false
-  - isTextOnRight: true
+  - isTextOnRight: false
     isButtonAlt: true
     paragraph: >-
       Je vous propose des initiations au Reiki. Que vous souhaitiez utiliser le
