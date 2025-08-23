@@ -112,8 +112,6 @@ pageContent:
         image: /images/uploads/sean-oulashin-kmn4veeepr8-unsplash.jpg
         linkLabel: Contactez-moi
         link: contact
-  - _template: courses
-    title: Retrouvez tous mes stages et initiations
   - externalLinkTo: https://g.co/kgs/WRVxMY
     isTextOnRight: false
     isButtonAlt: true
@@ -132,4 +130,6 @@ pageContent:
     title: Témoignage
     _template: splittedSection
     altColor: false
+  - _template: courses
+    title: Retrouvez tous mes stages et initiations
 ---
