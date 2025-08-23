@@ -74,9 +74,6 @@ pageContent:
     _template: splittedSection
     linkLabel: Voir les Tarifs
     altColor: false
-  - _template: services
-    title: Mes autres services
-  - _template: disclaimer
   - externalLinkTo: https://g.co/kgs/WRVxMY
     isTextOnRight: false
     isButtonAlt: false
@@ -100,4 +97,7 @@ pageContent:
     title: Témoignage
     _template: splittedSection
     altColor: false
+  - _template: services
+    title: Mes autres services
+  - _template: disclaimer
 ---
