@@ -114,4 +114,22 @@ pageContent:
         link: contact
   - _template: courses
     title: Retrouvez tous mes stages et initiations
+  - externalLinkTo: https://g.co/kgs/WRVxMY
+    isTextOnRight: false
+    isButtonAlt: true
+    paragraph: >-
+      " *J'ai eu la chance de rencontrer Pauline pour mon 2e niveau de Reiki.* 
+
+
+      *Son intérêt pour le Reiki est contagieux, elle est rigoureuse et elle a à cœur de nous transmettre les meilleures pratiques.* 
+
+
+      *Je la recommande à tous ceux qui cherchent à évoluer dans leur parcours Reiki* " - **Solène**
+    roundedImage: false
+    externalLinkLabel: Me laisse un avis
+    hasFlower: false
+    imageSource: /images/uploads/copie-de-jeu-concours-2-.jpg
+    title: Témoignage
+    _template: splittedSection
+    altColor: false
 ---
