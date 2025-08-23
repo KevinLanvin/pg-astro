@@ -69,19 +69,9 @@ pageContent:
     _template: splittedSection
     linkLabel: Prendre RDV
     altColor: false
-  - _template: services
-    title: Mes autres services
-  - _template: disclaimer
-    heroSubtitle: Besoin d'une orientation professionnelle ou sentimentale, de
-      savoir où vous en êtes dans votre parcours FJ, de faire le point sur une
-      situation particulière et connaître son évolution, de comprendre un
-      blocage et de vous libérer de vos mémoires cellulaires... ? Que vous soyez
-      à la croisée des chemins ou simplement à la recherche de réponses à vos
-      questions je vous accompagnerai de manière bienveillante pour éclairer
-      votre chemin de vie.
   - externalLinkTo: https://g.co/kgs/WRVxMY
-    isTextOnRight: false
-    isButtonAlt: false
+    isTextOnRight: true
+    isButtonAlt: true
     paragraph: >-
       " *Pauline, je tiens à te remercier pour cette 1ere séance avec toi. J'ai
       déjà pratiqué pas mal et ta guidance a été une belle surprise! Elle a été
@@ -106,4 +96,14 @@ pageContent:
     title: Témoignage
     _template: splittedSection
     altColor: false
+  - _template: services
+    title: Mes autres services
+  - _template: disclaimer
+    heroSubtitle: Besoin d'une orientation professionnelle ou sentimentale, de
+      savoir où vous en êtes dans votre parcours FJ, de faire le point sur une
+      situation particulière et connaître son évolution, de comprendre un
+      blocage et de vous libérer de vos mémoires cellulaires... ? Que vous soyez
+      à la croisée des chemins ou simplement à la recherche de réponses à vos
+      questions je vous accompagnerai de manière bienveillante pour éclairer
+      votre chemin de vie.
 ---
