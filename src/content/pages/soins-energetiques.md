@@ -19,7 +19,7 @@ pageContent:
   - isTextOnRight: true
     isButtonAlt: true
     paragraph: >-
-      **Soin énergétique** : 1h - 65€ 
+      **Soin énergétique** (en présentiel ou à distance) : 1h - 65€ 
 
 
       ✨ Réalignement, nettoyage & harmonisation des chakras & des corps subtils
@@ -43,7 +43,8 @@ pageContent:
   - isTextOnRight: false
     isButtonAlt: true
     paragraph: >-
-      **Soin de libération Karmique et Transgénérationnelle** : 1h30 - 90€ 
+      **Soin de libération Karmique et Transgénérationnelle** (en présentiel ou
+      à distance) : 1h30 - 90€ 
 
 
       ✨ Soin énergétique de base inclus
