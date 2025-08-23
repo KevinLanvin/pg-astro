@@ -29,7 +29,6 @@ collections:
         file: src/content/contact/contact.md
         fields:
           - { label: "Numéro de téléphone", name: "tel", widget: "string" }
-          - { label: "Email", name: "email", widget: "string" }
           - {
               label: "Numéro de voie et nom de rue",
               name: "address1",

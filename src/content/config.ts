@@ -79,7 +79,6 @@ const contactCollection = defineCollection({
   type: "content",
   schema: z.object({
     tel: z.string(),
-    email: z.string(),
     address1: z.string(),
     address2: z.string(),
   }),

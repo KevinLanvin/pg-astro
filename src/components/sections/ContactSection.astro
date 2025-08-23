@@ -14,9 +14,6 @@ const { title, image } = Astro.props;
       <h2>{title}</h2>
       <p>{contact.tel}</p>
       <p>
-        <a href={`mailto:${contact.email}`}>{contact.email}</a>
-      </p>
-      <p>
         {contact.address1}
         <br />
         {contact.address2}
