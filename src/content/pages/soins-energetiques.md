@@ -43,8 +43,8 @@ pageContent:
   - isTextOnRight: false
     isButtonAlt: true
     paragraph: >-
-      **Soin de libération Karmique et Transgénérationnelle** (en présentiel ou
-      à distance) : 1h30 - 90€ 
+      **Soin de libération Karmique et Transgénérationnelle** (présentiel ou à
+      distance) : 1h30 - 90€ 
 
 
       ✨ Soin énergétique de base inclus
