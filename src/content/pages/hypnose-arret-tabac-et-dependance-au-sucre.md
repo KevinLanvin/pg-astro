@@ -76,7 +76,7 @@ pageContent:
     altColor: false
   - externalLinkTo: https://g.co/kgs/WRVxMY
     isTextOnRight: false
-    isButtonAlt: false
+    isButtonAlt: true
     paragraph: >-
       " *J'ai été voir pauline pour qu'elle m'accompagne dans mon arrêt du tabac
       ; fumeuse depuis plus de 20 ans avec 2 arrêts en autonomie à mon actif, je
