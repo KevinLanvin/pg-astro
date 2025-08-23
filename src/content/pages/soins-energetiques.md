@@ -3,7 +3,6 @@ title: Soins énergétiques
 url: soins-energetiques
 pageContent:
   - suptitle: 🌟 Harmonisez vos énergies pour retrouver votre équilibre  🌟
-    _template: hero
     background: /images/uploads/tino-rischawy-1kcdegkdpf0-unsplash.jpg
     heroSubtitle: >-
       ✨ **Soin énergétique de base** : nettoyage, purification et harmonisation
@@ -14,6 +13,7 @@ pageContent:
     button2Label: S'initier au Reiki
     button1Label: Prendre RDV
     title: Les soins énergétiques, un instant de bien-être & de transformation
+    _template: hero
     button1Link: contact
     button2Link: initiations-reiki-usui
   - isTextOnRight: true
@@ -177,4 +177,23 @@ pageContent:
   - _template: services
     title: Mes autres services
   - _template: disclaimer
+  - externalLinkTo: https://g.co/kgs/WRVxMY
+    isTextOnRight: false
+    isButtonAlt: true
+    paragraph: >-
+      " *Première séance réalisée : moment de détente et de soin puissant, les
+      effets se font aussi ressentir dans les jours qui suivent.*
+
+
+      *Réelle amélioration des symptômes pour lesquels je consultais (cauchemars sujets récurrents, réveils très anxieux, poids sur la poitrine).*
+
+
+      *Je suis très reconnaissante de l'aide que m'a apporté Pauline.* " - **Jade**
+    roundedImage: false
+    externalLinkLabel: Me laisser un avis
+    hasFlower: false
+    imageSource: /images/uploads/copie-de-jeu-concours-2-.jpg
+    title: Témoignage
+    _template: splittedSection
+    altColor: false
 ---
