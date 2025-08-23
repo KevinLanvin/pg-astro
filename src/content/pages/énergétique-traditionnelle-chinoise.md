@@ -98,4 +98,21 @@ pageContent:
   - _template: services
     title: Mes autres services
   - _template: disclaimer
+  - externalLinkTo: https://g.co/kgs/WRVxMY
+    isTextOnRight: false
+    isButtonAlt: false
+    paragraph: >-
+      " *Pauline a réalisé une séance auprès de ma fille de 11 ans suite à des
+      angoisses. moment de détente et de bien-être pour ma fille et les crises
+      ont disparu à la suite de cette première séance!*
+
+
+      *Pauline est douce et très à l'écoute. je recommande à 100%.* " - **Corinne**
+    roundedImage: false
+    externalLinkLabel: Me laisser un avis
+    hasFlower: false
+    imageSource: /images/uploads/copie-de-jeu-concours-2-.jpg
+    title: Témoignage
+    _template: splittedSection
+    altColor: false
 ---
