@@ -79,4 +79,31 @@ pageContent:
       à la croisée des chemins ou simplement à la recherche de réponses à vos
       questions je vous accompagnerai de manière bienveillante pour éclairer
       votre chemin de vie.
+  - externalLinkTo: https://g.co/kgs/WRVxMY
+    isTextOnRight: false
+    isButtonAlt: false
+    paragraph: >-
+      " *Pauline, je tiens à te remercier pour cette 1ere séance avec toi. J'ai
+      déjà pratiqué pas mal et ta guidance a été une belle surprise! Elle a été
+      précise, en résonnance complète avec ce que je vis sans que j'ai besoin de
+      te donner des précisions.* 
+
+
+      *Tu as pu éclairer l'état d'esprit de mon chéri me permettant de mieux comprendre ce qui se joue...*
+
+
+      *La guidance a été riche comparé à d'autres...*
+
+
+      *J'ai beaucoup apprécié ta douceur, ta générosité.* 
+
+
+      *Les conseils que tu entends et ressens via les tirages sont vraiment un éclairage et une aide pour la suite. C'est ce que je recherchais. Tu es super...Vraiment!* "
+    roundedImage: false
+    externalLinkLabel: Me laisser un avis
+    hasFlower: false
+    imageSource: /images/uploads/copie-de-jeu-concours-2-.jpg
+    title: Témoignage
+    _template: splittedSection
+    altColor: false
 ---
