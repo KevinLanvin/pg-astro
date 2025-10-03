@@ -164,4 +164,6 @@ pageContent:
     title: Témoignage
     _template: splittedSection
     altColor: false
+  - _template: services
+    title: Voir mes autres services
 ---
