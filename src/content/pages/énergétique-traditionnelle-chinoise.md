@@ -106,7 +106,7 @@ pageContent:
 
       *Pauline est douce et très à l'écoute. je recommande à 100%.* " - **Corinne**
     roundedImage: false
-    externalLinkLabel: Me laisser un avis
+    externalLinkLabel: Voir tous les avis
     hasFlower: false
     imageSource: /images/uploads/copie-de-jeu-concours-2-.jpg
     title: Témoignage
