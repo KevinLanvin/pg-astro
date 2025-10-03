@@ -74,7 +74,7 @@ pageContent:
     _template: splittedSection
     linkLabel: Voir les Tarifs
     altColor: false
-  - externalLinkTo: https://g.co/kgs/WRVxMY
+  - externalLinkTo: g.co/kgs/WRVxMY
     isTextOnRight: false
     isButtonAlt: true
     paragraph: >-
