@@ -172,7 +172,7 @@ pageContent:
 
       *Je suis très reconnaissante de l'aide que m'a apporté Pauline.* " - **Jade**
     roundedImage: false
-    externalLinkLabel: Me laisser un avis
+    externalLinkLabel: Voir tous les avis
     hasFlower: false
     imageSource: /images/uploads/copie-de-jeu-concours-2-.jpg
     title: Témoignage
