@@ -140,7 +140,7 @@ pageContent:
     _template: splittedSection
     linkLabel: Me contacter
     altColor: false
-  - externalLinkTo: https://g.co/kgs/WRVxMY
+  - externalLinkTo: g.co/kgs/WRVxMY
     isTextOnRight: true
     isButtonAlt: true
     paragraph: >-
