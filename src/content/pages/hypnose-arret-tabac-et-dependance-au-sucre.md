@@ -91,7 +91,7 @@ pageContent:
 
       *Elle reste présente et disponible en ces débuts de vie sans tabac. Je ne peux que la recommander!* " - **Bénédicte**
     roundedImage: false
-    externalLinkLabel: Me laisser un avis
+    externalLinkLabel: Voir tous les avis
     hasFlower: false
     imageSource: /images/uploads/copie-de-jeu-concours-2-.jpg
     title: Témoignage
