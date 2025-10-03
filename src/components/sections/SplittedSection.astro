@@ -47,7 +47,11 @@ const imageClass = `splitted-section__image ${
 				{linkLabel && !isButtonAlt && <Button name={linkLabel} link={linkTo} />}
 				{
 					externalLinkLabel && isButtonAlt && (
-						<Button alt name={externalLinkLabel} link={externalLinkTo} />
+						<Button
+							alt
+							name={externalLinkLabel}
+							externalLink={externalLinkTo}
+						/>
 					)
 				}
 				{
