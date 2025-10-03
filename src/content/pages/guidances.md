@@ -90,7 +90,7 @@ pageContent:
 
       *Les conseils que tu entends et ressens via les tirages sont vraiment un éclairage et une aide pour la suite. C'est ce que je recherchais. Tu es super...Vraiment!* "
     roundedImage: false
-    externalLinkLabel: Me laisser un avis
+    externalLinkLabel: Voir tous les avis
     hasFlower: false
     imageSource: /images/uploads/copie-de-jeu-concours-2-.jpg
     title: Témoignage
