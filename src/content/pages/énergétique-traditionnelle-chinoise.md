@@ -97,7 +97,7 @@ pageContent:
     altColor: false
   - externalLinkTo: g.co/kgs/WRVxMY
     isTextOnRight: true
-    isButtonAlt: false
+    isButtonAlt: true
     paragraph: >-
       " *Pauline a réalisé une séance auprès de ma fille de 11 ans suite à des
       angoisses. moment de détente et de bien-être pour ma fille et les crises
