@@ -112,7 +112,7 @@ pageContent:
         image: /images/uploads/sean-oulashin-kmn4veeepr8-unsplash.jpg
         linkLabel: Contactez-moi
         link: contact
-  - externalLinkTo: https://g.co/kgs/WRVxMY
+  - externalLinkTo: g.co/kgs/WRVxMY
     isTextOnRight: false
     isButtonAlt: true
     paragraph: >-
@@ -124,7 +124,7 @@ pageContent:
 
       *Je la recommande à tous ceux qui cherchent à évoluer dans leur parcours Reiki* " - **Solène**
     roundedImage: false
-    externalLinkLabel: Me laisser un avis
+    externalLinkLabel: Voir tous les avis
     hasFlower: false
     imageSource: /images/uploads/copie-de-jeu-concours-2-.jpg
     title: Témoignage
