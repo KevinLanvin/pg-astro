@@ -10,7 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "5.11.0",
+    "astro": "5.14.1",
     "astro-default-layout": "^2.0.2",
     "remarkable": "^2.0.1",
     "sass": "^1.69.5",
