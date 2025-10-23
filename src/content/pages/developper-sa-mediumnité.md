@@ -2,7 +2,7 @@
 title: Développez vos capacités extrasensorielles et spirituelles
 url: developper-sa-mediumnite
 pageContent:
-  - suptitle: "🌟 Prochaine date : 11 & 12 Octobre 2025 🌟"
+  - suptitle: "🌟 Prochaine date : 22 & 23 Novembre 2025 🌟"
     background: /images/uploads/developper-ses-capacités.jpg
     heroSubtitle: Et si vos perceptions allaient bien au-delà du visible ?  Explorez
       votre intuition et révélez votre potentiel. Apprenez à ressentir
@@ -27,12 +27,10 @@ pageContent:
       ▶️ Si vous désirez rencontrer votre guide spirituel, apprendre à vous connecter à votre âme, vos guides et aux autres personnes...
 
 
-      **Prochaine date de stage*** : 11 & 12 Octobre 2025
+      **Prochaine date de stage*** : 22 & 23 Novembre 2025
 
 
       \*Me contacter pour une demande de nouvelle date
-
-
 
 
       📍 **En présentiel** maximum 8 personnes
